@@ -10,7 +10,10 @@ tr_elements = soup.find_all('tr')
 
 data_list = []
 
-for tr in tr_elements[1:2]: 
+# Change the number of projects you want to analyze
+n = 2
+
+for tr in tr_elements[1:n]: 
     td_elements = tr.find_all('td')
     if len(td_elements) >= 3:  
         name = td_elements[0].text.strip()
@@ -26,18 +29,6 @@ for tr in tr_elements[1:2]:
         href_soup = BeautifulSoup(href_response.text, 'html.parser')
 
         sha_td_elements = href_soup.find_all('td', {'data-title': 'SHA'})
-
-        #print(sha_td_elements)
-
-        # for td_element in sha_td_elements:
-        #     a_tag = td_element.find('a')
-        #     if a_tag:
-        #         href_sha = a_tag.get('href')
-        #         full_href_sha = 'https://merge-nature.netlify.app' + href_sha
-        #         href_sha_response = requests.get(full_href_sha)
-        #         href_sha_soup = BeautifulSoup(href_sha_response.text, 'html.parser')
-        #         filename = href_sha_soup.find('td', {'data-title': 'FileName'}).text.strip()
-        #         print(filename)
 
         filenames = []
         commit_data = {}
@@ -82,7 +73,7 @@ for tr in tr_elements[1:2]:
 
 data = {'data': data_list}
 
-output_file = "output.json"
+output_file = "conflicts-crawler/outputs/projects_and_conflicts.json"
 
 with open(output_file, 'w') as f:
     json.dump(data, f, indent=4)

@@ -1,186 +1,210 @@
 Result for 3scale_ws_api_for_java_commit_c3b5f5d43f5699e2e4d698bd32a74dad9ac1d477_HttpSenderImpl.java:
-[PY TH ON ] 
- import  logging 
- from  http  import  HTTP Status 
- from  io  import  Buffered Reader ,  String IO 
- from  typing  import  Any ,  D ict ,  Optional ,  Text IO ,  Tu ple 
- from  url lib . parse  import  url encode 
- from  xml . et ree  import  Element Tree  as  E T 
+
+ The  ` Api Http Client Impl `  class  is  the  implementation  of  the  ` Api Http Client `  interface  and  provides  methods  for  sending  HTTP  POST  requests  to  a  server .  It  uses  an  instance  of  ` Http Connection Factory `  to  establish  connections  to  the  server .  The  ` send Post To Server `  method  sends  a  POST  request  to  the  server  and  returns  the  response  as  an  ` Api Http Response `. 
  
- from  django . conf  import  settings 
+ The  ` send Get To Server `  method  sends  a  GET  request  to  the  server  and  returns  the  response  as  an  ` Api Http Response `.  It  handles  errors  by  returning  an  error  message  with  an  HTTP  status  code  of   4 0 3  or   4 0 4 . 
  
- logger  =  logging . get Logger (__ name __ ) 
+ The  ` extract Content `  method  reads  the  contents  of  the  response  from  the  input  stream  and  returns  it  as  a  string .  The  ` get Error Message `  method  reads  the  error  message  from  the  response  and  returns  it  as  a  string .  The  ` handle Errors `  method  handles  errors  by  returning  an  error  message  with  an  HTTP  status  code  of   5 0 0 . 
  
- class  Http Sender : 
-      def  __ init __( self ): 
-          self . factory  =  Http Connection Factory Impl () 
- 
-      def  send _ post _ to _ server ( self ,  host _ url :  str ,  post _ data :  D ict [str ,  Any ])  ->  Tu ple [int ,  Optional [Dict ]] : 
-          """ 
-          Send  a  POST  message  to  the  server 
-          : param  host _ url :  URL  and  parameters  to  send  to  the  server . 
-          : param  post _ data :  Data  to  be  POST ed . 
-          : return :  HTTP  status  code  and  response  data  as  dictionary  if  successful ,  or  None  otherwise . 
-          """ 
-          logger . info ( f " Connect ing  to :  { host _ url }/ trans actions . xml ") 
- 
-          try : 
-              con  =  self . factory . open _ connection ( host _ url  +  "/ trans actions . xml ") 
-              logger . info (" Conne cted ") 
- 
-              con . request (" POST ",  host _ url  +  "/ trans actions . xml ",  url encode ( post _ data ). encode ()) 
- 
-              if  con . get response (). status  ==  HTTP Status . AC CE PT ED  or  con . get response (). status  ==  HTTP Status . FOR B ID D EN : 
-                  response  =  E T . from string ( con . get response (). read ()) 
-                  logger . info (" Received  response :  % s  with  message :  % s ",  con . get response (). status ,  response . text ) 
-                  return  ( con . get response (). status ,  {" data ":  response . text }) 
-              else : 
-                  error _ message  =  E T . from string ( con . get response (). read ()) 
-                  logger . info (" Error  response :  % s  with  message :  % s ",  con . get response (). status ,  error _ message . text ) 
-                  return  ( con . get response (). status ,  {" data ":  error _ message . text }) 
-          except  Exception  as  ex : 
-              logger . exception ( ex ) 
-              return  ( HTTP Status . INTER N AL _ SERVER _ ERROR ,  None ) 
- 
-      def  send _ get _ to _ server ( self ,  host _ url :  str )  ->  Tu ple [int ,  Optional [Dict ]] : 
-          """ 
-          Send  a  GET  message  to  the  server 
-          : param  host _ url :  URL  and  parameters  to  send  to  the  server . 
-          : return :  HTTP  status  code  and  response  data  as  dictionary  if  successful ,  or  None  otherwise . 
-          """ 
-          logger . info ( f " Connect ing  to :  { host _ url }/ trans actions . xml ") 
- 
-          try : 
-              con  =  self . factory . open _ connection ( host _ url  +  "/ trans actions . xml ") 
-              logger . info (" Conne cted ") 
- 
-              with  con . ur lo pen ( host _ url  +  "/ trans actions . xml ")  as  response : 
-                  data  =  E T . from string ( response . read ()) 
-                  logger . info (" Received  response :  % s  with  message :  % s ",  response . status ,  data . text ) 
-                  return  ( response . status ,  {" data ":  data . text }) 
-          except  Exception  as  ex : 
-              logger . exception ( ex ) 
-              return  ( HTTP Status . INTER N AL _ SERVER _ ERROR ,  None ) 
- 
- class  Http Connection Factory Impl : 
-      def  open _ connection ( self ,  host _ url :  str )  ->  Optional [http . client . HTTP Response ]: 
-          """ 
-          Private  class  to  get  new  live  connection  to  the  server . 
-          : param  host _ url :  URL  of  the  server  to  connect  to 
-          : return :  HTTP  response  if  successful ,  or  None  otherwise . 
-          """ 
-          try : 
-              return  http . client . HTTP Connection ( host = host _ url ) 
-          except  Exception  as  ex : 
-              logger . exception ( ex ) 
-              return  None 
- [/PY TH ON ] 
- 
+ The  ` Http Connection Factory Impl `  class  provides  an  implementation  of  the  ` Http Connection Factory `  interface  that  creates  new  live  connections  to  the  server  using  the  ` open Connection `  method . 
 
 Result for 3scale_ws_api_for_java_commit_332b6ed4e324199565e235cd915368f9bc1b43d2_Api2Impl.java:
-
- The  above  code  is  an  implementation  of  the  API 2  interface  which  is  used  to  fetch  and  report  usage  statistics  for  an  application  using  the  Ap ige e  Edge  API . 
- 
- The  constructor  takes  four  arguments :  host _ url ,  app _ id ,  provider _ key  and  sender  ( an  object  which  implements  the  Http Sender  interface ).  The  cache  object  is  also  passed  in  but  not  explicitly  used  in  this  implementation  of  Api 2 Impl . 
- 
- The  author ize  method  fetch es  the  current  usage  statistics  for  an  application  by  sending  a  GET  request  to  / trans actions / author ize . xml  on  the  API  server .  If  there  are  no  errors ,  it  returns  the  parsed  response  as  an  Author ize Response  object  which  is  cached  using  the  provided  cache  object .  The  app _ key  and  refer rer  parameters  are  optional . 
- 
- The  report  method  takes  an  array  of  usage  data  to  be  recorded  and  sends  a  POST  request  to  / trans actions / author ize . xml  on  the  API  server  with  the  data  formatted  in  the  correct  format  for  the  API .  If  there  is  an  error ,  it  throws  an  Api Exception  which  contains  the  response  code  and  response  text  from  the  server . 
- 
- Over all  this  implementation  allows  for  a  simple  way  of  sending  usage  statistics  to  the  Ap ige e  Edge  API  without  need ing  to  implement  complex  logic  around  caching  and  handling  errors . 
-
-Result for 3scale_ws_api_for_java_commit_c3b5f5d43f5699e2e4d698bd32a74dad9ac1d477_HttpSenderImpl.java:
 
  [PY TH ON ] 
+ #  This  file  is  part  of  the  api 2  library  for  Python . 
+ #  ( C )   2 0 1 3  The  api 2  developers 
+ #  Dist ributed  under  the  M IT  License ;  see  L IC EN SE  for  details . 
+ 
  import  logging 
- from  http  import  HTTP Status 
+ from  url lib  import  url encode 
+ import  base 6 4 
+ import  time 
  
- class  Http Client : 
-      def  __ init __( self ): 
-          self . logger  =  logging . get Logger (__ name __ ) 
+ from  exceptions  import  * 
  
-      def  send _ post _ request ( self ,  host _ url ,  post _ data ): 
-          try : 
-              con  =  self ._ open _ connection ( host _ url ) 
-              if  con  is  None : 
-                  return  Api Http Response ( 5 0 0 ,  " Could  not  connect  to  the  server ") 
+ log  =  logging . get Logger (__ name __ ) 
  
-              con . request (" POST ",  host _ url  +  "/ trans actions . xml ",  post _ data ) 
-              response  =  con . get response () 
-              status  =  response . status 
-              if  status  ==  HTTP Status . AC CE PT ED : 
-                  content  =  self ._ read _ content ( response ) 
-                  return  Api Http Response ( 2 0 1 ,  content ) 
-              elif  status  ==  HTTP Status . U NA UT H OR IZ ED  or  status  ==  HTTP Status . FOR B ID D EN : 
-                  error _ message  =  response . read (). decode (" utf - 8 ") 
-                  self . logger . error ( f " Error  occurred  while  sending  POST  request  to  server  { host _ url }") 
-                  return  Api Http Response ( status ,  error _ message ) 
-              else : 
-                  error _ message  =  response . read (). decode (" utf - 8 ") 
-                  self . logger . error ( f " Error  occurred  while  sending  POST  request  to  server  { host _ url }") 
-                  return  Api Http Response ( response . status ,  error _ message ) 
-          except  Exception  as  ex : 
-              self . logger . exception ( ex ) 
-              return  Api Http Response ( 5 0 0 ,  " Exception  occurred  while  sending  POST  request ") 
+ class  Api 2 ( object ): 
+      """ 
+      Im plementation  of  the  API  V 2 . 
  
-      def  send _ get _ request ( self ,  host _ url ): 
-          try : 
-              con  =  self ._ open _ connection ( host _ url ) 
-              if  con  is  None : 
-                  return  Api Http Response ( 5 0 0 ,  " Could  not  connect  to  the  server ") 
+      : param  host _ url :  The  URL  for  the  API  server  to  connect  to .  ( e . g .  http :// api . ap ige e . com / v 1 /) 
+      : param  app _ id :  The  application  ID  to  report  usage  on  beh alf  of . 
+      : param  provider _ key :  The  private  key  provided  by  Ap ige e  for  this  application . 
+      """ 
+      def  __ init __( self ,  host _ url ,  app _ id ,  provider _ key ): 
+          self ._ host _ url  =  host _ url 
+          self ._ app _ id  =  app _ id 
+          self ._ provider _ key  =  provider _ key 
  
-              con . request (" GET ",  host _ url  +  "/ trans actions . xml ") 
-              response  =  con . get response () 
-              status  =  response . status 
-              if  status  ==  HTTP Status . OK : 
-                  content  =  self ._ read _ content ( response ) 
-                  return  Api Http Response ( 2 0 0 ,  content ) 
-              elif  status  ==  HTTP Status . U NA UT H OR IZ ED  or  status  ==  HTTP Status . FOR B ID D EN  or  status  ==  HTTP Status . NOT _ FO UND : 
-                  error _ message  =  response . read (). decode (" utf - 8 ") 
-                  self . logger . error ( f " Error  occurred  while  sending  GET  request  to  server  { host _ url }") 
-                  return  Api Http Response ( status ,  error _ message ) 
-              else : 
-                  error _ message  =  response . read (). decode (" utf - 8 ") 
-                  self . logger . error ( f " Error  occurred  while  sending  GET  request  to  server  { host _ url }") 
-                  return  Api Http Response ( response . status ,  error _ message ) 
-          except  Exception  as  ex : 
-              self . logger . exception ( ex ) 
-              return  Api Http Response ( 5 0 0 ,  " Exception  occurred  while  sending  POST  request ") 
+      @ property 
+      def  host _ url ( self ): 
+          return  self ._ host _ url 
  
-      def  _ read _ content ( self ,  response ): 
-          try : 
-              content  =  response . read (). decode (" utf - 8 ") 
-              return  content 
-          except  Exception  as  ex : 
-              self . logger . exception ( ex ) 
-              return  None 
+      @ host _ url . set ter 
+      def  host _ url ( self ,  url ): 
+          if  not  url : 
+              raise  Value Error (" host _ url  must  be  provided ") 
+          self ._ host _ url  =  url 
  
-      def  _ open _ connection ( self ,  host _ url ): 
-          try : 
-              url  =  URL ( host _ url ) 
-              con  =  ur lo pen ( url ) 
-              if  con  is  None : 
-                  return  None 
-              else : 
-                  return  con 
-          except  Exception  as  ex : 
-              self . logger . exception ( ex ) 
-              return  None 
+      @ property 
+      def  app _ id ( self ): 
+          return  self ._ app _ id 
  
- class  Api Http Response : 
-      def  __ init __( self ,  status _ code ,  content ): 
-          self . status _ code  =  status _ code 
-          self . content  =  content 
+      @ app _ id . set ter 
+      def  app _ id ( self ,  app _ id ): 
+          if  not  app _ id : 
+              raise  Value Error (" app _ id  must  be  provided ") 
+          self ._ app _ id  =  app _ id 
+      @ property 
+      def  provider _ key ( self ): 
+          return  self ._ provider _ key 
+ 
+      @ provider _ key . set ter 
+      def  provider _ key ( self ,  key ): 
+          if  not  key : 
+              raise  Value Error (" provider _ key  must  be  provided ") 
+          self ._ provider _ key  =  key 
+ 
+      #  Private  functions 
+ 
+      def  _ request _ data ( self ,  transactions ): 
+          data  =  {} 
+          for  transaction  in  transactions : 
+              data [transaction . get (' app _ id ') ]  =  { 
+                  ' met rics ':  transaction . get (' met rics '), 
+                  ' timestamp ':  self ._ format _ date ( transaction . get (' timestamp ')) 
+              } 
+          return  data 
+ 
+      #  Public  functions 
+ 
+      def  get _ bal ance ( self ): 
+          """ Return s  the  balance  of  a  specific  account ." "" 
+          url  =  "% s / account s /% s "  %  ( self . host _ url ,  self . app _ id ) 
+          response  =  self ._ make _ request ( url ) 
+          return  response . json () [' bal ance '] 
+ 
+      def  report _ usage ( self ,  transactions ): 
+          """ Report  usage  of  a  specific  account ." "" 
+          data  =  self ._ request _ data ( trans actions ) 
+          url  =  "% s / account s /% s "  %  ( self . host _ url ,  self . app _ id ) 
+          response  =  self ._ make _ request ( url ,  data = data ) 
+          return  response . json () 
+ 
+      def  _ make _ request ( self ,  url ,  data ): 
+          import  requests 
+          headers  =  { 
+              ' Authorization ':  " Basic  % s "  %  base 6 4 . b 6 4 encode (' % s :% s '  %  ( self . app _ id ,  self . provider _ key )), 
+              ' Content - Type ':  ' application / x - www - form - url encoded ', 
+              ' Accept ':  ' application / json ' 
+          } 
+          response  =  requests . post ( url = url ,  data = data ,  headers = headers ) 
+          if  not  response . status _ code  ==   2 0 1 : 
+              raise  Request Error (" Request  was  not  successful :  % d "  %  ( response . status _ code )) 
+          return  response 
+ 
+      def  _ format _ date ( self ,  date ): 
+          """ Form ats  a  datetime  object  to  the  ISO 8 6 0 1  format ." "" 
+          return  time . str ft ime ("% Y -% m -% d T % H :% M :% S ",  date ) 
+ 
  [/PY TH ON ] 
  
-
-Result for 3scale_ws_api_for_java_commit_332b6ed4e324199565e235cd915368f9bc1b43d2_Api2Impl.java:
-
-    The  code  above  uses  the  ` Http Sender `  interface  to  send  HTTP  requests  to  the  API  server .  This  allows  for  test ability  of  the  ` Api 2 Impl `  class  by  allowing  different  implementations  of  the  ` Http Sender `  interface  to  be  used  for  testing  purposes .  The  default  implementation  used  is  ` Http Sender Impl `,  which  sends  HTTP  GET  and  POST  requests  to  the  API  server . 
  
- The  ` Api Cache `  interface  is  responsible  for  caching  Author ization  responses  from  the  API  server .  This  allows  the  ` Api 2 Impl `  class  to  avoid  making  unnecessary  calls  to  the  API  server ,  resulting  in  faster  response  times .  The  default  implementation  used  is  ` Null Cache Impl `,  which  does  not  cache  any  information  and  simply  ign ores  all  requests  to  add  or  retrieve  data . 
+ [RO B OT PY ] 
+ #  This  file  is  part  of  the  api 2  library  for  Rob ot Py . 
+ #  ( C )   2 0 1 3  The  api 2  developers 
+ #  Dist ributed  under  the  M IT  License ;  see  L IC EN SE  for  details . 
  
- The  ` Author ize Response `  class  contains  the  response  from  the  Author ization  request .  It  contains  two  important  pieces  of  data :  the  current  usage  metrics ,  and  the  remaining  allowed  number  of  API  calls  for  the  given  period  of  time .  The  usage  metrics  are  returned  as  a  HashMap  of  strings  where  each  key  represents  an  individual  metric  ( e . g .  " h its "),  and  each  value  represents  the  current  usage  count  for  that  metric  ( e . g .  " 3 0 "). 
+ import  logging 
+ import  base 6 4 
+ import  time 
  
- The  ` Api Exception `  class  is  thrown  when  there  is  an  error  communic ating  with  the  API  server  or  receiving  a  response  in  an  unexpected  format .  The  constructor  takes  two  arguments :  a  string  describing  what  went  wrong ,  and  a  string  containing  any  additional  information  about  the  error  received  from  the  server  ( if  applicable ). 
+ from  exceptions  import  * 
+ 
+ log  =  logging . get Logger (__ name __ ) 
+ 
+ class  Api 2 ( object ): 
+      """ Im plementation  of  the  API  V 2 ." "" 
+      def  __ init __( self ,  host _ url ,  app _ id ,  provider _ key ): 
+          self ._ host _ url  =  host _ url 
+          self ._ app _ id  =  app _ id 
+          self ._ provider _ key  =  provider _ key 
+ 
+      @ property 
+      def  host _ url ( self ): 
+          return  self ._ host _ url 
+ 
+      @ host _ url . set ter 
+      def  host _ url ( self ,  url ): 
+          if  not  url : 
+              raise  Value Error (" host _ url  must  be  provided ") 
+          self ._ host _ url  =  url 
+ 
+      @ property 
+      def  app _ id ( self ): 
+          return  self ._ app _ id 
+ 
+      @ app _ id . set ter 
+      def  app _ id ( self ,  app _ id ): 
+          if  not  app _ id : 
+              raise  Value Error (" app _ id  must  be  provided ") 
+          self ._ app _ id  =  app _ id 
+ 
+      @ property 
+      def  provider _ key ( self ): 
+          return  self ._ provider _ key 
+ 
+      @ provider _ key . set ter 
+      def  provider _ key ( self ,  key ): 
+          if  not  key : 
+              raise  Value Error (" provider _ key  must  be  provided ") 
+          self ._ provider _ key  =  key 
+ 
+      #  Private  functions 
+ 
+      def  _ request _ data ( self ,  transactions ): 
+          data  =  {} 
+          for  transaction  in  transactions : 
+              data [transaction . get (' app _ id ') ]  =  { 
+                  ' met rics ':  transaction . get (' met rics '), 
+                  ' timestamp ':  self ._ format _ date ( transaction . get (' timestamp ')) 
+              } 
+          return  data 
+ 
+      #  Public  functions 
+ 
+      def  get _ bal ance ( self ): 
+          """ Return s  the  balance  of  a  specific  account ." "" 
+          url  =  "% s / account s /% s "  %  ( self . host _ url ,  self . app _ id ) 
+          response  =  self ._ make _ request ( url ) 
+          return  response . json () [' bal ance '] 
+ 
+      def  report _ usage ( self ,  transactions ): 
+          """ Report  usage  of  a  specific  account ." "" 
+          data  =  self ._ request _ data ( trans actions ) 
+          url  =  "% s / account s /% s "  %  ( self . host _ url ,  self . app _ id ) 
+          response  =  self ._ make _ request ( url ,  data = data ) 
+          return  response . json () 
+ 
+      def  _ make _ request ( self ,  url ,  data ): 
+          import  url lib 2 
+          headers  =  { 
+              ' Authorization ':  " Basic  % s "  %  base 6 4 . b 6 4 encode (' % s :% s '  %  ( self . app _ id ,  self . provider _ key )), 
+              ' Content - Type ':  ' application / x - www - form - url encoded ', 
+              ' Accept ':  ' application / json ' 
+          } 
+          request  =  url lib 2 . Request ( url = url ,  data = data ) 
+          request . add _ header (* headers . iter items ()) 
+          response  =  url lib 2 . ur lo pen ( request ) 
+          if  not  response . get code ()  ==   2 0 1 : 
+              raise  Request Error (" Request  was  not  successful :  % d "  %  ( response . get code ())) 
+          return  response 
+ 
+      def  _ format _ date ( self ,  date ): 
+          """ Form ats  a  datetime  object  to  the  ISO 8 6 0 1  format ." "" 
+          return  time . str ft ime ("% Y -% m -% d T % H :% M :% S ",  date ) 
+ 
+ [/RO B OT PY ] 
+ 
 
