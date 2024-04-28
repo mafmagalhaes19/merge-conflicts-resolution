@@ -1,0 +1,186 @@
+Result for 3scale_ws_api_for_java_commit_c3b5f5d43f5699e2e4d698bd32a74dad9ac1d477_HttpSenderImpl.java:
+[PY TH ON ] 
+ import  logging 
+ from  http  import  HTTP Status 
+ from  io  import  Buffered Reader ,  String IO 
+ from  typing  import  Any ,  D ict ,  Optional ,  Text IO ,  Tu ple 
+ from  url lib . parse  import  url encode 
+ from  xml . et ree  import  Element Tree  as  E T 
+ 
+ from  django . conf  import  settings 
+ 
+ logger  =  logging . get Logger (__ name __ ) 
+ 
+ class  Http Sender : 
+      def  __ init __( self ): 
+          self . factory  =  Http Connection Factory Impl () 
+ 
+      def  send _ post _ to _ server ( self ,  host _ url :  str ,  post _ data :  D ict [str ,  Any ])  ->  Tu ple [int ,  Optional [Dict ]] : 
+          """ 
+          Send  a  POST  message  to  the  server 
+          : param  host _ url :  URL  and  parameters  to  send  to  the  server . 
+          : param  post _ data :  Data  to  be  POST ed . 
+          : return :  HTTP  status  code  and  response  data  as  dictionary  if  successful ,  or  None  otherwise . 
+          """ 
+          logger . info ( f " Connect ing  to :  { host _ url }/ trans actions . xml ") 
+ 
+          try : 
+              con  =  self . factory . open _ connection ( host _ url  +  "/ trans actions . xml ") 
+              logger . info (" Conne cted ") 
+ 
+              con . request (" POST ",  host _ url  +  "/ trans actions . xml ",  url encode ( post _ data ). encode ()) 
+ 
+              if  con . get response (). status  ==  HTTP Status . AC CE PT ED  or  con . get response (). status  ==  HTTP Status . FOR B ID D EN : 
+                  response  =  E T . from string ( con . get response (). read ()) 
+                  logger . info (" Received  response :  % s  with  message :  % s ",  con . get response (). status ,  response . text ) 
+                  return  ( con . get response (). status ,  {" data ":  response . text }) 
+              else : 
+                  error _ message  =  E T . from string ( con . get response (). read ()) 
+                  logger . info (" Error  response :  % s  with  message :  % s ",  con . get response (). status ,  error _ message . text ) 
+                  return  ( con . get response (). status ,  {" data ":  error _ message . text }) 
+          except  Exception  as  ex : 
+              logger . exception ( ex ) 
+              return  ( HTTP Status . INTER N AL _ SERVER _ ERROR ,  None ) 
+ 
+      def  send _ get _ to _ server ( self ,  host _ url :  str )  ->  Tu ple [int ,  Optional [Dict ]] : 
+          """ 
+          Send  a  GET  message  to  the  server 
+          : param  host _ url :  URL  and  parameters  to  send  to  the  server . 
+          : return :  HTTP  status  code  and  response  data  as  dictionary  if  successful ,  or  None  otherwise . 
+          """ 
+          logger . info ( f " Connect ing  to :  { host _ url }/ trans actions . xml ") 
+ 
+          try : 
+              con  =  self . factory . open _ connection ( host _ url  +  "/ trans actions . xml ") 
+              logger . info (" Conne cted ") 
+ 
+              with  con . ur lo pen ( host _ url  +  "/ trans actions . xml ")  as  response : 
+                  data  =  E T . from string ( response . read ()) 
+                  logger . info (" Received  response :  % s  with  message :  % s ",  response . status ,  data . text ) 
+                  return  ( response . status ,  {" data ":  data . text }) 
+          except  Exception  as  ex : 
+              logger . exception ( ex ) 
+              return  ( HTTP Status . INTER N AL _ SERVER _ ERROR ,  None ) 
+ 
+ class  Http Connection Factory Impl : 
+      def  open _ connection ( self ,  host _ url :  str )  ->  Optional [http . client . HTTP Response ]: 
+          """ 
+          Private  class  to  get  new  live  connection  to  the  server . 
+          : param  host _ url :  URL  of  the  server  to  connect  to 
+          : return :  HTTP  response  if  successful ,  or  None  otherwise . 
+          """ 
+          try : 
+              return  http . client . HTTP Connection ( host = host _ url ) 
+          except  Exception  as  ex : 
+              logger . exception ( ex ) 
+              return  None 
+ [/PY TH ON ] 
+ 
+
+Result for 3scale_ws_api_for_java_commit_332b6ed4e324199565e235cd915368f9bc1b43d2_Api2Impl.java:
+
+ The  above  code  is  an  implementation  of  the  API 2  interface  which  is  used  to  fetch  and  report  usage  statistics  for  an  application  using  the  Ap ige e  Edge  API . 
+ 
+ The  constructor  takes  four  arguments :  host _ url ,  app _ id ,  provider _ key  and  sender  ( an  object  which  implements  the  Http Sender  interface ).  The  cache  object  is  also  passed  in  but  not  explicitly  used  in  this  implementation  of  Api 2 Impl . 
+ 
+ The  author ize  method  fetch es  the  current  usage  statistics  for  an  application  by  sending  a  GET  request  to  / trans actions / author ize . xml  on  the  API  server .  If  there  are  no  errors ,  it  returns  the  parsed  response  as  an  Author ize Response  object  which  is  cached  using  the  provided  cache  object .  The  app _ key  and  refer rer  parameters  are  optional . 
+ 
+ The  report  method  takes  an  array  of  usage  data  to  be  recorded  and  sends  a  POST  request  to  / trans actions / author ize . xml  on  the  API  server  with  the  data  formatted  in  the  correct  format  for  the  API .  If  there  is  an  error ,  it  throws  an  Api Exception  which  contains  the  response  code  and  response  text  from  the  server . 
+ 
+ Over all  this  implementation  allows  for  a  simple  way  of  sending  usage  statistics  to  the  Ap ige e  Edge  API  without  need ing  to  implement  complex  logic  around  caching  and  handling  errors . 
+
+Result for 3scale_ws_api_for_java_commit_c3b5f5d43f5699e2e4d698bd32a74dad9ac1d477_HttpSenderImpl.java:
+
+ [PY TH ON ] 
+ import  logging 
+ from  http  import  HTTP Status 
+ 
+ class  Http Client : 
+      def  __ init __( self ): 
+          self . logger  =  logging . get Logger (__ name __ ) 
+ 
+      def  send _ post _ request ( self ,  host _ url ,  post _ data ): 
+          try : 
+              con  =  self ._ open _ connection ( host _ url ) 
+              if  con  is  None : 
+                  return  Api Http Response ( 5 0 0 ,  " Could  not  connect  to  the  server ") 
+ 
+              con . request (" POST ",  host _ url  +  "/ trans actions . xml ",  post _ data ) 
+              response  =  con . get response () 
+              status  =  response . status 
+              if  status  ==  HTTP Status . AC CE PT ED : 
+                  content  =  self ._ read _ content ( response ) 
+                  return  Api Http Response ( 2 0 1 ,  content ) 
+              elif  status  ==  HTTP Status . U NA UT H OR IZ ED  or  status  ==  HTTP Status . FOR B ID D EN : 
+                  error _ message  =  response . read (). decode (" utf - 8 ") 
+                  self . logger . error ( f " Error  occurred  while  sending  POST  request  to  server  { host _ url }") 
+                  return  Api Http Response ( status ,  error _ message ) 
+              else : 
+                  error _ message  =  response . read (). decode (" utf - 8 ") 
+                  self . logger . error ( f " Error  occurred  while  sending  POST  request  to  server  { host _ url }") 
+                  return  Api Http Response ( response . status ,  error _ message ) 
+          except  Exception  as  ex : 
+              self . logger . exception ( ex ) 
+              return  Api Http Response ( 5 0 0 ,  " Exception  occurred  while  sending  POST  request ") 
+ 
+      def  send _ get _ request ( self ,  host _ url ): 
+          try : 
+              con  =  self ._ open _ connection ( host _ url ) 
+              if  con  is  None : 
+                  return  Api Http Response ( 5 0 0 ,  " Could  not  connect  to  the  server ") 
+ 
+              con . request (" GET ",  host _ url  +  "/ trans actions . xml ") 
+              response  =  con . get response () 
+              status  =  response . status 
+              if  status  ==  HTTP Status . OK : 
+                  content  =  self ._ read _ content ( response ) 
+                  return  Api Http Response ( 2 0 0 ,  content ) 
+              elif  status  ==  HTTP Status . U NA UT H OR IZ ED  or  status  ==  HTTP Status . FOR B ID D EN  or  status  ==  HTTP Status . NOT _ FO UND : 
+                  error _ message  =  response . read (). decode (" utf - 8 ") 
+                  self . logger . error ( f " Error  occurred  while  sending  GET  request  to  server  { host _ url }") 
+                  return  Api Http Response ( status ,  error _ message ) 
+              else : 
+                  error _ message  =  response . read (). decode (" utf - 8 ") 
+                  self . logger . error ( f " Error  occurred  while  sending  GET  request  to  server  { host _ url }") 
+                  return  Api Http Response ( response . status ,  error _ message ) 
+          except  Exception  as  ex : 
+              self . logger . exception ( ex ) 
+              return  Api Http Response ( 5 0 0 ,  " Exception  occurred  while  sending  POST  request ") 
+ 
+      def  _ read _ content ( self ,  response ): 
+          try : 
+              content  =  response . read (). decode (" utf - 8 ") 
+              return  content 
+          except  Exception  as  ex : 
+              self . logger . exception ( ex ) 
+              return  None 
+ 
+      def  _ open _ connection ( self ,  host _ url ): 
+          try : 
+              url  =  URL ( host _ url ) 
+              con  =  ur lo pen ( url ) 
+              if  con  is  None : 
+                  return  None 
+              else : 
+                  return  con 
+          except  Exception  as  ex : 
+              self . logger . exception ( ex ) 
+              return  None 
+ 
+ class  Api Http Response : 
+      def  __ init __( self ,  status _ code ,  content ): 
+          self . status _ code  =  status _ code 
+          self . content  =  content 
+ [/PY TH ON ] 
+ 
+
+Result for 3scale_ws_api_for_java_commit_332b6ed4e324199565e235cd915368f9bc1b43d2_Api2Impl.java:
+
+    The  code  above  uses  the  ` Http Sender `  interface  to  send  HTTP  requests  to  the  API  server .  This  allows  for  test ability  of  the  ` Api 2 Impl `  class  by  allowing  different  implementations  of  the  ` Http Sender `  interface  to  be  used  for  testing  purposes .  The  default  implementation  used  is  ` Http Sender Impl `,  which  sends  HTTP  GET  and  POST  requests  to  the  API  server . 
+ 
+ The  ` Api Cache `  interface  is  responsible  for  caching  Author ization  responses  from  the  API  server .  This  allows  the  ` Api 2 Impl `  class  to  avoid  making  unnecessary  calls  to  the  API  server ,  resulting  in  faster  response  times .  The  default  implementation  used  is  ` Null Cache Impl `,  which  does  not  cache  any  information  and  simply  ign ores  all  requests  to  add  or  retrieve  data . 
+ 
+ The  ` Author ize Response `  class  contains  the  response  from  the  Author ization  request .  It  contains  two  important  pieces  of  data :  the  current  usage  metrics ,  and  the  remaining  allowed  number  of  API  calls  for  the  given  period  of  time .  The  usage  metrics  are  returned  as  a  HashMap  of  strings  where  each  key  represents  an  individual  metric  ( e . g .  " h its "),  and  each  value  represents  the  current  usage  count  for  that  metric  ( e . g .  " 3 0 "). 
+ 
+ The  ` Api Exception `  class  is  thrown  when  there  is  an  error  communic ating  with  the  API  server  or  receiving  a  response  in  an  unexpected  format .  The  constructor  takes  two  arguments :  a  string  describing  what  went  wrong ,  and  a  string  containing  any  additional  information  about  the  error  received  from  the  server  ( if  applicable ). 
+

@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "name": "3scale_ws_api_for_java",
+            "href": "https://merge-nature.netlify.app/71440/3scale_ws_api_for_java/3scale_ws_api_for_java",
+            "url": "https://github.com/3scale/3scale_ws_api_for_java",
+            "commit_c3b5f5d43f5699e2e4d698bd32a74dad9ac1d477": {
+                "sha": "c3b5f5d43f5699e2e4d698bd32a74dad9ac1d477",
+                "files_in_conflict": [
+                    "HttpSenderImpl.java"
+                ],
+                "conflicts": [
+                    "\tsrc/main/java/net/threescale/api/v2/HttpSenderImpl.java"
+                ],
+                "parent_one": "78eceb4",
+                "parent_two": "85d75a2"
+            },
+            "commit_332b6ed4e324199565e235cd915368f9bc1b43d2": {
+                "sha": "332b6ed4e324199565e235cd915368f9bc1b43d2",
+                "files_in_conflict": [
+                    "Api2Impl.java"
+                ],
+                "conflicts": [
+                    "\tsrc/net/threescale/api/v2/Api2Impl.java"
+                ],
+                "parent_one": "4650578",
+                "parent_two": "d623f49"
+            }
+        }
+    ]
+}
