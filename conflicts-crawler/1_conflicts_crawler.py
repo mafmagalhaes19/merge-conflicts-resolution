@@ -11,7 +11,9 @@ tr_elements = soup.find_all('tr')
 data_list = []
 
 # Change the number of projects you want to analyze
-n = 2
+n = 200
+
+#TODO: add metrics for each file (classes and tokens)
 
 for tr in tr_elements[1:n]: 
     td_elements = tr.find_all('td')

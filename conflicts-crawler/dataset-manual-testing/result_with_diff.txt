@@ -1,0 +1,109 @@
+--- file1.java
++++ file2.java
+@@ -78,7 +78,7 @@
+ 
+
+             log.info("response code was: " + response.getResponseCode());
+
+ 
+
+-            if (response.getResponseCode() == 200 || response.getResponseCode() == 409) {
+
++            if (response.getResponseCode() == 200) {
+
+                 AuthorizeResponse authorizedResponse = new AuthorizeResponse(response.getResponseText());
+
+                 cache.addAuthorizedResponse(app_key, authorizedResponse);
+
+                 return authorizedResponse;
+
+@@ -120,19 +120,19 @@
+         StringBuffer url = new StringBuffer();
+
+ 
+
+         url.append(host_url)
+
+-                .append("/transactions/authorize.xml")
+
+-                .append("?app_id=").append(app_id)
+
+-                .append("&provider_key=")
+
+-                .append(provider_key);
+
++               .append("/transactions/authorize.xml")
+
++               .append("?app_id=").append(app_id)
+
++               .append("&provider_key=")
+
++               .append(provider_key);
+
+ 
+
+-        if (app_key != null) {
+
++        if (app_key!= null) {
+
+             url.append("&app_key=")
+
+-                    .append(app_key);
+
++                   .append(app_key);
+
+         }
+
+ 
+
+-        if (referrer != null) {
+
++        if (referrer!= null) {
+
+             url.append("&referrer=")
+
+-                    .append(referrer);
+
++                   .append(referrer);
+
+         }
+
+ 
+
+         return url.toString();
+
+@@ -153,10 +153,8 @@
+         data.append(prefix);
+
+         data.append("[app_id]=").append(transaction.getApp_id());
+
+         data.append(formatMetrics(prefix, transaction.getMetrics()));
+
+-	if(transaction.getTimestamp() != null) {
+
+-		data.append("&").append(prefix);
+
+-	        data.append("[timestamp]=").append(urlEncodeField(transaction.getTimestamp()));
+
+-	}
+
++        data.append("&").append(prefix);
+
++        data.append("[timestamp]=").append(urlEncodeField(transaction.getTimestamp()));
+
+ 
+
+         return data.toString();
+
+     }
+
+@@ -193,4 +191,4 @@
+         }
+
+         return post_data.toString();
+
+     }
+
+-}
+
++}

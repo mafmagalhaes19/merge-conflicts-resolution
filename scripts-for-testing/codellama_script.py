@@ -47,8 +47,15 @@ for project_name, commits in conflict_urls.items():
             first_file = f"conflicts-crawler/dataset/{project_name}_{commit_key}_{first_x}_{filename}"
             second_file = f"conflicts-crawler/dataset/{project_name}_{commit_key}_{second_x}_{filename}"
 
-            # prompt = f"I will give you two files that contain merge conflicts (File 1 and File 2). Please provide me a resolution of those conflicts using Java and give me full code for the final file with no conflicts:\n\nFile 1 ({first_file}):\n{open(first_file).read()}\n\nFile 2 ({second_file}):\n{open(second_file).read()}"
-            prompt = f" Can you identify the merge conflicts between these two files:\n\nFile 1 ({first_file}):\n{open(first_file).read()}\n\nFile 2 ({second_file}):\n{open(second_file).read()}"
+            # Sol1 - 2 prompts diferentes - mandar os ficheiros e depois da explicação, pedir a resolução final
+            # Sol2 - Dar exemplos (atenção ao número de caractéres) e pedir para ele replicar o comportamento
+
+            prompt = f"Provide your answers only in Java code. I will give you two files that contain merge conflicts (File 1 and File 2). Please provide me a resolution of those conflicts using Java and give me full code for the final file with no conflicts:\n\nFile 1 ({first_file}):\n{open(first_file).read()}\n\nFile 2 ({second_file}):\n{open(second_file).read()}"
+            # prompt = f" Provide your answers only in Java code. I will give you two files that contain merge conflicts (File 1 and File 2).
+            #     Please provide me a resolution of those conflicts using Java and give me full code for the final
+            #     file with no conflicts:\n\nFile 1 ({first_file}):\n{open(first_file).read()}\n\nFile 2 ({second_file})
+            #     :\n{open(second_file).read()}"
+            # prompt = f" Can you identify the merge conflicts between these two files:\n\nFile 1 ({first_file}):\n{open(first_file).read()}\n\nFile 2 ({second_file}):\n{open(second_file).read()}"
             result = compare_files(prompt)
 
             with open(final_filename, 'a') as final_file:

@@ -1,0 +1,44 @@
+--- file1.java
++++ file2.java
+@@ -76,7 +76,7 @@
+ 
+
+       log.info("response code was: " + response.getResponseCode());
+
+ 
+
+-      if (response.getResponseCode() == 200 || response.getResponseCode() == 409) {
+
++      if (response.getResponseCode() == 200) {
+
+         AuthorizeResponse authorizedResponse = new AuthorizeResponse(response.getResponseText());
+
+         cache.addAuthorizedResponse(app_key, authorizedResponse);
+
+         return authorizedResponse;
+
+@@ -157,10 +157,8 @@
+     data.append(prefix);
+
+     data.append("[app_id]=").append(transaction.getApp_id());
+
+     data.append(formatMetrics(prefix, transaction.getMetrics()));
+
+-    if (transaction.getTimestamp() != null) {
+
+-      data.append("&").append(prefix);
+
+-      data.append("[timestamp]=").append(urlEncodeField(transaction.getTimestamp()));
+
+-    }
+
++    data.append("&").append(prefix);
+
++    data.append("[timestamp]=").append(urlEncodeField(transaction.getTimestamp()));
+
+ 
+
+     return data.toString();
+
+   }
+

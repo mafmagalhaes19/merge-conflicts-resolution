@@ -1,0 +1,40 @@
+<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+
+{{ system_prompt }}<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+
+{{ user_msg_1 }}<|eot_id|>
+<|start_header_id|>assistant<|end_header_id|>
+
+{{ model_answer_1 }}<|eot_id|>
+
+
+
+
+Few Shot Prompt
+
+
+
+
+
+
+https://www.promptingguide.ai/techniques/fewshot
+
+https://www.promptingguide.ai/models/code-llama#few-shot-prompting-with-code-llama
+
+
+
+https://huggingface.co/mlx-community
+
+https://huggingface.co/MaziyarPanahi/Llama-3-8B-Instruct-v0.1 
+
+
+
+https://github.com/ml-explore/mlx-examples/tree/main
+
+https://github.com/ml-explore/mlx-examples/tree/main/llms
+
+https://github.com/ml-explore/mlx-examples/tree/main/llms/mlx_lm/models
+
+/Users/cbm/work/mlx/mlx-examples/llms/llama    -> instruct
