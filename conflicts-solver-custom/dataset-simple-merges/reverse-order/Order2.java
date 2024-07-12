@@ -39,9 +39,9 @@ public class Order2 {
     }
 
     public static void main(String[] args) {
-        Order1 order = new Order1(1);
+        Order2 order = new Order2(1);
         order.addItem("item1");
         order.addItem("item2");
-        System.out.println("Branch A: Order total is " + order.calculateTotal());
+        System.out.println("Order total is " + order.calculateTotal());
     }
 }

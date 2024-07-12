@@ -25,7 +25,7 @@ public class User1 {
 
     public static void main(String[] args) {
         User1 user = new User1("Bob", 25);
-        System.out.println("User from Branch B: " + user.getName());
+        System.out.println("User name: " + user.getName());
     }
 }
 

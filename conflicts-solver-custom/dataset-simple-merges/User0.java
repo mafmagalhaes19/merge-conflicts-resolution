@@ -24,7 +24,7 @@ public class User0 {
     }
 
     public static void main(String[] args) {
-        User1 user = new User1("Alice", 30);
+        User0 user = new User0("Alice", 30);
         System.out.println("User name: " + user.getName());
-    } 
+    }
 }

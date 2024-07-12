@@ -21,12 +21,10 @@ public class Inventory2 {
         return pricePerUnit;
     }
 
-    // Added in branch A
     public double calculateTotalValue() {
         return quantity * pricePerUnit;
     }
 
-    // Added in branch A
     public String getItemSummary() {
         return "Item: " + itemName + ", Quantity: " + quantity + ", Price per unit: $" + pricePerUnit;
     }

@@ -21,13 +21,11 @@ public class Customer2 {
         return phoneNumber;
     }
 
-    // Added in branch A
     public void updateEmail(String newEmail) {
         this.email = newEmail;
         System.out.println("Email updated to: " + newEmail);
     }
 
-    // Added in branch A
     public void updatePhoneNumber(String newPhoneNumber) {
         this.phoneNumber = newPhoneNumber;
         System.out.println("Phone number updated to: " + newPhoneNumber);

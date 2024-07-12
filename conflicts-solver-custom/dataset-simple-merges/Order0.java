@@ -39,7 +39,7 @@ public class Order0 {
     }
 
     public static void main(String[] args) {
-        Order1 order = new Order1(1);
+        Order0 order = new Order0(1);
         order.addItem("item1");
         order.addItem("item2");
         System.out.println("Order total is " + order.calculateTotal());

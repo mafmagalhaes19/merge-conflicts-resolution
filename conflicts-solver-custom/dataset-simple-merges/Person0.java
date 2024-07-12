@@ -24,7 +24,7 @@ public class Person0 {
     }
 
     public static void main(String[] args) {
-        Person2 person = new Person2("Jane", "Smith");
+        Person0 person = new Person0("Jane", "Smith");
         System.out.println(person.getFirstName() + " " + person.getLastName());
     }
 }

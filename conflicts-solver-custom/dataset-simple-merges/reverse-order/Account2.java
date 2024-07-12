@@ -14,8 +14,8 @@ public class Account2 {
     }
 
     public static void main(String[] args) {
-        Account1 account = new Account1(1000);
+        Account2 account = new Account2(1000);
         account.deposit(500);
-        System.out.println("Branch A: Account balance is " + account.getBalance());
+        System.out.println("Account balance is " + account.getBalance());
     }
 }

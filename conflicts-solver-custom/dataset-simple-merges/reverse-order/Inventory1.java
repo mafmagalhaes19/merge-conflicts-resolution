@@ -21,12 +21,10 @@ public class Inventory1 {
         return pricePerUnit;
     }
 
-    // Added in branch B
     public double computeTotalValue() {
         return quantity * pricePerUnit * 1.1; // Includes a 10% tax
     }
 
-    // Added in branch B
     public String fetchItemSummary() {
         return "Item: " + itemName + " | Quantity: " + quantity + " | Unit Price: $" + pricePerUnit;
     }
