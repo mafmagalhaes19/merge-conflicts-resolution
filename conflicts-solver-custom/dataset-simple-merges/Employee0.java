@@ -1,17 +1,17 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Employee0 {
     private int id;
     private String name;
     private double salary;
-    private List<String> projects;
+    private Set<String> projects;
 
     public Employee0(int id, String name, double salary) {
         this.id = id;
         this.name = name;
         this.salary = salary;
-        this.projects = new ArrayList<>();
+        this.projects = new HashSet<>();
     }
 
     public int getId() {
@@ -34,7 +34,7 @@ public class Employee0 {
         projects.remove(project);
     }
 
-    public List<String> getProjects() {
+    public Set<String> getProjects() {
         return projects;
     }
 

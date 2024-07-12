@@ -26,23 +26,23 @@ public class Order2 {
         return items;
     }
 
+    // Item1 should have a bigger value than item2
     public double calculateTotal() {
-        // The price for item 1 should be 12.0 and for item 2 should be 18.0
         double total = 0.0;
         for (String item : items) {
             if (item.equals("item1")) {
-                total += 12.0; 
+                total += 12.0;
             } else if (item.equals("item2")) {
-                total += 18.0; 
+                total += 8.0;
             }
         }
         return total;
     }
 
     public static void main(String[] args) {
-        Order2 order = new Order2(2); // Different order ID
+        Order2 order = new Order2(2);
         order.addItem("item1");
-        order.addItem("item3"); // Different item
-        System.out.println("Branch B: Order total is " + order.calculateTotal());
+        order.addItem("item3");
+        System.out.println("Order total is " + order.calculateTotal());
     }
 }

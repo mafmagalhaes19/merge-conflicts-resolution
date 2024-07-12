@@ -26,8 +26,8 @@ public class Order1 {
         return items;
     }
 
+    // Item1 should have a bigger value than item2
     public double calculateTotal() {
-        // The price for item 1 should be 12.0 and for item 2 should be 18.0
         double total = 0.0;
         for (String item : items) {
             if (item.equals("item1")) {
@@ -43,6 +43,6 @@ public class Order1 {
         Order1 order = new Order1(1);
         order.addItem("item1");
         order.addItem("item2");
-        System.out.println("Branch A: Order total is " + order.calculateTotal());
+        System.out.println("Order total is " + order.calculateTotal());
     }
 }

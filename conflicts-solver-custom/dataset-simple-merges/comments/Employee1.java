@@ -5,6 +5,7 @@ public class Employee1 {
     private int id;
     private String name;
     private double salary;
+    // The employee shouldn't be allowed to have duplicate projects (with the same name)
     private List<String> projects;
 
     public Employee1(int id, String name, double salary) {
@@ -46,9 +47,9 @@ public class Employee1 {
         Employee1 employee = new Employee1(1, "Alice", 50000);
         employee.addProject("Project A");
         employee.increaseSalary(5000);
-        System.out.println("Branch A: Employee name is " + employee.getName());
-        System.out.println("Branch A: Employee salary is " + employee.getSalary());
-        System.out.println("Branch A: Employee projects are " + employee.getProjects());
+        System.out.println("Employee name is " + employee.getName());
+        System.out.println("Employee salary is " + employee.getSalary());
+        System.out.println("Employee projects are " + employee.getProjects());
     }
 }
 

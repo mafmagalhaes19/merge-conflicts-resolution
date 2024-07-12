@@ -21,8 +21,8 @@ public class Inventory1 {
         return pricePerUnit;
     }
 
+    // The total value should include taxes
     public double calculateTotalValue() {
-        // This should include taxes
         return quantity * pricePerUnit;
     }
 

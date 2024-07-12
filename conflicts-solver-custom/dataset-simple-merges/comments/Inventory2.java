@@ -20,9 +20,9 @@ public class Inventory2 {
     public double getPricePerUnit() {
         return pricePerUnit;
     }
-
+    
+    // The total value should include taxes
     public double computeTotalValue() {
-        // This should include taxes
         return quantity * pricePerUnit * 1.1; // Includes a 10% tax
     }
 
