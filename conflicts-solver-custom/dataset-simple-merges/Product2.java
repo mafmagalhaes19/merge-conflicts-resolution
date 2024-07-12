@@ -15,12 +15,10 @@ public class Product2 {
         return price;
     }
 
-    // Added in branch B
     public void showProduct() {
         System.out.println("Product Details - Name: " + productName + ", Price: $" + price);
     }
 
-    // Added in branch B
     public String fetchProductInfo() {
         return "Product [Name: " + productName + ", Price: $" + price + "]";
     }

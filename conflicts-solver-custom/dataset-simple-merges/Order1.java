@@ -42,6 +42,6 @@ public class Order1 {
         Order1 order = new Order1(1);
         order.addItem("item1");
         order.addItem("item2");
-        System.out.println("Branch A: Order total is " + order.calculateTotal());
+        System.out.println("Order total is " + order.calculateTotal());
     }
 }

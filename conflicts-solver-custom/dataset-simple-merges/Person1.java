@@ -25,6 +25,6 @@ public class Person1 {
 
     public static void main(String[] args) {
         Person1 person = new Person1("John", "Doe");
-        System.out.println("Branch A: " + person.getFirstName() + " " + person.getLastName());
+        System.out.println(person.getFirstName() + " " + person.getLastName());
     }
 }

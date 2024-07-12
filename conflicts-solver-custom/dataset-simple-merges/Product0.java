@@ -1,8 +1,8 @@
-public class Product1 {
+public class Product0 {
     private String productName;
     private double price;
 
-    public Product1(String productName, double price) {
+    public Product0(String productName, double price) {
         this.productName = productName;
         this.price = price;
     }

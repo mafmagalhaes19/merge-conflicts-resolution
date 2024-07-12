@@ -44,11 +44,11 @@ public class Employee2 {
 
     public static void main(String[] args) {
         Employee2 employee = new Employee2(2, "Bob", 60000);
-        employee.addProject("Project B");
+        employee.addProject("Project A");
         employee.increaseSalary(10);
-        System.out.println("Branch B: Employee name is " + employee.getName());
-        System.out.println("Branch B: Employee salary is " + employee.getSalary());
-        System.out.println("Branch B: Employee projects are " + employee.getProjects());
+        System.out.println("Employee name is " + employee.getName());
+        System.out.println("Employee salary is " + employee.getSalary());
+        System.out.println("Employee projects are " + employee.getProjects());
     }
 }
 

@@ -15,12 +15,10 @@ public class Library1 {
         return location;
     }
 
-    // Added in branch A
     public void printLibraryInfo() {
         System.out.println("Library: " + libraryName + ", Location: " + location);
     }
 
-    // Added in branch A
     public String getLibraryDetails() {
         return "Library Name: " + libraryName + ", Location: " + location;
     }

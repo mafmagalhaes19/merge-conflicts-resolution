@@ -1,9 +1,9 @@
-public class Inventory2 {
+public class Inventory0 {
     private String itemName;
     private int quantity;
     private double pricePerUnit;
 
-    public Inventory2(String itemName, int quantity, double pricePerUnit) {
+    public Inventory0(String itemName, int quantity, double pricePerUnit) {
         this.itemName = itemName;
         this.quantity = quantity;
         this.pricePerUnit = pricePerUnit;

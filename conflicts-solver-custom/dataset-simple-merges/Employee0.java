@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Employee1 {
+public class Employee0 {
     private int id;
     private String name;
     private double salary;
     private List<String> projects;
 
-    public Employee1(int id, String name, double salary) {
+    public Employee0(int id, String name, double salary) {
         this.id = id;
         this.name = name;
         this.salary = salary;
@@ -38,17 +38,16 @@ public class Employee1 {
         return projects;
     }
 
-    public void increaseSalary(double amount) {
-        this.salary += amount;
+    public void increaseSalary(double percentage) {
+        this.salary += this.salary * (percentage / 100);
     }
 
     public static void main(String[] args) {
-        Employee1 employee = new Employee1(1, "Alice", 50000);
+        Employee0 employee = new Employee0(2, "Bob", 60000);
         employee.addProject("Project A");
-        employee.increaseSalary(5000);
+        employee.increaseSalary(10);
         System.out.println("Employee name is " + employee.getName());
         System.out.println("Employee salary is " + employee.getSalary());
         System.out.println("Employee projects are " + employee.getProjects());
     }
 }
-

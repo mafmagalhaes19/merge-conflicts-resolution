@@ -1,8 +1,8 @@
-public class Library2 {
+public class Library0 {
     private String libraryName;
     private String location;
 
-    public Library2(String libraryName, String location) {
+    public Library0(String libraryName, String location) {
         this.libraryName = libraryName;
         this.location = location;
     }
@@ -23,4 +23,3 @@ public class Library2 {
         return "Library [Name: " + libraryName + ", Location: " + location + "]";
     }
 }
-

@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Order2 {
+public class Order0 {
     private int orderId;
     private List<String> items;
 
-    public Order2(int orderId) {
+    public Order0(int orderId) {
         this.orderId = orderId;
         this.items = new ArrayList<>();
     }
@@ -30,18 +30,18 @@ public class Order2 {
         double total = 0.0;
         for (String item : items) {
             if (item.equals("item1")) {
-                total += 12.0;
+                total += 10.0;
             } else if (item.equals("item2")) {
-                total += 18.0;
+                total += 20.0;
             }
         }
         return total;
     }
 
     public static void main(String[] args) {
-        Order2 order = new Order2(2);
+        Order1 order = new Order1(1);
         order.addItem("item1");
-        order.addItem("item3");
+        order.addItem("item2");
         System.out.println("Order total is " + order.calculateTotal());
     }
 }

@@ -1,7 +1,7 @@
-public class Account1 {
+public class Account0 {
     private double balance;
 
-    public Account1(double balance) {
+    public Account0(double balance) {
         this.balance = balance;
     }
 
@@ -14,7 +14,7 @@ public class Account1 {
     }
 
     public static void main(String[] args) {
-        Account1 account = new Account1(1000);
+        Account0 account = new Account0(1000);
         account.deposit(500);
         System.out.println("Account balance is " + account.getBalance());
     }

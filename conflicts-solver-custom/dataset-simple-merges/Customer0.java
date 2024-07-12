@@ -1,9 +1,9 @@
-public class Customer1 {
+public class Customer0 {
     private String name;
     private String email;
     private String phoneNumber;
 
-    public Customer1(String name, String email, String phoneNumber) {
+    public Customer0(String name, String email, String phoneNumber) {
         this.name = name;
         this.email = email;
         this.phoneNumber = phoneNumber;
@@ -31,4 +31,3 @@ public class Customer1 {
         System.out.println("Phone number updated to: " + newPhoneNumber);
     }
 }
-

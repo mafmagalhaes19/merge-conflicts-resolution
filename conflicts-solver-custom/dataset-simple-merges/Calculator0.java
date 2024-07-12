@@ -1,11 +1,10 @@
-public class Calculator2 {
+public class Calculator0 {
     public static void main(String[] args) {
         int result = multiply(4, 2);
         System.out.println("Multiplication Result: " + result);
     }
 
     public static int multiply(int a, int b) {
-        return a + b;
+        return a * b;
     }
 }
-

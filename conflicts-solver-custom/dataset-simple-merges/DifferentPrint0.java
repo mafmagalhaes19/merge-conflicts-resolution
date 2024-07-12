@@ -1,4 +1,4 @@
-public class DifferentPrint1 {
+public class DifferentPrint0 {
     public static void main(String[] args) {
         System.out.println("Hello World");
         int result = addNumbers(5, 3);

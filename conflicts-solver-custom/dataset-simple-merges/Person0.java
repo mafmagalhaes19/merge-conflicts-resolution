@@ -1,8 +1,8 @@
-public class Person2 {
+public class Person0 {
     private String firstName;
     private String lastName;
 
-    public Person2(String firstName, String lastName) {
+    public Person0(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
