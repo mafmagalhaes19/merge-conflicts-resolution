@@ -11,27 +11,33 @@ def generate_response(prompt):
     response = generate(model, tokenizer, prompt=prompt, verbose=True, max_tokens=3000)
     return response 
 
-final_filename = 'conflicts-crawler/final_simple_reverse_result.txt'
+final_filename = 'results/final_simple_merge_result.txt'
+final_filename_comments = 'results/final_comments_result.txt'
+final_filename_reverse = 'results/final_reverse_result.txt'
 
-outputs_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), 'conflicts-crawler/outputs'))
-manual_testing_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), 'conflicts-crawler/dataset-manual-testing'))
-file_path = os.path.join(outputs_folder, 'conflict_urls.json')
+solved_examples_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), 'conflicts-solver-custom/dataset-simple-merges/solved-examples'))
 
 # Paths to example files
 example_files = [
-    ("3scale_ws_api_for_java_commit_c3b5f5d43f5699e2e4d698bd32a74dad9ac1d477_78eceb4_HttpSenderImpl.java",
-     "3scale_ws_api_for_java_commit_c3b5f5d43f5699e2e4d698bd32a74dad9ac1d477_85d75a2_HttpSenderImpl.java",
-     "HttpSenderImpl.java"),
+    ("BankAccount1.java",
+     "BankAccount2.java",
+     "BankAccount0.java"),
+    ("ShoppingCart1.java",
+     "ShoppingCart2.java",
+     "ShoppingCart0.java"),
+    ("Student1.java",
+     "Student2.java",
+     "Student0.java"),
 ]
 
 # Read the example files
 examples = []
 for conflict_a, conflict_b, resolution in example_files:
-    with open(os.path.join(manual_testing_folder, conflict_a), 'r') as file:
+    with open(os.path.join(solved_examples_folder, conflict_a), 'r') as file:
         conflict_a_content = file.read()
-    with open(os.path.join(manual_testing_folder, conflict_b), 'r') as file:
+    with open(os.path.join(solved_examples_folder, conflict_b), 'r') as file:
         conflict_b_content = file.read()
-    with open(os.path.join(manual_testing_folder, resolution), 'r') as file:
+    with open(os.path.join(solved_examples_folder, resolution), 'r') as file:
         resolution_content = file.read()
     examples.append((conflict_a_content, conflict_b_content, resolution_content))
 
@@ -46,8 +52,13 @@ for i, (conflict_a, conflict_b, resolution) in enumerate(examples, start=1):
         f"role: assistant\ncontent: Resolution:\n{resolution}\n\n"
     )
 
-conflict_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), 'conflicts-crawler/dataset-simple-merges/reverse-order'))
+conflict_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), 'conflicts-solver-custom/dataset-simple-merges'))
+conflict_folder_comments = os.path.abspath(os.path.join(os.path.dirname(__file__), 'conflicts-solver-custom/dataset-simple-merges/comments'))
+conflict_folder_reverse = os.path.abspath(os.path.join(os.path.dirname(__file__), 'conflicts-solver-custom/dataset-simple-merges/reverse-order'))
+
 conflict_files = sorted(os.listdir(conflict_folder))
+conflict_files_comments = sorted(os.listdir(conflict_folder_comments))
+conflict_files_reverse = sorted(os.listdir(conflict_folder_reverse))
 
 # Group files by base name and indexes
 conflict_pairs = {}
@@ -57,6 +68,8 @@ for file in conflict_files:
     if base_name not in conflict_pairs:
         conflict_pairs[base_name] = {}
     conflict_pairs[base_name][index] = os.path.join(conflict_folder, file)
+    #conflict_pairs[base_name][index] = os.path.join(conflict_files_comments, file)
+    #conflict_pairs[base_name][index] = os.path.join(conflict_files_reverse, file)
 
 # Iterate over grouped files and pair them
 for base_name, files in conflict_pairs.items():
@@ -85,3 +98,5 @@ for base_name, files in conflict_pairs.items():
             final_file.write(f"Result for {base_name}_{sorted_indexes[i]}_{sorted_indexes[i + 1]}:\n{result}\n\n")
 
 print(f"Final result saved to {final_filename}")
+#print(f"Final result saved to {final_filename_comments}")
+#print(f"Final result saved to {final_filename_reverse}")
