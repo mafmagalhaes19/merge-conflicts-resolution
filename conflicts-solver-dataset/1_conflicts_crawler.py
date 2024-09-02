@@ -11,7 +11,7 @@ tr_elements = soup.find_all('tr')
 data_list = []
 
 # Change the number of projects you want to analyze
-n = 200
+n = 4
 
 #TODO: add metrics for each file (classes and tokens)
 
@@ -75,7 +75,7 @@ for tr in tr_elements[1:n]:
 
 data = {'data': data_list}
 
-output_file = "conflicts-crawler/outputs/projects_and_conflicts.json"
+output_file = "conflicts-crawler/conflicts-solver-dataset/outputs/projects_and_conflicts.json"
 
 with open(output_file, 'w') as f:
     json.dump(data, f, indent=4)
