@@ -13,18 +13,22 @@ data_list = []
 # Change the number of projects you want to analyze
 n = 4
 
-#TODO: add metrics for each file (classes and tokens)
-
-for tr in tr_elements[1:n]: 
+for tr in tr_elements[3:(n+1)]: 
     td_elements = tr.find_all('td')
     if len(td_elements) >= 3:  
         name = td_elements[0].text.strip()
         url = td_elements[2].text.strip()
+        developers = td_elements[3].text.strip()
+        commits = td_elements[4].text.strip()
+        merges = td_elements[5].text.strip()
         href = f"https://merge-nature.netlify.app{td_elements[0].find('a')['href']}"
         data = {
             'name': name,
             'href': href,
-            'url': url
+            'url': url,
+            'developers': developers,
+            'commits': commits,
+            'merges': merges
         }
 
         href_response = requests.get(href)
@@ -75,7 +79,7 @@ for tr in tr_elements[1:n]:
 
 data = {'data': data_list}
 
-output_file = "conflicts-crawler/conflicts-solver-dataset/outputs/projects_and_conflicts.json"
+output_file = "conflicts-solver-dataset/conflicts-crawler/outputs/projects_and_conflicts.json"
 
 with open(output_file, 'w') as f:
     json.dump(data, f, indent=4)

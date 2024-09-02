@@ -4,6 +4,8 @@ import os
 outputs_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), 'outputs'))
 file_path = os.path.join(outputs_folder, 'projects_and_conflicts.json')
 
+#TODO: add metrics for each file (classes and tokens)
+
 # with open('outputs/projects_and_conflicts.json', 'r') as file:
 with open(file_path, 'r') as file:
     data = json.load(file)
