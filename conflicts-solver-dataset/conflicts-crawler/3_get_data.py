@@ -27,7 +27,7 @@ for project_name, commits in conflict_urls.items():
                 url_parts = urlparse(url)
                 raw_index = url_parts.path.split('/').index('raw')
                 x = url_parts.path.split('/')[raw_index + 1]
-                filename = f"conflicts-crawler/dataset/{project_name}_{commit_key}_{x}_{url.split('/')[-1]}"
+                filename = f"conflicts-solver-dataset/conflicts-crawler/dataset-files-in-conflict/{project_name}_{commit_key}_{x}_{url.split('/')[-1]}"
                 with open(filename, 'w', encoding='utf-8') as html_file:
                     html_file.write(html_content)
                 print(f"File content saved to {filename}")
