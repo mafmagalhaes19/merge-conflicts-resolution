@@ -11,7 +11,7 @@ if not os.path.exists('dataset'):
     os.makedirs('dataset')
 
 outputs_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), 'outputs'))
-file_path = os.path.join(outputs_folder, 'conflict_urls.json')
+file_path = os.path.join(outputs_folder, '2_conflict_urls.json')
 
 # with open('conflict_urls.json', 'r') as file:
 with open(file_path, 'r') as file:

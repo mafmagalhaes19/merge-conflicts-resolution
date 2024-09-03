@@ -1,0 +1,42 @@
+{
+    "3scale_ws_api_for_java": {
+        "commit_c3b5f5d43f5699e2e4d698bd32a74dad9ac1d477": [
+            {
+                "file_path": "src/main/java/net/threescale/api/v2/HttpSenderImpl.java",
+                "num_methods": 5,
+                "num_tokens": 587
+            },
+            {
+                "file_path": "src/main/java/net/threescale/api/v2/HttpSenderImpl.java",
+                "num_methods": 5,
+                "num_tokens": 582
+            }
+        ],
+        "commit_332b6ed4e324199565e235cd915368f9bc1b43d2": [
+            {
+                "file_path": "src/net/threescale/api/v2/Api2Impl.java",
+                "num_methods": 8,
+                "num_tokens": 556
+            },
+            {
+                "file_path": "src/net/threescale/api/v2/Api2Impl.java",
+                "num_methods": 10,
+                "num_tokens": 622
+            }
+        ]
+    },
+    "bndtools": {
+        "commit_8f113c6f5d090ff539f3c342591a575b976fd23d": [
+            {
+                "file_path": "bndtools.core/src/bndtools/views/ImportsExportsView.java",
+                "num_methods": 24,
+                "num_tokens": 1050
+            },
+            {
+                "file_path": "bndtools.core/src/bndtools/views/ImportsExportsView.java",
+                "num_methods": 23,
+                "num_tokens": 1024
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "3scale_ws_api_for_java": {
+        "commit_c3b5f5d43f5699e2e4d698bd32a74dad9ac1d477": [
+            "https://github.com/3scale/3scale_ws_api_for_java/raw/78eceb4/src/main/java/net/threescale/api/v2/HttpSenderImpl.java",
+            "https://github.com/3scale/3scale_ws_api_for_java/raw/85d75a2/src/main/java/net/threescale/api/v2/HttpSenderImpl.java"
+        ],
+        "commit_332b6ed4e324199565e235cd915368f9bc1b43d2": [
+            "https://github.com/3scale/3scale_ws_api_for_java/raw/4650578/src/net/threescale/api/v2/Api2Impl.java",
+            "https://github.com/3scale/3scale_ws_api_for_java/raw/d623f49/src/net/threescale/api/v2/Api2Impl.java"
+        ]
+    },
+    "bndtools": {
+        "commit_8f113c6f5d090ff539f3c342591a575b976fd23d": [
+            "https://github.com/bndtools/bndtools/raw/350da93/bndtools.core/src/bndtools/views/ImportsExportsView.java",
+            "https://github.com/bndtools/bndtools/raw/bd65c61/bndtools.core/src/bndtools/views/ImportsExportsView.java"
+        ]
+    }
+}

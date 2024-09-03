@@ -11,9 +11,9 @@ tr_elements = soup.find_all('tr')
 data_list = []
 
 # Change the number of projects you want to analyze
-n = 4
+n = 2
 
-for tr in tr_elements[3:(n+1)]: 
+for tr in tr_elements[1:(n+1)]: 
     td_elements = tr.find_all('td')
     if len(td_elements) >= 3:  
         name = td_elements[0].text.strip()
@@ -36,7 +36,7 @@ for tr in tr_elements[3:(n+1)]:
 
         sha_td_elements = href_soup.find_all('td', {'data-title': 'SHA'})
 
-        filenames = []
+        filenames = set()
         commit_data = {}
         for td_element in sha_td_elements:
             a_tag = td_element.find('a')
@@ -46,7 +46,9 @@ for tr in tr_elements[3:(n+1)]:
                 href_sha_response = requests.get(full_href_sha)
                 href_sha_soup = BeautifulSoup(href_sha_response.text, 'html.parser')
                 filenames_elements = href_sha_soup.find_all('td', {'data-title': 'FileName'})
-                filenames = [filename_element.text.strip() for filename_element in filenames_elements]
+                
+                for filename_element in filenames_elements:
+                    filenames.add(filename_element.text.strip())
 
                 commit_url = f"{url}/commit/{td_element.text.strip()}"
 
@@ -68,7 +70,7 @@ for tr in tr_elements[3:(n+1)]:
                         parent_two = parent_links[1].text.strip()
                 commit_data[f"commit_{td_element.text.strip()}"] = {
                     'sha': td_element.text.strip(),
-                    'files_in_conflict': filenames,
+                    'files_in_conflict': list(filenames),
                     'conflicts': conflicts,
                     'parent_one': parent_one,
                     'parent_two': parent_two
@@ -79,7 +81,7 @@ for tr in tr_elements[3:(n+1)]:
 
 data = {'data': data_list}
 
-output_file = "conflicts-solver-dataset/conflicts-crawler/outputs/projects_and_conflicts.json"
+output_file = "conflicts-solver-dataset/conflicts-crawler/outputs/1_projects_and_conflicts.json"
 
 with open(output_file, 'w') as f:
     json.dump(data, f, indent=4)
