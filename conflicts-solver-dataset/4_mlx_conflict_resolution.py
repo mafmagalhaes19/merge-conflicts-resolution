@@ -4,7 +4,8 @@ from urllib.parse import urlparse
 from mlx_lm import load, generate
 
 # Load the model and tokenizer
-model, tokenizer = load("mlx-community/Meta-Llama-3-8B-Instruct-4bit")
+#model, tokenizer = load("mlx-community/Meta-Llama-3-8B-Instruct-4bit")
+model, tokenizer = load("mlx-community/CodeLlama-13b-Instruct-hf-4bit-MLX")
 
 # Function to generate a response using the mlx_lm model
 def generate_response(prompt):

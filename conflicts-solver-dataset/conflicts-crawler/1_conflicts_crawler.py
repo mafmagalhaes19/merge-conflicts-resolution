@@ -11,7 +11,7 @@ tr_elements = soup.find_all('tr')
 data_list = []
 
 # Change the number of projects you want to analyze
-n = 2
+n = 20
 
 for tr in tr_elements[1:(n+1)]: 
     td_elements = tr.find_all('td')

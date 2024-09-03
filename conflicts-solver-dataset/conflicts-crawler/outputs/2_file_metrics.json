@@ -38,5 +38,3156 @@
                 "num_tokens": 1024
             }
         ]
+    },
+    "platform_packages_apps_browser": {
+        "commit_67832037dbba03f34873878d3f8080ded2ec1017": [
+            {
+                "file_path": "src/com/android/browser/AddBookmarkPage.java",
+                "num_methods": 25,
+                "num_tokens": 1712
+            },
+            {
+                "file_path": "src/com/android/browser/AddBookmarkPage.java",
+                "num_methods": 9,
+                "num_tokens": 767
+            },
+            {
+                "file_path": "src/com/android/browser/DownloadTouchIcon.java",
+                "num_methods": 7,
+                "num_tokens": 679
+            },
+            {
+                "file_path": "src/com/android/browser/DownloadTouchIcon.java",
+                "num_methods": 5,
+                "num_tokens": 455
+            }
+        ],
+        "commit_f26aeabb17d38ed39a0711afcf51694cc69c8d51": [
+            {
+                "file_path": "src/com/android/browser/BrowserActivity.java",
+                "num_methods": 191,
+                "num_tokens": 17397
+            },
+            {
+                "file_path": "src/com/android/browser/BrowserActivity.java",
+                "num_methods": 192,
+                "num_tokens": 16826
+            }
+        ],
+        "commit_a3f90f06f5b3b7db18f30eca5322796fc6b4c2e3": [
+            {
+                "file_path": "src/com/android/browser/BrowserSettings.java",
+                "num_methods": 31,
+                "num_tokens": 1640
+            },
+            {
+                "file_path": "src/com/android/browser/BrowserSettings.java",
+                "num_methods": 31,
+                "num_tokens": 1447
+            }
+        ],
+        "commit_e3fdcaf62ccb6092c43b39c2b990b47eae3ab1b7": [
+            {
+                "file_path": "src/com/android/browser/BrowserActivity.java",
+                "num_methods": 183,
+                "num_tokens": 15695
+            },
+            {
+                "file_path": "src/com/android/browser/BrowserActivity.java",
+                "num_methods": 184,
+                "num_tokens": 15988
+            }
+        ]
+    },
+    "platform_packages_providers_downloadprovider": {
+        "commit_4cefd59d105583644a261702b488591d31bff813": [
+            {
+                "file_path": "src/com/android/providers/downloads/DownloadProvider.java",
+                "num_methods": 23,
+                "num_tokens": 2601
+            },
+            {
+                "file_path": "src/com/android/providers/downloads/DownloadProvider.java",
+                "num_methods": 23,
+                "num_tokens": 2602
+            },
+            {
+                "file_path": "src/com/android/providers/downloads/Helpers.java",
+                "num_methods": 28,
+                "num_tokens": 2896
+            },
+            {
+                "file_path": "src/com/android/providers/downloads/Helpers.java",
+                "num_methods": 28,
+                "num_tokens": 2897
+            }
+        ],
+        "commit_4ed4c65f46f5d077bb40f82e7a4821bd47217fdd": [
+            {
+                "file_path": "src/com/android/providers/downloads/DownloadProvider.java",
+                "num_methods": 23,
+                "num_tokens": 2601
+            },
+            {
+                "file_path": "src/com/android/providers/downloads/DownloadProvider.java",
+                "num_methods": 23,
+                "num_tokens": 2602
+            },
+            {
+                "file_path": "src/com/android/providers/downloads/Helpers.java",
+                "num_methods": 28,
+                "num_tokens": 2896
+            },
+            {
+                "file_path": "src/com/android/providers/downloads/Helpers.java",
+                "num_methods": 28,
+                "num_tokens": 2897
+            }
+        ],
+        "commit_e0114021be2a1ca49a8cba85bb88129d3a19d173": [
+            {
+                "file_path": "src/com/android/providers/downloads/DownloadThread.java",
+                "num_methods": 32,
+                "num_tokens": 2579
+            },
+            {
+                "file_path": "src/com/android/providers/downloads/DownloadThread.java",
+                "num_methods": 32,
+                "num_tokens": 2541
+            }
+        ],
+        "commit_977d38d21876fbc39598ff0a966a27db92ee1d59": [
+            {
+                "file_path": "src/com/android/providers/downloads/DownloadProvider.java",
+                "num_methods": 23,
+                "num_tokens": 2601
+            },
+            {
+                "file_path": "src/com/android/providers/downloads/DownloadProvider.java",
+                "num_methods": 23,
+                "num_tokens": 2601
+            },
+            {
+                "file_path": "src/com/android/providers/downloads/DownloadService.java",
+                "num_methods": 31,
+                "num_tokens": 2988
+            },
+            {
+                "file_path": "src/com/android/providers/downloads/DownloadService.java",
+                "num_methods": 31,
+                "num_tokens": 2979
+            }
+        ]
+    },
+    "CIMTool": {
+        "commit_e33e3f378b457c7629fd12adac3ebe3822bf0860": [
+            {
+                "file_path": "CIMToolPlugin/src/au/com/langdale/cimtoole/builder/ProfileBuildlets.java",
+                "num_methods": 20,
+                "num_tokens": 986
+            },
+            {
+                "file_path": "CIMToolPlugin/src/au/com/langdale/cimtoole/builder/ProfileBuildlets.java",
+                "num_methods": 20,
+                "num_tokens": 965
+            },
+            {
+                "file_path": "CIMToolPlugin/src/au/com/langdale/cimtoole/wizards/SchemaWizardPage.java",
+                "num_methods": 13,
+                "num_tokens": 445
+            },
+            {
+                "file_path": "CIMToolPlugin/src/au/com/langdale/cimtoole/wizards/SchemaWizardPage.java",
+                "num_methods": 12,
+                "num_tokens": 372
+            }
+        ]
+    },
+    "citrus": {
+        "commit_22d891821ce94ed7868c8ff157bc7d0deef31a87": [
+            {
+                "file_path": "modules/citrus-java-dsl/src/main/java/com/consol/citrus/dsl/handler/TestExecutingMessageHandler.java",
+                "num_methods": 3,
+                "num_tokens": 263
+            },
+            {
+                "file_path": "modules/citrus-java-dsl/src/main/java/com/consol/citrus/dsl/handler/TestExecutingMessageHandler.java",
+                "num_methods": 5,
+                "num_tokens": 569
+            }
+        ],
+        "commit_4bc877d82451f60531e3ef00a321679233963a65": [
+            {
+                "file_path": "modules/citrus-admin/src/main/java/com/consol/citrus/admin/launcher/ProcessLauncherImpl.java",
+                "num_methods": 25,
+                "num_tokens": 581
+            },
+            {
+                "file_path": "modules/citrus-admin/src/main/java/com/consol/citrus/admin/launcher/ProcessLauncherImpl.java",
+                "num_methods": 22,
+                "num_tokens": 692
+            }
+        ],
+        "commit_a5d8caf335c089a6097c318c986a61b979ed0b19": [
+            {
+                "file_path": "modules/citrus-admin/src/main/java/com/consol/citrus/admin/service/TestCaseService.java",
+                "num_methods": 7,
+                "num_tokens": 699
+            },
+            {
+                "file_path": "modules/citrus-admin/src/main/java/com/consol/citrus/admin/service/TestCaseService.java",
+                "num_methods": 6,
+                "num_tokens": 689
+            }
+        ],
+        "commit_edc0172918b650eec4973ab4017f3ea01e599add": [
+            {
+                "file_path": "modules/citrus-core/src/main/java/com/consol/citrus/TestAction.java",
+                "num_methods": 0,
+                "num_tokens": 232
+            },
+            {
+                "file_path": "modules/citrus-core/src/main/java/com/consol/citrus/TestAction.java",
+                "num_methods": 0,
+                "num_tokens": 205
+            }
+        ]
+    },
+    "ecommons-uimisc": {
+        "commit_9a4a5ac6b3422889204961338d8685281a5898c0": [
+            {
+                "file_path": "org.eclipse.nebula.widgets.nattable.core/src/org/eclipse/nebula/widgets/nattable/viewport/ViewportLayer.java",
+                "num_methods": 78,
+                "num_tokens": 2894
+            },
+            {
+                "file_path": "org.eclipse.nebula.widgets.nattable.core/src/org/eclipse/nebula/widgets/nattable/viewport/ViewportLayer.java",
+                "num_methods": 81,
+                "num_tokens": 2951
+            }
+        ],
+        "commit_fad14eae3b2a8af191ef308c64ef454a2e32fc33": [
+            {
+                "file_path": "org.eclipse.nebula.widgets.nattable.core.test/src/org/eclipse/nebula/widgets/nattable/freeze/command/FreezeHandlerTest.java",
+                "num_methods": 8,
+                "num_tokens": 463
+            },
+            {
+                "file_path": "org.eclipse.nebula.widgets.nattable.core.test/src/org/eclipse/nebula/widgets/nattable/freeze/command/FreezeHandlerTest.java",
+                "num_methods": 8,
+                "num_tokens": 452
+            }
+        ],
+        "commit_472b4782c5bd95a47073f950b66f069e9b6f352f": [
+            {
+                "file_path": "org.eclipse.nebula.widgets.nattable.core/src/org/eclipse/nebula/widgets/nattable/painter/cell/ImagePainter.java",
+                "num_methods": 8,
+                "num_tokens": 346
+            },
+            {
+                "file_path": "org.eclipse.nebula.widgets.nattable.core/src/org/eclipse/nebula/widgets/nattable/painter/cell/ImagePainter.java",
+                "num_methods": 8,
+                "num_tokens": 343
+            }
+        ]
+    },
+    "jodt": {
+        "commit_b864b0d7212eaddf421cf8a2bfec0c17b9c575b8": [
+            {
+                "file_path": "jodt-core/src/main/java/org/jodt/property/AbstractTest_CompositeProperty.java",
+                "num_methods": 12,
+                "num_tokens": 818
+            },
+            {
+                "file_path": "jodt-core/src/main/java/org/jodt/property/AbstractTest_CompositeProperty.java",
+                "num_methods": 14,
+                "num_tokens": 918
+            }
+        ]
+    },
+    "aws-sdk-java": {
+        "commit_7ab10af25bc8a019651a33f6d19579558350c761": [
+            {
+                "file_path": "src/main/java/com/amazonaws/services/s3/AmazonS3Client.java",
+                "num_methods": 69,
+                "num_tokens": 13600
+            },
+            {
+                "file_path": "src/main/java/com/amazonaws/services/s3/AmazonS3Client.java",
+                "num_methods": 75,
+                "num_tokens": 14084
+            }
+        ],
+        "commit_2dd166f640dc18e124b848431d96e669881ba859": [
+            {
+                "file_path": "src/main/java/com/amazonaws/services/s3/transfer/TransferManager.java",
+                "num_methods": 22,
+                "num_tokens": 4363
+            },
+            {
+                "file_path": "src/main/java/com/amazonaws/services/s3/transfer/TransferManager.java",
+                "num_methods": 24,
+                "num_tokens": 4438
+            }
+        ]
+    },
+    "beam": {
+        "commit_7790a8e942f4cbc093b07b0aa19712c88393efed": [
+            {
+                "file_path": "beam-geotiff/src/main/java/org/esa/beam/dataio/geotiff/GeoTiffProductReader.java",
+                "num_methods": 20,
+                "num_tokens": 3175
+            },
+            {
+                "file_path": "beam-geotiff/src/main/java/org/esa/beam/dataio/geotiff/GeoTiffProductReader.java",
+                "num_methods": 18,
+                "num_tokens": 2738
+            }
+        ],
+        "commit_70f10d0d779c176266fcdf855f26f868e31a5801": [
+            {
+                "file_path": "beam-binning/src/test/java/org/esa/beam/binning/support/ReducedGaussianGridTest.java",
+                "num_methods": 8,
+                "num_tokens": 148
+            },
+            {
+                "file_path": "beam-binning/src/test/java/org/esa/beam/binning/support/ReducedGaussianGridTest.java",
+                "num_methods": 0,
+                "num_tokens": 110
+            }
+        ],
+        "commit_850455556cad0832d8eff0929ac31dd85397283a": [
+            {
+                "file_path": "beam-core/src/main/java/org/esa/beam/jai/ImageManager.java",
+                "num_methods": 72,
+                "num_tokens": 3908
+            },
+            {
+                "file_path": "beam-core/src/main/java/org/esa/beam/jai/ImageManager.java",
+                "num_methods": 63,
+                "num_tokens": 3283
+            }
+        ],
+        "commit_b1032abf6d44d4db51a93b4fa8052fd2e4272e96": [
+            {
+                "file_path": "beam-envisat-reader/src/main/java/org/esa/beam/dataio/envisat/EnvisatOrbitReader.java",
+                "num_methods": 5,
+                "num_tokens": 1048
+            },
+            {
+                "file_path": "beam-envisat-reader/src/main/java/org/esa/beam/dataio/envisat/EnvisatOrbitReader.java",
+                "num_methods": 9,
+                "num_tokens": 1441
+            }
+        ],
+        "commit_3fced5b4d5f27fcd02927be71742570275feb9d5": [
+            {
+                "file_path": "beam-flhmci/src/main/java/org/esa/beam/processor/flh_mci/BaselineAlgorithm.java",
+                "num_methods": 4,
+                "num_tokens": 492
+            },
+            {
+                "file_path": "beam-flhmci/src/main/java/org/esa/beam/processor/flh_mci/BaselineAlgorithm.java",
+                "num_methods": 4,
+                "num_tokens": 493
+            }
+        ],
+        "commit_c886615b03801e1abc629e89f765bf4e5dc2d819": [
+            {
+                "file_path": "beam-core/src/main/java/org/esa/beam/framework/datamodel/PixelGeoCoding.java",
+                "num_methods": 52,
+                "num_tokens": 5939
+            },
+            {
+                "file_path": "beam-core/src/main/java/org/esa/beam/framework/datamodel/PixelGeoCoding.java",
+                "num_methods": 55,
+                "num_tokens": 6424
+            }
+        ],
+        "commit_00f5afaed433c48ceb647377a47f126f4acd73f9": [
+            {
+                "file_path": "beam-core/src/main/java/org/esa/beam/framework/datamodel/Product.java",
+                "num_methods": 161,
+                "num_tokens": 10806
+            },
+            {
+                "file_path": "beam-core/src/main/java/org/esa/beam/framework/datamodel/Product.java",
+                "num_methods": 160,
+                "num_tokens": 10822
+            }
+        ],
+        "commit_91fefb2c7f97aa333b41fae746fbe087333c07ac": [
+            {
+                "file_path": "beam-visat-rcp/src/main/java/org/esa/beam/visat/toolviews/stat/DensityPlotPanel.java",
+                "num_methods": 37,
+                "num_tokens": 2342
+            },
+            {
+                "file_path": "beam-visat-rcp/src/main/java/org/esa/beam/visat/toolviews/stat/DensityPlotPanel.java",
+                "num_methods": 29,
+                "num_tokens": 1607
+            }
+        ],
+        "commit_89d9f5d184598c5d0bb8b9c08c9f2f3ebf085dfd": [
+            {
+                "file_path": "beam-ui/src/main/java/org/esa/beam/framework/ui/ImageInfoEditor.java",
+                "num_methods": 107,
+                "num_tokens": 3485
+            },
+            {
+                "file_path": "beam-ui/src/main/java/org/esa/beam/framework/ui/ImageInfoEditor.java",
+                "num_methods": 108,
+                "num_tokens": 3514
+            }
+        ],
+        "commit_659b3e0e0bd4fa0a3ccadf4f50101ecac5405e0c": [
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/OperatorDesc.java",
+                "num_methods": 10,
+                "num_tokens": 263
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/OperatorDesc.java",
+                "num_methods": 9,
+                "num_tokens": 231
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/OperatorDoclet.java",
+                "num_methods": 6,
+                "num_tokens": 441
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/OperatorDoclet.java",
+                "num_methods": 6,
+                "num_tokens": 419
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/OperatorHandlerHtml.java",
+                "num_methods": 8,
+                "num_tokens": 546
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/OperatorHandlerHtml.java",
+                "num_methods": 7,
+                "num_tokens": 501
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/ParameterDesc.java",
+                "num_methods": 3,
+                "num_tokens": 61
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/ParameterDesc.java",
+                "num_methods": 1,
+                "num_tokens": 50
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/SourceProductDesc.java",
+                "num_methods": 2,
+                "num_tokens": 46
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/SourceProductDesc.java",
+                "num_methods": 2,
+                "num_tokens": 61
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/graph/SourceList.java",
+                "num_methods": 6,
+                "num_tokens": 240
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/graph/SourceList.java",
+                "num_methods": 6,
+                "num_tokens": 237
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/main/CommandLineTool.java",
+                "num_methods": 0,
+                "num_tokens": 714
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/main/CommandLineTool.java",
+                "num_methods": 0,
+                "num_tokens": 714
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/main/CommandLineUsage.java",
+                "num_methods": 30,
+                "num_tokens": 1771
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/main/CommandLineUsage.java",
+                "num_methods": 27,
+                "num_tokens": 1684
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/operators/common/BandMathOp.java",
+                "num_methods": 6,
+                "num_tokens": 994
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/operators/common/BandMathOp.java",
+                "num_methods": 6,
+                "num_tokens": 861
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/operators/common/PassThroughOp.java",
+                "num_methods": 3,
+                "num_tokens": 85
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/operators/common/PassThroughOp.java",
+                "num_methods": 3,
+                "num_tokens": 88
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/operators/common/SubsetOp.java",
+                "num_methods": 11,
+                "num_tokens": 365
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/operators/common/SubsetOp.java",
+                "num_methods": 11,
+                "num_tokens": 342
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/operators/common/WriteOp.java",
+                "num_methods": 15,
+                "num_tokens": 1097
+            },
+            {
+                "file_path": "beam-gpf/src/main/java/org/esa/beam/framework/gpf/operators/common/WriteOp.java",
+                "num_methods": 15,
+                "num_tokens": 1009
+            },
+            {
+                "file_path": "beam-gpf/src/test/java/org/esa/beam/framework/gpf/main/CommandLineToolMultiSourceGraphTest.java",
+                "num_methods": 4,
+                "num_tokens": 481
+            },
+            {
+                "file_path": "beam-gpf/src/test/java/org/esa/beam/framework/gpf/main/CommandLineToolMultiSourceGraphTest.java",
+                "num_methods": 4,
+                "num_tokens": 449
+            },
+            {
+                "file_path": "beam-gpf/src/test/java/org/esa/beam/framework/gpf/main/CommandLineToolOperatorTest.java",
+                "num_methods": 4,
+                "num_tokens": 613
+            },
+            {
+                "file_path": "beam-gpf/src/test/java/org/esa/beam/framework/gpf/main/CommandLineToolOperatorTest.java",
+                "num_methods": 4,
+                "num_tokens": 611
+            },
+            {
+                "file_path": "beam-ui/src/main/java/org/esa/beam/framework/ui/product/ProductTree.java",
+                "num_methods": 51,
+                "num_tokens": 1987
+            },
+            {
+                "file_path": "beam-ui/src/main/java/org/esa/beam/framework/ui/product/ProductTree.java",
+                "num_methods": 74,
+                "num_tokens": 2861
+            },
+            {
+                "file_path": "beam-visat-rcp/src/main/java/org/esa/beam/visat/ProductsToolView.java",
+                "num_methods": 36,
+                "num_tokens": 897
+            },
+            {
+                "file_path": "beam-visat-rcp/src/main/java/org/esa/beam/visat/ProductsToolView.java",
+                "num_methods": 37,
+                "num_tokens": 925
+            },
+            {
+                "file_path": "beam-visat-rcp/src/main/java/org/esa/beam/visat/toolviews/stat/PagePanel.java",
+                "num_methods": 43,
+                "num_tokens": 907
+            },
+            {
+                "file_path": "beam-visat-rcp/src/main/java/org/esa/beam/visat/toolviews/stat/PagePanel.java",
+                "num_methods": 43,
+                "num_tokens": 908
+            },
+            {
+                "file_path": "beam-visat-rcp/src/main/java/org/esa/beam/visat/toolviews/stat/StatisticsToolView.java",
+                "num_methods": 24,
+                "num_tokens": 880
+            },
+            {
+                "file_path": "beam-visat-rcp/src/main/java/org/esa/beam/visat/toolviews/stat/StatisticsToolView.java",
+                "num_methods": 24,
+                "num_tokens": 879
+            }
+        ]
+    },
+    "ccw": {
+        "commit_6d97ca4bb5e34b3aa65902b39afaf500a8a83c43": [
+            {
+                "file_path": "ccw.core/src/java/ccw/repl/ConnectDialog.java",
+                "num_methods": 7,
+                "num_tokens": 181
+            },
+            {
+                "file_path": "ccw.core/src/java/ccw/repl/ConnectDialog.java",
+                "num_methods": 5,
+                "num_tokens": 135
+            }
+        ],
+        "commit_3d29b2dcb5621617354b9c36495109aa6e74bb41": [
+            {
+                "file_path": "ccw.core/src/ccw/repl/REPLView.java",
+                "num_methods": 42,
+                "num_tokens": 1717
+            },
+            {
+                "file_path": "ccw.core/src/ccw/repl/REPLView.java",
+                "num_methods": 34,
+                "num_tokens": 1517
+            }
+        ],
+        "commit_d83823e367b0c9462c1cfdf9e8fe33aec81f1756": [
+            {
+                "file_path": "ccw.core/src/ccw/editors/antlrbased/AntlrBasedClojureEditor.java",
+                "num_methods": 38,
+                "num_tokens": 1890
+            },
+            {
+                "file_path": "ccw.core/src/ccw/editors/antlrbased/AntlrBasedClojureEditor.java",
+                "num_methods": 37,
+                "num_tokens": 1896
+            }
+        ],
+        "commit_a42db3b76cdc7b13b9c2e76fe24eb9b49a395e2c": [
+            {
+                "file_path": "ccw.core/src/ccw/editors/antlrbased/AntlrBasedClojureEditor.java",
+                "num_methods": 33,
+                "num_tokens": 1811
+            },
+            {
+                "file_path": "ccw.core/src/ccw/editors/antlrbased/AntlrBasedClojureEditor.java",
+                "num_methods": 37,
+                "num_tokens": 1887
+            }
+        ]
+    },
+    "hudson": {
+        "commit_3624f70169557da4263fdaae96834791ef73c61f": [
+            {
+                "file_path": "test/src/test/java/hudson/cli/CreateNodeCommandTest.java",
+                "num_methods": 1,
+                "num_tokens": 472
+            },
+            {
+                "file_path": "test/src/test/java/hudson/cli/CreateNodeCommandTest.java",
+                "num_methods": 1,
+                "num_tokens": 475
+            },
+            {
+                "file_path": "test/src/test/java/hudson/cli/DeleteNodeCommandTest.java",
+                "num_methods": 2,
+                "num_tokens": 433
+            },
+            {
+                "file_path": "test/src/test/java/hudson/cli/DeleteNodeCommandTest.java",
+                "num_methods": 2,
+                "num_tokens": 613
+            },
+            {
+                "file_path": "test/src/test/java/hudson/cli/GetNodeCommandTest.java",
+                "num_methods": 1,
+                "num_tokens": 342
+            },
+            {
+                "file_path": "test/src/test/java/hudson/cli/GetNodeCommandTest.java",
+                "num_methods": 1,
+                "num_tokens": 344
+            },
+            {
+                "file_path": "test/src/test/java/hudson/cli/OnlineNodeCommandTest.java",
+                "num_methods": 1,
+                "num_tokens": 538
+            },
+            {
+                "file_path": "test/src/test/java/hudson/cli/OnlineNodeCommandTest.java",
+                "num_methods": 1,
+                "num_tokens": 540
+            },
+            {
+                "file_path": "test/src/test/java/hudson/cli/UpdateNodeCommandTest.java",
+                "num_methods": 1,
+                "num_tokens": 357
+            },
+            {
+                "file_path": "test/src/test/java/hudson/cli/UpdateNodeCommandTest.java",
+                "num_methods": 1,
+                "num_tokens": 359
+            }
+        ],
+        "commit_ac0a4076bfad052a6ca177b1c2421a31cfd1ca03": [
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractProject.java",
+                "num_methods": 113,
+                "num_tokens": 8017
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractProject.java",
+                "num_methods": 113,
+                "num_tokens": 7992
+            }
+        ],
+        "commit_4c0d5ea6437000b3dd2bf66a6568271712b612fc": [
+            {
+                "file_path": "cli/src/test/java/hudson/cli/ConnectionTest.java",
+                "num_methods": 4,
+                "num_tokens": 162
+            },
+            {
+                "file_path": "cli/src/test/java/hudson/cli/ConnectionTest.java",
+                "num_methods": 4,
+                "num_tokens": 186
+            }
+        ],
+        "commit_a1b0c3a484f8dbd74c52e79678a27214735ae1bf": [
+            {
+                "file_path": "test/src/test/java/jenkins/security/ApiTokenPropertyTest.java",
+                "num_methods": 4,
+                "num_tokens": 740
+            },
+            {
+                "file_path": "test/src/test/java/jenkins/security/ApiTokenPropertyTest.java",
+                "num_methods": 5,
+                "num_tokens": 748
+            }
+        ],
+        "commit_0cc7d3f580199a721bc74136580680745948d79f": [
+            {
+                "file_path": "test/src/test/java/jenkins/security/ApiTokenPropertyTest.java",
+                "num_methods": 4,
+                "num_tokens": 483
+            },
+            {
+                "file_path": "test/src/test/java/jenkins/security/ApiTokenPropertyTest.java",
+                "num_methods": 3,
+                "num_tokens": 530
+            }
+        ],
+        "commit_b70520f17c6cf5379245b3e2bb6a7958dc9945e3": [
+            {
+                "file_path": "core/src/main/java/hudson/model/Fingerprint.java",
+                "num_methods": 99,
+                "num_tokens": 4165
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Fingerprint.java",
+                "num_methods": 103,
+                "num_tokens": 4468
+            }
+        ],
+        "commit_4c37ee59e7a251c5617d4952f5b09edab8e8c98c": [
+            {
+                "file_path": "test/src/test/java/jenkins/security/ApiTokenPropertyTest.java",
+                "num_methods": 3,
+                "num_tokens": 530
+            },
+            {
+                "file_path": "test/src/test/java/jenkins/security/ApiTokenPropertyTest.java",
+                "num_methods": 4,
+                "num_tokens": 483
+            }
+        ],
+        "commit_363cbc3671f51ff08fb533e6e115f82d4d8d7f10": [
+            {
+                "file_path": "test/src/test/java/jenkins/security/ApiTokenPropertyTest.java",
+                "num_methods": 2,
+                "num_tokens": 278
+            },
+            {
+                "file_path": "test/src/test/java/jenkins/security/ApiTokenPropertyTest.java",
+                "num_methods": 4,
+                "num_tokens": 456
+            }
+        ],
+        "commit_21d134811f61c70965d04a57bb6d5093850814de": [
+            {
+                "file_path": "core/src/main/java/hudson/model/ItemGroupMixIn.java",
+                "num_methods": 4,
+                "num_tokens": 1101
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/ItemGroupMixIn.java",
+                "num_methods": 4,
+                "num_tokens": 1141
+            }
+        ],
+        "commit_ecf3b2d7648d0d1708f611820babe24f45b1f640": [
+            {
+                "file_path": "test/src/test/java/hudson/model/ItemGroupMixInTest.java",
+                "num_methods": 11,
+                "num_tokens": 670
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/ItemGroupMixInTest.java",
+                "num_methods": 0,
+                "num_tokens": 342
+            }
+        ],
+        "commit_2c4cc77d33e836d4b0f8bda7cc575bec8877d9e6": [
+            {
+                "file_path": "core/src/test/java/hudson/util/FormValidationTest.java",
+                "num_methods": 8,
+                "num_tokens": 360
+            },
+            {
+                "file_path": "core/src/test/java/hudson/util/FormValidationTest.java",
+                "num_methods": 5,
+                "num_tokens": 278
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/UserTest.java",
+                "num_methods": 21,
+                "num_tokens": 1752
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/UserTest.java",
+                "num_methods": 17,
+                "num_tokens": 1647
+            }
+        ],
+        "commit_9abf36612a7a92422e0d6c688796bc0fca590ee8": [
+            {
+                "file_path": "core/src/test/java/hudson/util/FormValidationTest.java",
+                "num_methods": 8,
+                "num_tokens": 360
+            },
+            {
+                "file_path": "core/src/test/java/hudson/util/FormValidationTest.java",
+                "num_methods": 5,
+                "num_tokens": 278
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/UserTest.java",
+                "num_methods": 21,
+                "num_tokens": 1752
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/UserTest.java",
+                "num_methods": 17,
+                "num_tokens": 1647
+            }
+        ],
+        "commit_1780041009ca637eafc2790bbeeb4112d2272f77": [
+            {
+                "file_path": "test/src/test/java/hudson/model/UserTest.java",
+                "num_methods": 21,
+                "num_tokens": 1752
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/UserTest.java",
+                "num_methods": 17,
+                "num_tokens": 1647
+            }
+        ],
+        "commit_f83e9aef6d85f7bf8cc6f0055bc4e87f907a459a": [
+            {
+                "file_path": "test/src/test/java/hudson/model/UpdateCenter2Test.java",
+                "num_methods": 1,
+                "num_tokens": 293
+            }
+        ],
+        "commit_f60bde00ab87712321284ec8ebad677b3d1dcf40": [
+            {
+                "file_path": "core/src/main/java/hudson/PluginManager.java",
+                "num_methods": 50,
+                "num_tokens": 4537
+            },
+            {
+                "file_path": "core/src/main/java/hudson/PluginManager.java",
+                "num_methods": 48,
+                "num_tokens": 4111
+            },
+            {
+                "file_path": "core/src/test/java/hudson/PluginManagerTest.java",
+                "num_methods": 0,
+                "num_tokens": 234
+            },
+            {
+                "file_path": "core/src/test/java/hudson/PluginManagerTest.java",
+                "num_methods": 0,
+                "num_tokens": 314
+            }
+        ],
+        "commit_3c2e8171f89d173d247123aaeaf10f60a9472977": [
+            {
+                "file_path": "core/src/main/java/hudson/PluginManager.java",
+                "num_methods": 50,
+                "num_tokens": 4537
+            },
+            {
+                "file_path": "core/src/main/java/hudson/PluginManager.java",
+                "num_methods": 48,
+                "num_tokens": 4111
+            },
+            {
+                "file_path": "core/src/test/java/hudson/PluginManagerTest.java",
+                "num_methods": 0,
+                "num_tokens": 234
+            },
+            {
+                "file_path": "core/src/test/java/hudson/PluginManagerTest.java",
+                "num_methods": 0,
+                "num_tokens": 314
+            }
+        ],
+        "commit_7f51765a596d69d54e5d6c41dd396e0bef351498": [
+            {
+                "file_path": "test/src/test/java/hudson/tasks/ArtifactArchiverTest.java",
+                "num_methods": 0,
+                "num_tokens": 775
+            }
+        ],
+        "commit_9285ed86a2d59f2db50b0f273ee6c6ee365fec43": [
+            {
+                "file_path": "test/src/test/java/hudson/tasks/ArtifactArchiverTest.java",
+                "num_methods": 0,
+                "num_tokens": 775
+            }
+        ],
+        "commit_d6d127d637c210f68acbef20c5d229a597bd9af1": [
+            {
+                "file_path": "test/src/test/java/hudson/tasks/ArtifactArchiverTest.java",
+                "num_methods": 0,
+                "num_tokens": 775
+            }
+        ],
+        "commit_35b97d451c717d3f75b357b3caca347e1e65fe30": [
+            {
+                "file_path": "core/src/main/java/hudson/model/Api.java",
+                "num_methods": 7,
+                "num_tokens": 775
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Api.java",
+                "num_methods": 6,
+                "num_tokens": 771
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/ApiTest.java",
+                "num_methods": 0,
+                "num_tokens": 415
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/ApiTest.java",
+                "num_methods": 0,
+                "num_tokens": 474
+            }
+        ],
+        "commit_842e6d8ecaec77344dd6762141a1c849eb5b9a73": [
+            {
+                "file_path": "core/src/main/java/hudson/model/Api.java",
+                "num_methods": 7,
+                "num_tokens": 775
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Api.java",
+                "num_methods": 6,
+                "num_tokens": 771
+            }
+        ],
+        "commit_ade1d43664739d94cd5daeadb3f3113a70b4c8ab": [
+            {
+                "file_path": "core/src/main/java/hudson/model/Api.java",
+                "num_methods": 7,
+                "num_tokens": 775
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Api.java",
+                "num_methods": 6,
+                "num_tokens": 771
+            }
+        ],
+        "commit_6fe334cc31a7041fb0ab6e63935a4d9c99d513f2": [
+            {
+                "file_path": "test/src/test/java/hudson/tasks/BuildTriggerTest.java",
+                "num_methods": 1,
+                "num_tokens": 1016
+            },
+            {
+                "file_path": "test/src/test/java/hudson/tasks/BuildTriggerTest.java",
+                "num_methods": 0,
+                "num_tokens": 649
+            }
+        ],
+        "commit_7288fea48899e217b9e26c2377df66ff81f93d9a": [
+            {
+                "file_path": "test/src/test/java/hudson/tasks/BuildTriggerTest.java",
+                "num_methods": 1,
+                "num_tokens": 1016
+            },
+            {
+                "file_path": "test/src/test/java/hudson/tasks/BuildTriggerTest.java",
+                "num_methods": 0,
+                "num_tokens": 649
+            }
+        ],
+        "commit_0af6f66c26ee98a23a34b1ffa5d4d58cc9f705a0": [
+            {
+                "file_path": "test/src/test/java/hudson/tasks/BuildTriggerTest.java",
+                "num_methods": 1,
+                "num_tokens": 1016
+            },
+            {
+                "file_path": "test/src/test/java/hudson/tasks/BuildTriggerTest.java",
+                "num_methods": 0,
+                "num_tokens": 649
+            }
+        ],
+        "commit_6ad8cbfc3ab570eb5e4d659e44f03b0744c22b0f": [
+            {
+                "file_path": "core/src/main/java/hudson/ClassicPluginStrategy.java",
+                "num_methods": 22,
+                "num_tokens": 2672
+            },
+            {
+                "file_path": "core/src/main/java/hudson/ClassicPluginStrategy.java",
+                "num_methods": 18,
+                "num_tokens": 2516
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Run.java",
+                "num_methods": 117,
+                "num_tokens": 9267
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Run.java",
+                "num_methods": 118,
+                "num_tokens": 8761
+            },
+            {
+                "file_path": "core/src/main/java/hudson/node_monitors/MonitorOfflineCause.java",
+                "num_methods": 0,
+                "num_tokens": 247
+            },
+            {
+                "file_path": "core/src/main/java/jenkins/model/IdStrategyDescriptor.java",
+                "num_methods": 0,
+                "num_tokens": 218
+            },
+            {
+                "file_path": "core/src/test/java/hudson/util/XStream2Test.java",
+                "num_methods": 17,
+                "num_tokens": 1080
+            },
+            {
+                "file_path": "core/src/test/java/hudson/util/XStream2Test.java",
+                "num_methods": 15,
+                "num_tokens": 1073
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/AbstractItemSecurityTest.java",
+                "num_methods": 0,
+                "num_tokens": 402
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/AbstractItemSecurityTest.java",
+                "num_methods": 0,
+                "num_tokens": 375
+            }
+        ],
+        "commit_253762ac34eff93648a0e3eb1eb0b9cf3fe59ad1": [
+            {
+                "file_path": "core/src/main/java/hudson/ClassicPluginStrategy.java",
+                "num_methods": 22,
+                "num_tokens": 2618
+            },
+            {
+                "file_path": "core/src/main/java/hudson/ClassicPluginStrategy.java",
+                "num_methods": 18,
+                "num_tokens": 2516
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Run.java",
+                "num_methods": 119,
+                "num_tokens": 9405
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Run.java",
+                "num_methods": 118,
+                "num_tokens": 8761
+            },
+            {
+                "file_path": "core/src/main/java/hudson/node_monitors/MonitorOfflineCause.java",
+                "num_methods": 0,
+                "num_tokens": 247
+            },
+            {
+                "file_path": "core/src/main/java/jenkins/model/IdStrategyDescriptor.java",
+                "num_methods": 0,
+                "num_tokens": 218
+            }
+        ],
+        "commit_f3fe83803df055ad5eda68a295cc9f58865ded84": [
+            {
+                "file_path": "core/src/main/java/hudson/ClassicPluginStrategy.java",
+                "num_methods": 22,
+                "num_tokens": 2600
+            },
+            {
+                "file_path": "core/src/main/java/hudson/ClassicPluginStrategy.java",
+                "num_methods": 18,
+                "num_tokens": 2516
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Run.java",
+                "num_methods": 119,
+                "num_tokens": 9202
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Run.java",
+                "num_methods": 118,
+                "num_tokens": 8761
+            },
+            {
+                "file_path": "core/src/main/java/jenkins/model/IdStrategyDescriptor.java",
+                "num_methods": 0,
+                "num_tokens": 218
+            }
+        ],
+        "commit_5c2ac6f50eacab928eee68fbde9bdf4120fedd4d": [
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractItem.java",
+                "num_methods": 30,
+                "num_tokens": 2727
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractItem.java",
+                "num_methods": 29,
+                "num_tokens": 2241
+            }
+        ],
+        "commit_7515734b6dd453a8ed4ac2401df16f25d140ea26": [
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractItem.java",
+                "num_methods": 30,
+                "num_tokens": 2727
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractItem.java",
+                "num_methods": 29,
+                "num_tokens": 2241
+            }
+        ],
+        "commit_228e3d90b63f1b59009706582912468dbb986f89": [
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractItem.java",
+                "num_methods": 30,
+                "num_tokens": 2726
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractItem.java",
+                "num_methods": 29,
+                "num_tokens": 2241
+            }
+        ],
+        "commit_d671beffe68236bdcd82c2156ef2fbd4f7c03e69": [
+            {
+                "file_path": "core/src/main/java/hudson/model/DownloadService.java",
+                "num_methods": 16,
+                "num_tokens": 1440
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/UpdateSite.java",
+                "num_methods": 38,
+                "num_tokens": 3006
+            },
+            {
+                "file_path": "core/src/main/java/jenkins/util/JSONSignatureValidator.java",
+                "num_methods": 1,
+                "num_tokens": 925
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/DownloadServiceTest.java",
+                "num_methods": 0,
+                "num_tokens": 240
+            }
+        ],
+        "commit_67f338507dc5b41c880066276367d9e4023e9f53": [
+            {
+                "file_path": "core/src/main/java/hudson/model/DownloadService.java",
+                "num_methods": 16,
+                "num_tokens": 1440
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/UpdateSite.java",
+                "num_methods": 38,
+                "num_tokens": 3006
+            },
+            {
+                "file_path": "core/src/main/java/jenkins/util/JSONSignatureValidator.java",
+                "num_methods": 1,
+                "num_tokens": 925
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/DownloadServiceTest.java",
+                "num_methods": 0,
+                "num_tokens": 240
+            }
+        ],
+        "commit_9bf85ed7bd51f1d4412e99a897a03ea5ede409a5": [
+            {
+                "file_path": "core/src/main/java/hudson/model/DownloadService.java",
+                "num_methods": 16,
+                "num_tokens": 1440
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/UpdateSite.java",
+                "num_methods": 37,
+                "num_tokens": 2981
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/DownloadServiceTest.java",
+                "num_methods": 0,
+                "num_tokens": 240
+            }
+        ],
+        "commit_cd0752432ed718e30281eb4e2732646550996868": [
+            {
+                "file_path": "test/src/test/java/hudson/model/ItemGroupMixInTest.java",
+                "num_methods": 3,
+                "num_tokens": 516
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/ItemGroupMixInTest.java",
+                "num_methods": 0,
+                "num_tokens": 247
+            }
+        ],
+        "commit_f0658e233d2e7c6d44bf74beb242d9d5d2b8b03c": [
+            {
+                "file_path": "core/src/main/java/hudson/FilePath.java",
+                "num_methods": 78,
+                "num_tokens": 11233
+            },
+            {
+                "file_path": "core/src/main/java/hudson/FilePath.java",
+                "num_methods": 66,
+                "num_tokens": 10642
+            }
+        ],
+        "commit_c94c1716f336f6e857918b01746920517bd16176": [
+            {
+                "file_path": "core/src/main/java/hudson/FilePath.java",
+                "num_methods": 77,
+                "num_tokens": 11194
+            },
+            {
+                "file_path": "core/src/main/java/hudson/FilePath.java",
+                "num_methods": 74,
+                "num_tokens": 10969
+            },
+            {
+                "file_path": "core/src/main/java/hudson/PluginManager.java",
+                "num_methods": 48,
+                "num_tokens": 4390
+            },
+            {
+                "file_path": "core/src/main/java/hudson/PluginManager.java",
+                "num_methods": 50,
+                "num_tokens": 4204
+            },
+            {
+                "file_path": "core/src/main/java/hudson/PluginWrapper.java",
+                "num_methods": 39,
+                "num_tokens": 2180
+            },
+            {
+                "file_path": "core/src/main/java/hudson/PluginWrapper.java",
+                "num_methods": 40,
+                "num_tokens": 2186
+            }
+        ],
+        "commit_84a92396de77f3f744db1287e44ff78f16a5fc1a": [
+            {
+                "file_path": "core/src/main/java/hudson/FilePath.java",
+                "num_methods": 77,
+                "num_tokens": 11131
+            },
+            {
+                "file_path": "core/src/main/java/hudson/FilePath.java",
+                "num_methods": 74,
+                "num_tokens": 10969
+            },
+            {
+                "file_path": "core/src/main/java/hudson/PluginManager.java",
+                "num_methods": 48,
+                "num_tokens": 4390
+            },
+            {
+                "file_path": "core/src/main/java/hudson/PluginManager.java",
+                "num_methods": 50,
+                "num_tokens": 4204
+            },
+            {
+                "file_path": "core/src/main/java/hudson/PluginWrapper.java",
+                "num_methods": 39,
+                "num_tokens": 2180
+            },
+            {
+                "file_path": "core/src/main/java/hudson/PluginWrapper.java",
+                "num_methods": 40,
+                "num_tokens": 2186
+            }
+        ],
+        "commit_32376946b8e97468837f737054933612f21182d4": [
+            {
+                "file_path": "core/src/main/java/hudson/FilePath.java",
+                "num_methods": 75,
+                "num_tokens": 11052
+            },
+            {
+                "file_path": "core/src/main/java/hudson/FilePath.java",
+                "num_methods": 74,
+                "num_tokens": 10960
+            }
+        ],
+        "commit_ccbe96227f934ae311714fb9d16f38534966538d": [
+            {
+                "file_path": "core/src/main/java/hudson/FilePath.java",
+                "num_methods": 75,
+                "num_tokens": 10989
+            },
+            {
+                "file_path": "core/src/main/java/hudson/FilePath.java",
+                "num_methods": 65,
+                "num_tokens": 10445
+            }
+        ],
+        "commit_4ddafceec3363a7b73358890d76bb8c4947e32a8": [
+            {
+                "file_path": "core/src/main/java/hudson/EnvVars.java",
+                "num_methods": 26,
+                "num_tokens": 1745
+            },
+            {
+                "file_path": "core/src/main/java/hudson/EnvVars.java",
+                "num_methods": 14,
+                "num_tokens": 1142
+            },
+            {
+                "file_path": "core/src/main/java/hudson/FilePath.java",
+                "num_methods": 65,
+                "num_tokens": 10480
+            },
+            {
+                "file_path": "core/src/main/java/hudson/FilePath.java",
+                "num_methods": 74,
+                "num_tokens": 10960
+            },
+            {
+                "file_path": "core/src/main/java/hudson/cli/ClientAuthenticationCache.java",
+                "num_methods": 2,
+                "num_tokens": 375
+            },
+            {
+                "file_path": "core/src/main/java/hudson/cli/ClientAuthenticationCache.java",
+                "num_methods": 2,
+                "num_tokens": 364
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Computer.java",
+                "num_methods": 65,
+                "num_tokens": 5039
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Computer.java",
+                "num_methods": 66,
+                "num_tokens": 4944
+            },
+            {
+                "file_path": "core/src/main/java/hudson/node_monitors/DiskSpaceMonitorDescriptor.java",
+                "num_methods": 9,
+                "num_tokens": 629
+            },
+            {
+                "file_path": "core/src/main/java/hudson/node_monitors/DiskSpaceMonitorDescriptor.java",
+                "num_methods": 10,
+                "num_tokens": 658
+            },
+            {
+                "file_path": "core/src/main/java/hudson/node_monitors/ResponseTimeMonitor.java",
+                "num_methods": 13,
+                "num_tokens": 809
+            },
+            {
+                "file_path": "core/src/main/java/hudson/node_monitors/ResponseTimeMonitor.java",
+                "num_methods": 13,
+                "num_tokens": 825
+            },
+            {
+                "file_path": "core/src/main/java/hudson/node_monitors/TemporarySpaceMonitor.java",
+                "num_methods": 6,
+                "num_tokens": 402
+            },
+            {
+                "file_path": "core/src/main/java/hudson/node_monitors/TemporarySpaceMonitor.java",
+                "num_methods": 6,
+                "num_tokens": 410
+            },
+            {
+                "file_path": "core/src/main/java/hudson/security/AbstractPasswordBasedSecurityRealm.java",
+                "num_methods": 3,
+                "num_tokens": 736
+            },
+            {
+                "file_path": "core/src/main/java/hudson/security/AbstractPasswordBasedSecurityRealm.java",
+                "num_methods": 3,
+                "num_tokens": 704
+            },
+            {
+                "file_path": "core/src/main/java/hudson/slaves/SlaveComputer.java",
+                "num_methods": 34,
+                "num_tokens": 2778
+            },
+            {
+                "file_path": "core/src/main/java/hudson/slaves/SlaveComputer.java",
+                "num_methods": 34,
+                "num_tokens": 2828
+            },
+            {
+                "file_path": "core/src/main/java/hudson/tasks/Fingerprinter.java",
+                "num_methods": 23,
+                "num_tokens": 1481
+            },
+            {
+                "file_path": "core/src/main/java/hudson/tasks/Fingerprinter.java",
+                "num_methods": 21,
+                "num_tokens": 1400
+            },
+            {
+                "file_path": "core/src/main/java/hudson/tasks/Shell.java",
+                "num_methods": 14,
+                "num_tokens": 614
+            },
+            {
+                "file_path": "core/src/main/java/hudson/tasks/Shell.java",
+                "num_methods": 17,
+                "num_tokens": 668
+            },
+            {
+                "file_path": "core/src/main/java/hudson/util/ProcessTree.java",
+                "num_methods": 54,
+                "num_tokens": 4323
+            },
+            {
+                "file_path": "core/src/main/java/hudson/util/ProcessTree.java",
+                "num_methods": 53,
+                "num_tokens": 4269
+            },
+            {
+                "file_path": "core/src/main/java/hudson/util/RemotingDiagnostics.java",
+                "num_methods": 3,
+                "num_tokens": 714
+            },
+            {
+                "file_path": "core/src/main/java/hudson/util/RemotingDiagnostics.java",
+                "num_methods": 3,
+                "num_tokens": 759
+            },
+            {
+                "file_path": "core/src/main/java/jenkins/model/Jenkins.java",
+                "num_methods": 225,
+                "num_tokens": 14007
+            },
+            {
+                "file_path": "core/src/main/java/jenkins/model/Jenkins.java",
+                "num_methods": 218,
+                "num_tokens": 13424
+            },
+            {
+                "file_path": "core/src/test/java/hudson/LauncherTest.java",
+                "num_methods": 0,
+                "num_tokens": 552
+            },
+            {
+                "file_path": "core/src/test/java/hudson/LauncherTest.java",
+                "num_methods": 0,
+                "num_tokens": 556
+            }
+        ],
+        "commit_11b240c361c06463e7c72ff2be5f5d46154458a4": [
+            {
+                "file_path": "core/src/main/java/hudson/slaves/Channels.java",
+                "num_methods": 6,
+                "num_tokens": 1146
+            },
+            {
+                "file_path": "core/src/main/java/hudson/slaves/Channels.java",
+                "num_methods": 3,
+                "num_tokens": 1089
+            }
+        ],
+        "commit_1203b091902526620775a3e3603a245b81ed46b4": [
+            {
+                "file_path": "core/src/main/java/hudson/Functions.java",
+                "num_methods": 140,
+                "num_tokens": 6418
+            },
+            {
+                "file_path": "core/src/main/java/hudson/Functions.java",
+                "num_methods": 138,
+                "num_tokens": 6341
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractItem.java",
+                "num_methods": 30,
+                "num_tokens": 2587
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractItem.java",
+                "num_methods": 29,
+                "num_tokens": 2307
+            },
+            {
+                "file_path": "core/src/main/java/hudson/security/ACL.java",
+                "num_methods": 6,
+                "num_tokens": 703
+            },
+            {
+                "file_path": "core/src/main/java/hudson/security/ACL.java",
+                "num_methods": 6,
+                "num_tokens": 781
+            },
+            {
+                "file_path": "core/src/main/java/hudson/util/RobustReflectionConverter.java",
+                "num_methods": 24,
+                "num_tokens": 1675
+            },
+            {
+                "file_path": "core/src/main/java/hudson/util/RobustReflectionConverter.java",
+                "num_methods": 24,
+                "num_tokens": 1689
+            },
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
+                "num_methods": 54,
+                "num_tokens": 7506
+            },
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
+                "num_methods": 54,
+                "num_tokens": 7486
+            },
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/JenkinsRule.java",
+                "num_methods": 62,
+                "num_tokens": 8288
+            },
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/JenkinsRule.java",
+                "num_methods": 60,
+                "num_tokens": 7699
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/UpdateSiteTest.java",
+                "num_methods": 0,
+                "num_tokens": 479
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/UpdateSiteTest.java",
+                "num_methods": 0,
+                "num_tokens": 486
+            },
+            {
+                "file_path": "test/src/test/java/hudson/tasks/FingerprinterTest.java",
+                "num_methods": 0,
+                "num_tokens": 1059
+            },
+            {
+                "file_path": "test/src/test/java/hudson/tasks/FingerprinterTest.java",
+                "num_methods": 0,
+                "num_tokens": 997
+            }
+        ],
+        "commit_d5d47edae4afd8491b1eac8b3bef6adb3ca0c5b6": [
+            {
+                "file_path": "test/src/test/java/hudson/model/ParametersTest.java",
+                "num_methods": 0,
+                "num_tokens": 466
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/ParametersTest.java",
+                "num_methods": 0,
+                "num_tokens": 472
+            }
+        ],
+        "commit_89cbfc4639b7c8c3312f7095ea126fc0ce873add": [
+            {
+                "file_path": "core/src/main/java/hudson/EnvVars.java",
+                "num_methods": 26,
+                "num_tokens": 1745
+            },
+            {
+                "file_path": "core/src/main/java/hudson/EnvVars.java",
+                "num_methods": 14,
+                "num_tokens": 1142
+            },
+            {
+                "file_path": "core/src/main/java/hudson/FilePath.java",
+                "num_methods": 65,
+                "num_tokens": 10480
+            },
+            {
+                "file_path": "core/src/main/java/hudson/FilePath.java",
+                "num_methods": 72,
+                "num_tokens": 10818
+            },
+            {
+                "file_path": "core/src/main/java/hudson/cli/ClientAuthenticationCache.java",
+                "num_methods": 2,
+                "num_tokens": 375
+            },
+            {
+                "file_path": "core/src/main/java/hudson/cli/ClientAuthenticationCache.java",
+                "num_methods": 2,
+                "num_tokens": 364
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Computer.java",
+                "num_methods": 65,
+                "num_tokens": 5039
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Computer.java",
+                "num_methods": 66,
+                "num_tokens": 4944
+            },
+            {
+                "file_path": "core/src/main/java/hudson/node_monitors/DiskSpaceMonitorDescriptor.java",
+                "num_methods": 9,
+                "num_tokens": 629
+            },
+            {
+                "file_path": "core/src/main/java/hudson/node_monitors/DiskSpaceMonitorDescriptor.java",
+                "num_methods": 10,
+                "num_tokens": 658
+            },
+            {
+                "file_path": "core/src/main/java/hudson/node_monitors/ResponseTimeMonitor.java",
+                "num_methods": 13,
+                "num_tokens": 809
+            },
+            {
+                "file_path": "core/src/main/java/hudson/node_monitors/ResponseTimeMonitor.java",
+                "num_methods": 13,
+                "num_tokens": 825
+            },
+            {
+                "file_path": "core/src/main/java/hudson/node_monitors/TemporarySpaceMonitor.java",
+                "num_methods": 6,
+                "num_tokens": 402
+            },
+            {
+                "file_path": "core/src/main/java/hudson/node_monitors/TemporarySpaceMonitor.java",
+                "num_methods": 6,
+                "num_tokens": 410
+            },
+            {
+                "file_path": "core/src/main/java/hudson/security/AbstractPasswordBasedSecurityRealm.java",
+                "num_methods": 3,
+                "num_tokens": 736
+            },
+            {
+                "file_path": "core/src/main/java/hudson/security/AbstractPasswordBasedSecurityRealm.java",
+                "num_methods": 3,
+                "num_tokens": 704
+            },
+            {
+                "file_path": "core/src/main/java/hudson/slaves/Channels.java",
+                "num_methods": 3,
+                "num_tokens": 1085
+            },
+            {
+                "file_path": "core/src/main/java/hudson/slaves/Channels.java",
+                "num_methods": 6,
+                "num_tokens": 1146
+            },
+            {
+                "file_path": "core/src/main/java/hudson/slaves/SlaveComputer.java",
+                "num_methods": 34,
+                "num_tokens": 2778
+            },
+            {
+                "file_path": "core/src/main/java/hudson/slaves/SlaveComputer.java",
+                "num_methods": 34,
+                "num_tokens": 2828
+            },
+            {
+                "file_path": "core/src/main/java/hudson/tasks/Fingerprinter.java",
+                "num_methods": 23,
+                "num_tokens": 1481
+            },
+            {
+                "file_path": "core/src/main/java/hudson/tasks/Fingerprinter.java",
+                "num_methods": 21,
+                "num_tokens": 1400
+            },
+            {
+                "file_path": "core/src/main/java/hudson/tasks/Shell.java",
+                "num_methods": 14,
+                "num_tokens": 614
+            },
+            {
+                "file_path": "core/src/main/java/hudson/tasks/Shell.java",
+                "num_methods": 17,
+                "num_tokens": 668
+            },
+            {
+                "file_path": "core/src/main/java/hudson/util/ProcessTree.java",
+                "num_methods": 54,
+                "num_tokens": 4323
+            },
+            {
+                "file_path": "core/src/main/java/hudson/util/ProcessTree.java",
+                "num_methods": 53,
+                "num_tokens": 4269
+            },
+            {
+                "file_path": "core/src/main/java/hudson/util/RemotingDiagnostics.java",
+                "num_methods": 3,
+                "num_tokens": 714
+            },
+            {
+                "file_path": "core/src/main/java/hudson/util/RemotingDiagnostics.java",
+                "num_methods": 3,
+                "num_tokens": 759
+            },
+            {
+                "file_path": "core/src/main/java/jenkins/model/Jenkins.java",
+                "num_methods": 225,
+                "num_tokens": 14007
+            },
+            {
+                "file_path": "core/src/main/java/jenkins/model/Jenkins.java",
+                "num_methods": 218,
+                "num_tokens": 13424
+            },
+            {
+                "file_path": "core/src/test/java/hudson/LauncherTest.java",
+                "num_methods": 0,
+                "num_tokens": 552
+            },
+            {
+                "file_path": "core/src/test/java/hudson/LauncherTest.java",
+                "num_methods": 0,
+                "num_tokens": 556
+            }
+        ],
+        "commit_23f3e0bbe645e548d9312f2f762dc665e12457cb": [
+            {
+                "file_path": "test/src/test/java/hudson/model/UpdateSiteTest.java",
+                "num_methods": 0,
+                "num_tokens": 479
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/UpdateSiteTest.java",
+                "num_methods": 0,
+                "num_tokens": 486
+            },
+            {
+                "file_path": "test/src/test/java/hudson/tasks/FingerprinterTest.java",
+                "num_methods": 0,
+                "num_tokens": 1059
+            },
+            {
+                "file_path": "test/src/test/java/hudson/tasks/FingerprinterTest.java",
+                "num_methods": 0,
+                "num_tokens": 997
+            }
+        ],
+        "commit_041f9b9fecc8f591f77c0e66ba8f95a1ad0ff146": [
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
+                "num_methods": 54,
+                "num_tokens": 7506
+            },
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
+                "num_methods": 54,
+                "num_tokens": 7486
+            },
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/JenkinsRule.java",
+                "num_methods": 62,
+                "num_tokens": 8288
+            },
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/JenkinsRule.java",
+                "num_methods": 60,
+                "num_tokens": 7699
+            }
+        ],
+        "commit_8aafca039d5609314570e7e5b4dedf33727d84fb": [
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractItem.java",
+                "num_methods": 30,
+                "num_tokens": 2587
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractItem.java",
+                "num_methods": 29,
+                "num_tokens": 2307
+            },
+            {
+                "file_path": "core/src/main/java/hudson/security/ACL.java",
+                "num_methods": 6,
+                "num_tokens": 703
+            },
+            {
+                "file_path": "core/src/main/java/hudson/security/ACL.java",
+                "num_methods": 6,
+                "num_tokens": 781
+            }
+        ],
+        "commit_46ec7d8fa2d034439950b6f32cf334947cc999b3": [
+            {
+                "file_path": "core/src/main/java/hudson/Functions.java",
+                "num_methods": 140,
+                "num_tokens": 6415
+            },
+            {
+                "file_path": "core/src/main/java/hudson/Functions.java",
+                "num_methods": 138,
+                "num_tokens": 6341
+            }
+        ],
+        "commit_4d906d8976af4ace8902c220c5123ba4f2c95c44": [
+            {
+                "file_path": "core/src/main/java/hudson/util/ChartUtil.java",
+                "num_methods": 11,
+                "num_tokens": 1118
+            },
+            {
+                "file_path": "core/src/main/java/hudson/util/ChartUtil.java",
+                "num_methods": 10,
+                "num_tokens": 1071
+            }
+        ],
+        "commit_706676b4b0200ba79dd9c257ada22ba1ea3c26fa": [
+            {
+                "file_path": "core/src/main/java/hudson/tasks/test/AbstractTestResultAction.java",
+                "num_methods": 29,
+                "num_tokens": 1630
+            },
+            {
+                "file_path": "core/src/main/java/hudson/tasks/test/AbstractTestResultAction.java",
+                "num_methods": 28,
+                "num_tokens": 1625
+            }
+        ],
+        "commit_c57010ed14de48bf7d3276b3b0c6fae3b9404a1b": [
+            {
+                "file_path": "core/src/main/java/hudson/tools/InstallerTranslator.java",
+                "num_methods": 0,
+                "num_tokens": 340
+            },
+            {
+                "file_path": "core/src/main/java/hudson/tools/InstallerTranslator.java",
+                "num_methods": 0,
+                "num_tokens": 335
+            }
+        ],
+        "commit_8ec206fcd9e7cf222cc54aa4cc37295a4699ba35": [
+            {
+                "file_path": "core/src/main/java/hudson/triggers/SCMTrigger.java",
+                "num_methods": 49,
+                "num_tokens": 1900
+            },
+            {
+                "file_path": "core/src/main/java/hudson/triggers/SCMTrigger.java",
+                "num_methods": 52,
+                "num_tokens": 2058
+            }
+        ],
+        "commit_6206be1a1178a4532f7c87110658be4e8f128cfa": [
+            {
+                "file_path": "core/src/main/java/hudson/model/CauseAction.java",
+                "num_methods": 16,
+                "num_tokens": 557
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/CauseAction.java",
+                "num_methods": 16,
+                "num_tokens": 605
+            },
+            {
+                "file_path": "core/src/main/java/hudson/triggers/SCMTrigger.java",
+                "num_methods": 50,
+                "num_tokens": 1939
+            },
+            {
+                "file_path": "core/src/main/java/hudson/triggers/SCMTrigger.java",
+                "num_methods": 49,
+                "num_tokens": 1916
+            }
+        ],
+        "commit_52b2571126afd33db51b3bb4876c27125714cd2a": [
+            {
+                "file_path": "core/src/main/java/hudson/model/UpdateCenter.java",
+                "num_methods": 88,
+                "num_tokens": 5061
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/UpdateCenter.java",
+                "num_methods": 92,
+                "num_tokens": 5103
+            }
+        ],
+        "commit_f234c7bd7515a76bef38a19370b2d288bdce2eed": [
+            {
+                "file_path": "core/src/main/java/hudson/slaves/SlaveComputer.java",
+                "num_methods": 34,
+                "num_tokens": 2703
+            },
+            {
+                "file_path": "core/src/main/java/hudson/slaves/SlaveComputer.java",
+                "num_methods": 34,
+                "num_tokens": 2817
+            }
+        ],
+        "commit_82472d7f2b1981c60c3a32cbd7e90d31d3eb748f": [
+            {
+                "file_path": "test/src/test/java/hudson/model/ProjectTest.java",
+                "num_methods": 17,
+                "num_tokens": 3217
+            }
+        ],
+        "commit_e4faf6950b8fcc4bfc857f983a1e94eaab5aac67": [
+            {
+                "file_path": "test/src/test/java/hudson/model/UpdateSiteTest.java",
+                "num_methods": 0,
+                "num_tokens": 467
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/UpdateSiteTest.java",
+                "num_methods": 0,
+                "num_tokens": 499
+            }
+        ],
+        "commit_d695789904d7fcd2d92c7c05eb95e6afa2c77667": [
+            {
+                "file_path": "core/src/main/java/hudson/model/DownloadService.java",
+                "num_methods": 16,
+                "num_tokens": 1402
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/DownloadService.java",
+                "num_methods": 16,
+                "num_tokens": 1121
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/UpdateSite.java",
+                "num_methods": 37,
+                "num_tokens": 2981
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/UpdateSite.java",
+                "num_methods": 37,
+                "num_tokens": 3017
+            }
+        ],
+        "commit_abc77438d2d36a9edd7f2aca91c182891ac88691": [
+            {
+                "file_path": "core/src/main/java/hudson/Functions.java",
+                "num_methods": 140,
+                "num_tokens": 6315
+            },
+            {
+                "file_path": "core/src/main/java/hudson/Functions.java",
+                "num_methods": 124,
+                "num_tokens": 5467
+            },
+            {
+                "file_path": "core/src/main/java/hudson/markup/MyspacePolicy.java",
+                "num_methods": 4,
+                "num_tokens": 260
+            },
+            {
+                "file_path": "core/src/main/java/hudson/markup/MyspacePolicy.java",
+                "num_methods": 4,
+                "num_tokens": 260
+            },
+            {
+                "file_path": "core/src/main/java/hudson/util/RobustReflectionConverter.java",
+                "num_methods": 23,
+                "num_tokens": 1595
+            },
+            {
+                "file_path": "core/src/main/java/hudson/util/RobustReflectionConverter.java",
+                "num_methods": 24,
+                "num_tokens": 1699
+            }
+        ],
+        "commit_1fda95b6aea55cb216074b18bbb34fd8708c64c0": [
+            {
+                "file_path": "core/src/main/java/hudson/logging/LogRecorder.java",
+                "num_methods": 23,
+                "num_tokens": 1380
+            },
+            {
+                "file_path": "core/src/main/java/hudson/logging/LogRecorder.java",
+                "num_methods": 21,
+                "num_tokens": 1324
+            },
+            {
+                "file_path": "core/src/test/java/hudson/logging/LogRecorderTest.java",
+                "num_methods": 7,
+                "num_tokens": 415
+            },
+            {
+                "file_path": "core/src/test/java/hudson/logging/LogRecorderTest.java",
+                "num_methods": 7,
+                "num_tokens": 417
+            }
+        ],
+        "commit_2756f08c13157023887de2f4e18dd5899a1cc1ae": [
+            {
+                "file_path": "core/src/main/java/hudson/model/Items.java",
+                "num_methods": 14,
+                "num_tokens": 1640
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Items.java",
+                "num_methods": 14,
+                "num_tokens": 1412
+            }
+        ],
+        "commit_a494868c47d103b7bb1457aaaeadf87a55bb48ba": [
+            {
+                "file_path": "core/src/main/java/hudson/cli/CLIAction.java",
+                "num_methods": 4,
+                "num_tokens": 492
+            },
+            {
+                "file_path": "core/src/main/java/hudson/cli/CLIAction.java",
+                "num_methods": 3,
+                "num_tokens": 457
+            }
+        ],
+        "commit_8db9ceaccb99b9dd2bddf9a825a3a65b27dab75c": [
+            {
+                "file_path": "core/src/main/java/hudson/cli/BuildCommand.java",
+                "num_methods": 8,
+                "num_tokens": 918
+            },
+            {
+                "file_path": "core/src/main/java/hudson/cli/BuildCommand.java",
+                "num_methods": 8,
+                "num_tokens": 918
+            }
+        ],
+        "commit_b74750934c4656782e738d5d619fd43ea7245b91": [
+            {
+                "file_path": "core/src/main/java/hudson/FilePath.java",
+                "num_methods": 61,
+                "num_tokens": 10240
+            },
+            {
+                "file_path": "core/src/main/java/hudson/FilePath.java",
+                "num_methods": 61,
+                "num_tokens": 10057
+            },
+            {
+                "file_path": "core/src/main/java/hudson/tasks/ArtifactArchiver.java",
+                "num_methods": 13,
+                "num_tokens": 814
+            },
+            {
+                "file_path": "core/src/main/java/hudson/tasks/ArtifactArchiver.java",
+                "num_methods": 13,
+                "num_tokens": 740
+            }
+        ],
+        "commit_4ef0018101c9f28e26bc4d447cc7c0ca84fd2c1d": [
+            {
+                "file_path": "core/src/main/java/hudson/model/Run.java",
+                "num_methods": 118,
+                "num_tokens": 8243
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Run.java",
+                "num_methods": 117,
+                "num_tokens": 8316
+            },
+            {
+                "file_path": "test/src/test/java/hudson/maven/MavenMultiModuleTest.java",
+                "num_methods": 4,
+                "num_tokens": 1929
+            },
+            {
+                "file_path": "test/src/test/java/hudson/maven/MavenMultiModuleTest.java",
+                "num_methods": 4,
+                "num_tokens": 1640
+            }
+        ],
+        "commit_7575a29d74a6622cec9ec2ecdde55c4cf2090bf6": [
+            {
+                "file_path": "core/src/main/java/hudson/tasks/ArtifactArchiver.java",
+                "num_methods": 13,
+                "num_tokens": 731
+            },
+            {
+                "file_path": "core/src/main/java/hudson/tasks/ArtifactArchiver.java",
+                "num_methods": 13,
+                "num_tokens": 731
+            }
+        ],
+        "commit_cd77e38c0881429cbe39d841621498ab0c12d8c7": [
+            {
+                "file_path": "core/src/main/java/hudson/model/Run.java",
+                "num_methods": 115,
+                "num_tokens": 7975
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Run.java",
+                "num_methods": 117,
+                "num_tokens": 8061
+            }
+        ],
+        "commit_397c63b2ffa6176f3834e8c3c60c3e26c21ed511": [
+            {
+                "file_path": "test/src/test/java/hudson/model/QueueTest.java",
+                "num_methods": 4,
+                "num_tokens": 1516
+            },
+            {
+                "file_path": "test/src/test/java/hudson/model/QueueTest.java",
+                "num_methods": 6,
+                "num_tokens": 1255
+            }
+        ],
+        "commit_6af9127409255332c64ad1dd503f1ed24297f37a": [
+            {
+                "file_path": "maven-plugin/src/main/java/hudson/maven/Maven3Builder.java",
+                "num_methods": 35,
+                "num_tokens": 2064
+            },
+            {
+                "file_path": "maven-plugin/src/main/java/hudson/maven/Maven3Builder.java",
+                "num_methods": 35,
+                "num_tokens": 1763
+            }
+        ],
+        "commit_7e4996eb1e518705f7bef78dcdb1b3858cc04126": [
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractProject.java",
+                "num_methods": 109,
+                "num_tokens": 8010
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractProject.java",
+                "num_methods": 109,
+                "num_tokens": 8010
+            }
+        ],
+        "commit_1a3ed4632d3993230a0614a6306c70a366abd222": [
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
+                "num_methods": 54,
+                "num_tokens": 7439
+            },
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
+                "num_methods": 54,
+                "num_tokens": 7437
+            }
+        ],
+        "commit_a4f16799e2117244e21fbf0b9edbcd58c5e4c736": [
+            {
+                "file_path": "core/src/main/java/hudson/tasks/ArtifactArchiver.java",
+                "num_methods": 10,
+                "num_tokens": 673
+            },
+            {
+                "file_path": "core/src/main/java/hudson/tasks/ArtifactArchiver.java",
+                "num_methods": 12,
+                "num_tokens": 716
+            }
+        ],
+        "commit_9993468ce4bc6ade4302ee4744ac942cf4d80049": [
+            {
+                "file_path": "core/src/test/java/hudson/UtilTest.java",
+                "num_methods": 10,
+                "num_tokens": 1050
+            },
+            {
+                "file_path": "core/src/test/java/hudson/UtilTest.java",
+                "num_methods": 8,
+                "num_tokens": 997
+            }
+        ],
+        "commit_9e68fed9fe7c493d8a22bf5583154e7c843c660f": [
+            {
+                "file_path": "core/src/main/java/jenkins/model/Jenkins.java",
+                "num_methods": 214,
+                "num_tokens": 13058
+            },
+            {
+                "file_path": "core/src/main/java/jenkins/model/Jenkins.java",
+                "num_methods": 214,
+                "num_tokens": 13058
+            },
+            {
+                "file_path": "test/src/test/java/hudson/bugs/JnlpAccessWithSecuredHudsonTest.java",
+                "num_methods": 0,
+                "num_tokens": 540
+            },
+            {
+                "file_path": "test/src/test/java/hudson/bugs/JnlpAccessWithSecuredHudsonTest.java",
+                "num_methods": 0,
+                "num_tokens": 438
+            }
+        ],
+        "commit_4fb20f9692b055ea9fbb804dac53700d1ec8dc84": [
+            {
+                "file_path": "core/src/main/java/jenkins/model/lazy/SortedList.java",
+                "num_methods": 13,
+                "num_tokens": 516
+            },
+            {
+                "file_path": "core/src/main/java/jenkins/model/lazy/SortedList.java",
+                "num_methods": 13,
+                "num_tokens": 516
+            }
+        ],
+        "commit_f5d378f22915f00e34783043624ce7e8dc3ec793": [
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractProject.java",
+                "num_methods": 99,
+                "num_tokens": 7271
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractProject.java",
+                "num_methods": 99,
+                "num_tokens": 7316
+            }
+        ],
+        "commit_211231d12b2d5e998421ab7a332f955800d5b601": [
+            {
+                "file_path": "core/src/main/java/hudson/LocalPluginManager.java",
+                "num_methods": 2,
+                "num_tokens": 372
+            },
+            {
+                "file_path": "core/src/main/java/hudson/LocalPluginManager.java",
+                "num_methods": 3,
+                "num_tokens": 378
+            }
+        ],
+        "commit_039e43cf488dc5ce22f2da7f2aa6f088aa816e82": [
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractItem.java",
+                "num_methods": 23,
+                "num_tokens": 1701
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractItem.java",
+                "num_methods": 25,
+                "num_tokens": 1751
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractProject.java",
+                "num_methods": 97,
+                "num_tokens": 6942
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/AbstractProject.java",
+                "num_methods": 96,
+                "num_tokens": 6778
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Descriptor.java",
+                "num_methods": 47,
+                "num_tokens": 3589
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Descriptor.java",
+                "num_methods": 46,
+                "num_tokens": 3587
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Hudson.java",
+                "num_methods": 13,
+                "num_tokens": 1160
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Hudson.java",
+                "num_methods": 206,
+                "num_tokens": 12390
+            },
+            {
+                "file_path": "core/src/main/java/hudson/tasks/BuildTrigger.java",
+                "num_methods": 29,
+                "num_tokens": 1226
+            },
+            {
+                "file_path": "core/src/main/java/hudson/tasks/BuildTrigger.java",
+                "num_methods": 28,
+                "num_tokens": 1222
+            },
+            {
+                "file_path": "maven-plugin/src/main/java/hudson/maven/MavenBuild.java",
+                "num_methods": 45,
+                "num_tokens": 2351
+            },
+            {
+                "file_path": "maven-plugin/src/main/java/hudson/maven/MavenBuild.java",
+                "num_methods": 44,
+                "num_tokens": 2068
+            },
+            {
+                "file_path": "maven-plugin/src/main/java/hudson/maven/reporters/MavenArtifact.java",
+                "num_methods": 6,
+                "num_tokens": 1084
+            },
+            {
+                "file_path": "maven-plugin/src/main/java/hudson/maven/reporters/MavenArtifact.java",
+                "num_methods": 7,
+                "num_tokens": 1158
+            },
+            {
+                "file_path": "maven-plugin/src/main/java/hudson/maven/reporters/MavenArtifactRecord.java",
+                "num_methods": 5,
+                "num_tokens": 685
+            },
+            {
+                "file_path": "maven-plugin/src/main/java/hudson/maven/reporters/MavenArtifactRecord.java",
+                "num_methods": 6,
+                "num_tokens": 744
+            }
+        ],
+        "commit_d644c08f1c297a5ed47dc8d3f033e2e6b001ca55": [
+            {
+                "file_path": "core/src/main/java/hudson/util/VersionNumber.java",
+                "num_methods": 33,
+                "num_tokens": 1545
+            },
+            {
+                "file_path": "core/src/main/java/hudson/util/VersionNumber.java",
+                "num_methods": 33,
+                "num_tokens": 1552
+            }
+        ],
+        "commit_d5c24703706b5afc6f62664251d1bfb1b0e0668f": [
+            {
+                "file_path": "core/src/main/java/hudson/model/DependencyGraph.java",
+                "num_methods": 34,
+                "num_tokens": 1478
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/DependencyGraph.java",
+                "num_methods": 37,
+                "num_tokens": 1869
+            }
+        ],
+        "commit_dbe586ce9260b113caab7ac115a2f8382b88eaa8": [
+            {
+                "file_path": "core/src/main/java/hudson/model/Hudson.java",
+                "num_methods": 12,
+                "num_tokens": 1129
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Hudson.java",
+                "num_methods": 200,
+                "num_tokens": 12602
+            }
+        ],
+        "commit_2adef6719ab50a2b54c3fda8a5cadfd37174b22e": [
+            {
+                "file_path": "core/src/main/java/hudson/slaves/NodeProvisioner.java",
+                "num_methods": 9,
+                "num_tokens": 1649
+            },
+            {
+                "file_path": "core/src/main/java/hudson/slaves/NodeProvisioner.java",
+                "num_methods": 11,
+                "num_tokens": 1778
+            },
+            {
+                "file_path": "maven-plugin/src/main/java/hudson/maven/MavenModule.java",
+                "num_methods": 32,
+                "num_tokens": 1748
+            },
+            {
+                "file_path": "maven-plugin/src/main/java/hudson/maven/MavenModule.java",
+                "num_methods": 33,
+                "num_tokens": 1897
+            },
+            {
+                "file_path": "maven-plugin/src/main/java/hudson/maven/RedeployPublisher.java",
+                "num_methods": 43,
+                "num_tokens": 1398
+            },
+            {
+                "file_path": "maven-plugin/src/main/java/hudson/maven/RedeployPublisher.java",
+                "num_methods": 41,
+                "num_tokens": 1513
+            }
+        ],
+        "commit_5abc651ceeab92833791f7c0922aabe42eb78930": [
+            {
+                "file_path": "core/src/main/java/hudson/ExtensionComponent.java",
+                "num_methods": 7,
+                "num_tokens": 367
+            },
+            {
+                "file_path": "core/src/main/java/hudson/ExtensionComponent.java",
+                "num_methods": 7,
+                "num_tokens": 367
+            }
+        ],
+        "commit_41ef51a2dba021b9c5628178b2300d6779c62603": [
+            {
+                "file_path": "core/src/main/java/hudson/Functions.java",
+                "num_methods": 107,
+                "num_tokens": 4623
+            },
+            {
+                "file_path": "core/src/main/java/hudson/Functions.java",
+                "num_methods": 102,
+                "num_tokens": 4497
+            }
+        ],
+        "commit_36148686942ae0455a63973113df9bfdd73bf216": [
+            {
+                "file_path": "core/src/main/java/hudson/Functions.java",
+                "num_methods": 107,
+                "num_tokens": 4623
+            },
+            {
+                "file_path": "core/src/main/java/hudson/Functions.java",
+                "num_methods": 99,
+                "num_tokens": 4465
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/AutoCompletionCandidates.java",
+                "num_methods": 3,
+                "num_tokens": 328
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/AutoCompletionCandidates.java",
+                "num_methods": 3,
+                "num_tokens": 309
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/ViewDescriptor.java",
+                "num_methods": 8,
+                "num_tokens": 390
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/ViewDescriptor.java",
+                "num_methods": 8,
+                "num_tokens": 386
+            },
+            {
+                "file_path": "core/src/test/java/hudson/FilePathTest.java",
+                "num_methods": 1,
+                "num_tokens": 988
+            },
+            {
+                "file_path": "core/src/test/java/hudson/FilePathTest.java",
+                "num_methods": 1,
+                "num_tokens": 852
+            }
+        ],
+        "commit_6a2dad3134cecc50fa343ec184dfcdc9273fa06f": [
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
+                "num_methods": 48,
+                "num_tokens": 6916
+            },
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
+                "num_methods": 48,
+                "num_tokens": 6847
+            }
+        ],
+        "commit_3abc2d5b1ce50b15c3cac1bf821dbc1aeab88601": [
+            {
+                "file_path": "core/src/main/java/hudson/model/Node.java",
+                "num_methods": 21,
+                "num_tokens": 1652
+            },
+            {
+                "file_path": "core/src/main/java/hudson/model/Node.java",
+                "num_methods": 22,
+                "num_tokens": 1722
+            },
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
+                "num_methods": 48,
+                "num_tokens": 6902
+            },
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
+                "num_methods": 48,
+                "num_tokens": 6862
+            }
+        ],
+        "commit_edcde6d14aac4a6320519013826d96b991fa1977": [
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
+                "num_methods": 48,
+                "num_tokens": 6887
+            },
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
+                "num_methods": 48,
+                "num_tokens": 6837
+            }
+        ],
+        "commit_5bbc78f6d8fc04fd6ffdb34f25ef942d71ef356c": [
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
+                "num_methods": 47,
+                "num_tokens": 6779
+            },
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
+                "num_methods": 48,
+                "num_tokens": 6822
+            }
+        ],
+        "commit_24eb579d0c7710d0360c13d032386475938135ec": [
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
+                "num_methods": 44,
+                "num_tokens": 6365
+            },
+            {
+                "file_path": "test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
+                "num_methods": 47,
+                "num_tokens": 6368
+            }
+        ],
+        "commit_58166dfb2b7250414a8a257f95e055907c18a4de": [
+            {
+                "file_path": "core/src/main/java/hudson/widgets/HistoryWidget.java",
+                "num_methods": 10,
+                "num_tokens": 766
+            },
+            {
+                "file_path": "core/src/main/java/hudson/widgets/HistoryWidget.java",
+                "num_methods": 10,
+                "num_tokens": 761
+            }
+        ],
+        "commit_296c06d85d71ee62a9a759d3ca5a9fa3f0c0d896": [
+            {
+                "file_path": "core/src/main/java/hudson/tasks/MailSender.java",
+                "num_methods": 7,
+                "num_tokens": 1538
+            },
+            {
+                "file_path": "core/src/main/java/hudson/tasks/MailSender.java",
+                "num_methods": 7,
+                "num_tokens": 1543
+            }
+        ],
+        "commit_d971be137c531f2d2e02e5afd2c2da6f4ab0744e": [
+            {
+                "file_path": "core/src/main/java/hudson/console/ConsoleNote.java",
+                "num_methods": 5,
+                "num_tokens": 1655
+            },
+            {
+                "file_path": "core/src/main/java/hudson/console/ConsoleNote.java",
+                "num_methods": 5,
+                "num_tokens": 1575
+            }
+        ]
+    },
+    "jdbi": {
+        "commit_5d17e96117c197b215e15b6a7f2b78f1946bec0b": [
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/BindBean.java",
+                "num_methods": 0,
+                "num_tokens": 120
+            }
+        ],
+        "commit_ed103153e9c8c37e52cb953c9cba28c5d187e5ec": [
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/BasicHandle.java",
+                "num_methods": 34,
+                "num_tokens": 928
+            },
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/DBI.java",
+                "num_methods": 31,
+                "num_tokens": 1499
+            },
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/EmptyResultIterator.java",
+                "num_methods": 3,
+                "num_tokens": 124
+            },
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/Foreman.java",
+                "num_methods": 9,
+                "num_tokens": 490
+            },
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/InferredMapperFactory.java",
+                "num_methods": 2,
+                "num_tokens": 179
+            },
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/PrimitivesMapperFactory.java",
+                "num_methods": 1,
+                "num_tokens": 237
+            },
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/RegisteredMapper.java",
+                "num_methods": 1,
+                "num_tokens": 146
+            },
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/ResultBearing.java",
+                "num_methods": 3,
+                "num_tokens": 151
+            },
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/tweak/BeanMapperFactory.java",
+                "num_methods": 2,
+                "num_tokens": 131
+            },
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/tweak/transactions/LocalTransactionHandler.java",
+                "num_methods": 14,
+                "num_tokens": 759
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestQueries.java",
+                "num_methods": 0,
+                "num_tokens": 1135
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestScript.java",
+                "num_methods": 0,
+                "num_tokens": 134
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/spring/TestDBIFactoryBean.java",
+                "num_methods": 11,
+                "num_tokens": 495
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/BindBeanFactory.java",
+                "num_methods": 2,
+                "num_tokens": 204
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/BindFactory.java",
+                "num_methods": 1,
+                "num_tokens": 135
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/FigureItOutResultSetMapper.java",
+                "num_methods": 0,
+                "num_tokens": 150
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/GetGeneratedKeys.java",
+                "num_methods": 0,
+                "num_tokens": 116
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/ResultReturnThing.java",
+                "num_methods": 15,
+                "num_tokens": 635
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/Define.java",
+                "num_methods": 5,
+                "num_tokens": 254
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/FetchDirection.java",
+                "num_methods": 5,
+                "num_tokens": 264
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/FetchSize.java",
+                "num_methods": 6,
+                "num_tokens": 248
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/MaxRows.java",
+                "num_methods": 6,
+                "num_tokens": 282
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/OverrideStatementLocatorWith.java",
+                "num_methods": 7,
+                "num_tokens": 370
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/OverrideStatementRewriterWith.java",
+                "num_methods": 7,
+                "num_tokens": 356
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/QueryTimeOut.java",
+                "num_methods": 6,
+                "num_tokens": 256
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/RegisterArgumentFactory.java",
+                "num_methods": 5,
+                "num_tokens": 306
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/RegisterMapper.java",
+                "num_methods": 7,
+                "num_tokens": 371
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/RegisterMapperFactory.java",
+                "num_methods": 7,
+                "num_tokens": 362
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/TransactionIsolation.java",
+                "num_methods": 4,
+                "num_tokens": 320
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/stringtemplate/UseStringTemplate3StatementLocator.java",
+                "num_methods": 5,
+                "num_tokens": 226
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/unstable/BindIn.java",
+                "num_methods": 5,
+                "num_tokens": 339
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/docs/TestDocumentation.java",
+                "num_methods": 0,
+                "num_tokens": 1339
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/BindSomething.java",
+                "num_methods": 2,
+                "num_tokens": 166
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/SomethingBinderAgainstBind.java",
+                "num_methods": 1,
+                "num_tokens": 128
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestOnDemandSqlObject.java",
+                "num_methods": 0,
+                "num_tokens": 428
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestRegisterMapperFactory.java",
+                "num_methods": 3,
+                "num_tokens": 357
+            }
+        ],
+        "commit_8257ba5d249c0c38e8efb12562173e2952e23ca7": [
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/BasicHandle.java",
+                "num_methods": 34,
+                "num_tokens": 937
+            },
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/Call.java",
+                "num_methods": 6,
+                "num_tokens": 484
+            },
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/ClasspathStatementLocator.java",
+                "num_methods": 7,
+                "num_tokens": 683
+            },
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/ColonPrefixNamedParamStatementRewriter.java",
+                "num_methods": 5,
+                "num_tokens": 624
+            },
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/Handle.java",
+                "num_methods": 0,
+                "num_tokens": 1052
+            },
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/HashPrefixStatementRewriter.java",
+                "num_methods": 5,
+                "num_tokens": 616
+            },
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/InferredMapperFactory.java",
+                "num_methods": 2,
+                "num_tokens": 188
+            },
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/ResultBearing.java",
+                "num_methods": 3,
+                "num_tokens": 160
+            },
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/ResultIterator.java",
+                "num_methods": 0,
+                "num_tokens": 220
+            },
+            {
+                "file_path": "core/src/main/java/org/jdbi/v3/ResultSetMapperFactory.java",
+                "num_methods": 0,
+                "num_tokens": 183
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestArgumentFactory.java",
+                "num_methods": 5,
+                "num_tokens": 438
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestBatch.java",
+                "num_methods": 0,
+                "num_tokens": 176
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestCallable.java",
+                "num_methods": 0,
+                "num_tokens": 288
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestClasspathStatementLocator.java",
+                "num_methods": 1,
+                "num_tokens": 385
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestClosingHandle.java",
+                "num_methods": 0,
+                "num_tokens": 446
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestColonStatementRewriter.java",
+                "num_methods": 0,
+                "num_tokens": 307
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestDBI.java",
+                "num_methods": 3,
+                "num_tokens": 292
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestEnums.java",
+                "num_methods": 4,
+                "num_tokens": 273
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestEscapedCharacters.java",
+                "num_methods": 4,
+                "num_tokens": 174
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestForeman.java",
+                "num_methods": 2,
+                "num_tokens": 202
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestHandle.java",
+                "num_methods": 0,
+                "num_tokens": 260
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestHashPrefixStatementRewriter.java",
+                "num_methods": 0,
+                "num_tokens": 340
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestIterator.java",
+                "num_methods": 0,
+                "num_tokens": 870
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestMapArguments.java",
+                "num_methods": 0,
+                "num_tokens": 165
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestNamedParams.java",
+                "num_methods": 1,
+                "num_tokens": 371
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestNoOpStatementRewriter.java",
+                "num_methods": 0,
+                "num_tokens": 240
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestPositionalParameterBinding.java",
+                "num_methods": 0,
+                "num_tokens": 384
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestPreparedBatch.java",
+                "num_methods": 0,
+                "num_tokens": 528
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestQueries.java",
+                "num_methods": 0,
+                "num_tokens": 999
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestRegisteredMappers.java",
+                "num_methods": 0,
+                "num_tokens": 237
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestScript.java",
+                "num_methods": 0,
+                "num_tokens": 143
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestSqlLogging.java",
+                "num_methods": 17,
+                "num_tokens": 690
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestStatementContext.java",
+                "num_methods": 0,
+                "num_tokens": 174
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestStatementExceptionContext.java",
+                "num_methods": 0,
+                "num_tokens": 148
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestStatements.java",
+                "num_methods": 0,
+                "num_tokens": 257
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestTimingCollector.java",
+                "num_methods": 2,
+                "num_tokens": 413
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestTooManyCursors.java",
+                "num_methods": 5,
+                "num_tokens": 587
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestTransactions.java",
+                "num_methods": 0,
+                "num_tokens": 505
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/TestUpdateGeneratedKeys.java",
+                "num_methods": 0,
+                "num_tokens": 335
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/spring/TestDBIFactoryBean.java",
+                "num_methods": 11,
+                "num_tokens": 504
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/tweak/transactions/TestSerializableTransactionRunner.java",
+                "num_methods": 0,
+                "num_tokens": 257
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/unstable/grammar/GrammarTestCase.java",
+                "num_methods": 0,
+                "num_tokens": 165
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/unstable/grammar/TestColonGrammar.java",
+                "num_methods": 2,
+                "num_tokens": 296
+            },
+            {
+                "file_path": "core/src/test/java/org/jdbi/v3/unstable/grammar/TestPrintfGrammar.java",
+                "num_methods": 2,
+                "num_tokens": 192
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/Binder.java",
+                "num_methods": 0,
+                "num_tokens": 126
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/SqlObjectBuilder.java",
+                "num_methods": 4,
+                "num_tokens": 455
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/SqlStatementCustomizerFactory.java",
+                "num_methods": 0,
+                "num_tokens": 308
+            },
+            {
+                "file_path": "sqlobject/src/main/java/org/jdbi/v3/sqlobject/stringtemplate/StringTemplate3StatementLocator.java",
+                "num_methods": 7,
+                "num_tokens": 405
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/docs/TestBindExpression.java",
+                "num_methods": 8,
+                "num_tokens": 489
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/docs/TestDocumentation.java",
+                "num_methods": 0,
+                "num_tokens": 1358
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/docs/TestFoldToObjectGraph.java",
+                "num_methods": 20,
+                "num_tokens": 730
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/docs/TestPaging.java",
+                "num_methods": 0,
+                "num_tokens": 342
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestBeanBinder.java",
+                "num_methods": 0,
+                "num_tokens": 264
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestBindBeanFactory.java",
+                "num_methods": 7,
+                "num_tokens": 271
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestCglibDispatchBuilder.java",
+                "num_methods": 5,
+                "num_tokens": 319
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestCustomBinder.java",
+                "num_methods": 0,
+                "num_tokens": 274
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestDoublyTransactional.java",
+                "num_methods": 2,
+                "num_tokens": 393
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestFinalizeBehavior.java",
+                "num_methods": 1,
+                "num_tokens": 235
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestMixinInterfaces.java",
+                "num_methods": 0,
+                "num_tokens": 498
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestModifiers.java",
+                "num_methods": 0,
+                "num_tokens": 556
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestNewApiOnDbiAndHandle.java",
+                "num_methods": 0,
+                "num_tokens": 282
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestOnDemandSqlObject.java",
+                "num_methods": 0,
+                "num_tokens": 419
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestReentrancy.java",
+                "num_methods": 0,
+                "num_tokens": 378
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestRegisteredMappersWork.java",
+                "num_methods": 4,
+                "num_tokens": 632
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestReturningQuery.java",
+                "num_methods": 0,
+                "num_tokens": 278
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestReturningQueryResults.java",
+                "num_methods": 0,
+                "num_tokens": 368
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestStatements.java",
+                "num_methods": 0,
+                "num_tokens": 288
+            },
+            {
+                "file_path": "sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestVariousOddities.java",
+                "num_methods": 4,
+                "num_tokens": 348
+            },
+            {
+                "file_path": "src/main/java/org/skife/jdbi/v2/IDBI.java",
+                "num_methods": 0,
+                "num_tokens": 663
+            }
+        ],
+        "commit_2937fbe252adf85ec784eb54f1b95f07dd1a0297": [
+            {
+                "file_path": "src/main/java/org/skife/jdbi/v2/BasicHandle.java",
+                "num_methods": 38,
+                "num_tokens": 1023
+            },
+            {
+                "file_path": "src/main/java/org/skife/jdbi/v2/BasicHandle.java",
+                "num_methods": 36,
+                "num_tokens": 876
+            }
+        ],
+        "commit_fc8689724d443371bc2a28b8075d1e12201a6112": [
+            {
+                "file_path": "src/main/java/org/skife/jdbi/v2/SQLStatement.java",
+                "num_methods": 96,
+                "num_tokens": 4461
+            },
+            {
+                "file_path": "src/main/java/org/skife/jdbi/v2/SQLStatement.java",
+                "num_methods": 93,
+                "num_tokens": 4453
+            },
+            {
+                "file_path": "src/main/java/org/skife/jdbi/v2/sqlobject/customizers/FetchDirection.java",
+                "num_methods": 8,
+                "num_tokens": 209
+            },
+            {
+                "file_path": "src/main/java/org/skife/jdbi/v2/sqlobject/customizers/FetchDirection.java",
+                "num_methods": 5,
+                "num_tokens": 169
+            },
+            {
+                "file_path": "src/main/java/org/skife/jdbi/v2/sqlobject/customizers/TransactionIsolation.java",
+                "num_methods": 4,
+                "num_tokens": 197
+            },
+            {
+                "file_path": "src/main/java/org/skife/jdbi/v2/sqlobject/customizers/TransactionIsolation.java",
+                "num_methods": 4,
+                "num_tokens": 199
+            }
+        ]
     }
 }
