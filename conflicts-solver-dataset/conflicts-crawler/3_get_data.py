@@ -7,8 +7,8 @@ from urllib.parse import urlparse
 content_dict = {}
 
 # Create a dataset folder if it doesn't exist
-if not os.path.exists('dataset'):
-    os.makedirs('dataset')
+if not os.path.exists('conflicts-solver-dataset/conflicts-crawler/dataset-files-in-conflict'):
+    os.makedirs('conflicts-solver-dataset/conflicts-crawler/dataset-files-in-conflict')
 
 outputs_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), 'outputs'))
 file_path = os.path.join(outputs_folder, '2_conflict_urls.json')
