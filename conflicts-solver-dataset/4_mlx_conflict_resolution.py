@@ -5,7 +5,6 @@ from mlx_lm import load, generate
 
 # Load the model and tokenizer
 model, tokenizer = load("mlx-community/CodeLlama-13b-Instruct-hf-4bit-MLX")
-# model, tokenizer = load("mlx-community/Meta-Llama-3-8B-Instruct-4bit")
 
 # Function to generate a response using the mlx_lm model
 def generate_response(prompt):
@@ -15,6 +14,12 @@ def generate_response(prompt):
 # Folder paths
 outputs_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), 'conflicts-crawler/outputs'))
 resolution_examples_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), 'conflicts-solver-dataset/conflicts-crawler/dataset-resolution-examples'))
+
+# Create llm-conflicts-resolution folder if it doesn't exist
+llm_resolution_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), 'llm-conflicts-resolution'))
+if not os.path.exists(llm_resolution_folder):
+    os.makedirs(llm_resolution_folder)
+
 file_path = os.path.join(outputs_folder, '2_conflict_urls.json')
 
 # Paths to example files - one example
@@ -24,7 +29,7 @@ example_files_one_example = [
      "1_HttpSenderImpl_v0.java"),
 ]
 
-# Paths to example files - two examples
+ # Paths to example files - two examples
 example_files_two_examples = [
     ("1_HttpSenderImpl_v1.java",
      "1_HttpSenderImpl_v2.java",
@@ -32,7 +37,7 @@ example_files_two_examples = [
      "2_ImportsExportsView_v1.java",
      "2_ImportsExportsView_v2.java",
      "2_ImportsExportsView_v0.java"),
-]
+ ]
 
 # Paths to example files - three examples
 example_files_three_examples = [
@@ -47,16 +52,8 @@ example_files_three_examples = [
      "3_FilePath_v0.java"),
 ]
 
-# Define the number of examples to use (1, 2, or 3)
-number_of_examples = 1
-
 # Select the appropriate example set based on the number of examples
-if number_of_examples == 1:
-    example_files = example_files_one_example
-elif number_of_examples == 2:
-    example_files = example_files_two_examples
-else:
-    example_files = example_files_three_examples
+example_files = example_files_one_example
 
 # Read the example files
 examples = []
@@ -84,7 +81,19 @@ with open(file_path, 'r') as file:
 
 for project_name, commits in conflict_urls.items():
     for commit_key, urls in commits.items():
-        url_pairs = zip(urls[::2], urls[1::2])
+        # The main commit SHA is part of commit_key, so extract it for comparison
+        main_commit_sha = commit_key.split('_')[-1]
+        
+        # Filter out the main commit URLs by checking if the URL contains the main commit SHA
+        filtered_urls = [url for url in urls if main_commit_sha not in url]
+        
+        # Check if there are enough filtered URLs to form pairs
+        if len(filtered_urls) % 2 != 0:
+            print(f"Skipping commit {commit_key} due to an odd number of URLs after filtering.")
+            continue
+        
+        url_pairs = zip(filtered_urls[::2], filtered_urls[1::2])  # Create pairs of parent URLs
+        
         for first_url, second_url in url_pairs:
             first_url_parts = urlparse(first_url)
             first_raw_index = first_url_parts.path.split('/').index('raw')
@@ -98,6 +107,11 @@ for project_name, commits in conflict_urls.items():
 
             first_file_path = f"conflicts-solver-dataset/conflicts-crawler/dataset-files-in-conflict/{project_name}_{commit_key}_{first_x}_{filename}"
             second_file_path = f"conflicts-solver-dataset/conflicts-crawler/dataset-files-in-conflict/{project_name}_{commit_key}_{second_x}_{filename}"
+
+            # Check if both files exist before proceeding
+            if not os.path.exists(first_file_path) or not os.path.exists(second_file_path):
+                print(f"Skipping {first_file_path} or {second_file_path} because the file does not exist.")
+                continue
 
             with open(first_file_path, 'r') as first_file:
                 first_file_content = first_file.read()
@@ -115,14 +129,15 @@ for project_name, commits in conflict_urls.items():
 
             result = generate_response(prompt)
 
-            # Save the result in a separate file
+            # Save the result in the llm-conflicts-resolution folder
             result_filename = f"{project_name}_{commit_key}_{filename}_result.txt"
-            result_file_path = os.path.join(outputs_folder, result_filename)
+            result_file_path = os.path.join(llm_resolution_folder, result_filename)
             with open(result_file_path, 'w') as result_file:
                 result_file.write(f"Result for {project_name}_{commit_key}_{filename}:\n{result}\n\n")
 
             print(f"Result saved to {result_file_path}")
 
+print("All conflict resolutions generated and saved.")
 
 
 

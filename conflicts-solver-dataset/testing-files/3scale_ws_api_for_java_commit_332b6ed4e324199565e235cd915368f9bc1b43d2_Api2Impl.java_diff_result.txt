@@ -1,0 +1,44 @@
+--- /Users/mafalda/Desktop/merge-conflicts-resolution/conflicts-solver-dataset/testing-files/3scale_ws_api_for_java_commit_332b6ed4e324199565e235cd915368f9bc1b43d2_Api2Impl.java_LLMFormatted.java
++++ /Users/mafalda/Desktop/merge-conflicts-resolution/conflicts-solver-dataset/testing-files/3scale_ws_api_for_java_commit_332b6ed4e324199565e235cd915368f9bc1b43d2_Api2Impl.java_MainCommitFormatted.java
+@@ -76,7 +76,7 @@
+ 
+
+       log.info("response code was: " + response.getResponseCode());
+
+ 
+
+-      if (response.getResponseCode() == 200) {
+
++      if (response.getResponseCode() == 200 || response.getResponseCode() == 409) {
+
+         AuthorizeResponse authorizedResponse = new AuthorizeResponse(response.getResponseText());
+
+         cache.addAuthorizedResponse(app_key, authorizedResponse);
+
+         return authorizedResponse;
+
+@@ -157,8 +157,10 @@
+     data.append(prefix);
+
+     data.append("[app_id]=").append(transaction.getApp_id());
+
+     data.append(formatMetrics(prefix, transaction.getMetrics()));
+
+-    data.append("&").append(prefix);
+
+-    data.append("[timestamp]=").append(urlEncodeField(transaction.getTimestamp()));
+
++    if (transaction.getTimestamp() != null) {
+
++      data.append("&").append(prefix);
+
++      data.append("[timestamp]=").append(urlEncodeField(transaction.getTimestamp()));
+
++    }
+
+ 
+
+     return data.toString();
+
+   }
+
