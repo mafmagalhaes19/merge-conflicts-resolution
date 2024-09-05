@@ -129,12 +129,6 @@ for project_name, commits in conflict_urls.items():
 
 
 
-
-
-
-
-
-
 # import os
 # import json
 # from urllib.parse import urlparse

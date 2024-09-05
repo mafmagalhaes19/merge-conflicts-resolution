@@ -1,1020 +1,109 @@
 {
     "3scale_ws_api_for_java": {
         "commit_c3b5f5d43f5699e2e4d698bd32a74dad9ac1d477": [
+            "https://github.com/3scale/3scale_ws_api_for_java/raw/c3b5f5d43f5699e2e4d698bd32a74dad9ac1d477/src/main/java/net/threescale/api/v2/HttpSenderImpl.java",
             "https://github.com/3scale/3scale_ws_api_for_java/raw/78eceb4/src/main/java/net/threescale/api/v2/HttpSenderImpl.java",
             "https://github.com/3scale/3scale_ws_api_for_java/raw/85d75a2/src/main/java/net/threescale/api/v2/HttpSenderImpl.java"
         ],
         "commit_332b6ed4e324199565e235cd915368f9bc1b43d2": [
+            "https://github.com/3scale/3scale_ws_api_for_java/raw/332b6ed4e324199565e235cd915368f9bc1b43d2/src/net/threescale/api/v2/Api2Impl.java",
             "https://github.com/3scale/3scale_ws_api_for_java/raw/4650578/src/net/threescale/api/v2/Api2Impl.java",
             "https://github.com/3scale/3scale_ws_api_for_java/raw/d623f49/src/net/threescale/api/v2/Api2Impl.java"
         ]
     },
     "bndtools": {
         "commit_8f113c6f5d090ff539f3c342591a575b976fd23d": [
+            "https://github.com/bndtools/bndtools/raw/8f113c6f5d090ff539f3c342591a575b976fd23d/bndtools.core/src/bndtools/views/ImportsExportsView.java",
             "https://github.com/bndtools/bndtools/raw/350da93/bndtools.core/src/bndtools/views/ImportsExportsView.java",
             "https://github.com/bndtools/bndtools/raw/bd65c61/bndtools.core/src/bndtools/views/ImportsExportsView.java"
         ]
     },
     "platform_packages_apps_browser": {
         "commit_67832037dbba03f34873878d3f8080ded2ec1017": [
+            "https://github.com/android/platform_packages_apps_browser/raw/67832037dbba03f34873878d3f8080ded2ec1017/src/com/android/browser/AddBookmarkPage.java",
             "https://github.com/android/platform_packages_apps_browser/raw/0c97463/src/com/android/browser/AddBookmarkPage.java",
             "https://github.com/android/platform_packages_apps_browser/raw/7bf3f38/src/com/android/browser/AddBookmarkPage.java",
+            "https://github.com/android/platform_packages_apps_browser/raw/67832037dbba03f34873878d3f8080ded2ec1017/src/com/android/browser/DownloadTouchIcon.java",
             "https://github.com/android/platform_packages_apps_browser/raw/0c97463/src/com/android/browser/DownloadTouchIcon.java",
             "https://github.com/android/platform_packages_apps_browser/raw/7bf3f38/src/com/android/browser/DownloadTouchIcon.java"
         ],
         "commit_f26aeabb17d38ed39a0711afcf51694cc69c8d51": [
+            "https://github.com/android/platform_packages_apps_browser/raw/f26aeabb17d38ed39a0711afcf51694cc69c8d51/src/com/android/browser/BrowserActivity.java",
             "https://github.com/android/platform_packages_apps_browser/raw/1d310fc/src/com/android/browser/BrowserActivity.java",
             "https://github.com/android/platform_packages_apps_browser/raw/3b0a658/src/com/android/browser/BrowserActivity.java"
         ],
         "commit_a3f90f06f5b3b7db18f30eca5322796fc6b4c2e3": [
+            "https://github.com/android/platform_packages_apps_browser/raw/a3f90f06f5b3b7db18f30eca5322796fc6b4c2e3/src/com/android/browser/BrowserSettings.java",
             "https://github.com/android/platform_packages_apps_browser/raw/2cac385/src/com/android/browser/BrowserSettings.java",
             "https://github.com/android/platform_packages_apps_browser/raw/f2c5c1b/src/com/android/browser/BrowserSettings.java"
         ],
         "commit_e3fdcaf62ccb6092c43b39c2b990b47eae3ab1b7": [
+            "https://github.com/android/platform_packages_apps_browser/raw/e3fdcaf62ccb6092c43b39c2b990b47eae3ab1b7/src/com/android/browser/BrowserActivity.java",
             "https://github.com/android/platform_packages_apps_browser/raw/53c65ca/src/com/android/browser/BrowserActivity.java",
             "https://github.com/android/platform_packages_apps_browser/raw/f59ec87/src/com/android/browser/BrowserActivity.java"
         ]
     },
     "platform_packages_providers_downloadprovider": {
         "commit_4cefd59d105583644a261702b488591d31bff813": [
+            "https://github.com/android/platform_packages_providers_downloadprovider/raw/4cefd59d105583644a261702b488591d31bff813/src/com/android/providers/downloads/DownloadProvider.java",
             "https://github.com/android/platform_packages_providers_downloadprovider/raw/40e4d5d/src/com/android/providers/downloads/DownloadProvider.java",
             "https://github.com/android/platform_packages_providers_downloadprovider/raw/f0fa1cd/src/com/android/providers/downloads/DownloadProvider.java",
+            "https://github.com/android/platform_packages_providers_downloadprovider/raw/4cefd59d105583644a261702b488591d31bff813/src/com/android/providers/downloads/Helpers.java",
             "https://github.com/android/platform_packages_providers_downloadprovider/raw/40e4d5d/src/com/android/providers/downloads/Helpers.java",
             "https://github.com/android/platform_packages_providers_downloadprovider/raw/f0fa1cd/src/com/android/providers/downloads/Helpers.java"
         ],
         "commit_4ed4c65f46f5d077bb40f82e7a4821bd47217fdd": [
+            "https://github.com/android/platform_packages_providers_downloadprovider/raw/4ed4c65f46f5d077bb40f82e7a4821bd47217fdd/src/com/android/providers/downloads/DownloadProvider.java",
             "https://github.com/android/platform_packages_providers_downloadprovider/raw/942f869/src/com/android/providers/downloads/DownloadProvider.java",
             "https://github.com/android/platform_packages_providers_downloadprovider/raw/f0fa1cd/src/com/android/providers/downloads/DownloadProvider.java",
+            "https://github.com/android/platform_packages_providers_downloadprovider/raw/4ed4c65f46f5d077bb40f82e7a4821bd47217fdd/src/com/android/providers/downloads/Helpers.java",
             "https://github.com/android/platform_packages_providers_downloadprovider/raw/942f869/src/com/android/providers/downloads/Helpers.java",
             "https://github.com/android/platform_packages_providers_downloadprovider/raw/f0fa1cd/src/com/android/providers/downloads/Helpers.java"
         ],
         "commit_e0114021be2a1ca49a8cba85bb88129d3a19d173": [
+            "https://github.com/android/platform_packages_providers_downloadprovider/raw/e0114021be2a1ca49a8cba85bb88129d3a19d173/src/com/android/providers/downloads/DownloadThread.java",
             "https://github.com/android/platform_packages_providers_downloadprovider/raw/977d38d/src/com/android/providers/downloads/DownloadThread.java",
             "https://github.com/android/platform_packages_providers_downloadprovider/raw/9ae5f51/src/com/android/providers/downloads/DownloadThread.java"
         ],
         "commit_977d38d21876fbc39598ff0a966a27db92ee1d59": [
+            "https://github.com/android/platform_packages_providers_downloadprovider/raw/977d38d21876fbc39598ff0a966a27db92ee1d59/src/com/android/providers/downloads/DownloadProvider.java",
             "https://github.com/android/platform_packages_providers_downloadprovider/raw/f8e520e/src/com/android/providers/downloads/DownloadProvider.java",
             "https://github.com/android/platform_packages_providers_downloadprovider/raw/d311b45/src/com/android/providers/downloads/DownloadProvider.java",
+            "https://github.com/android/platform_packages_providers_downloadprovider/raw/977d38d21876fbc39598ff0a966a27db92ee1d59/src/com/android/providers/downloads/DownloadService.java",
             "https://github.com/android/platform_packages_providers_downloadprovider/raw/f8e520e/src/com/android/providers/downloads/DownloadService.java",
             "https://github.com/android/platform_packages_providers_downloadprovider/raw/d311b45/src/com/android/providers/downloads/DownloadService.java"
         ]
     },
     "CIMTool": {
         "commit_e33e3f378b457c7629fd12adac3ebe3822bf0860": [
+            "https://github.com/arnolddevos/CIMTool/raw/e33e3f378b457c7629fd12adac3ebe3822bf0860/CIMToolPlugin/src/au/com/langdale/cimtoole/builder/ProfileBuildlets.java",
             "https://github.com/arnolddevos/CIMTool/raw/2c43021/CIMToolPlugin/src/au/com/langdale/cimtoole/builder/ProfileBuildlets.java",
             "https://github.com/arnolddevos/CIMTool/raw/6b57082/CIMToolPlugin/src/au/com/langdale/cimtoole/builder/ProfileBuildlets.java",
+            "https://github.com/arnolddevos/CIMTool/raw/e33e3f378b457c7629fd12adac3ebe3822bf0860/CIMToolPlugin/src/au/com/langdale/cimtoole/wizards/SchemaWizardPage.java",
             "https://github.com/arnolddevos/CIMTool/raw/2c43021/CIMToolPlugin/src/au/com/langdale/cimtoole/wizards/SchemaWizardPage.java",
             "https://github.com/arnolddevos/CIMTool/raw/6b57082/CIMToolPlugin/src/au/com/langdale/cimtoole/wizards/SchemaWizardPage.java"
         ]
     },
     "citrus": {
-        "commit_31e25e299bc921b220fc7e66613c07b9a5076b22": [
-            "https://github.com/christophd/citrus/raw/8d68953/#\tmodules/citrus-core/src/main/java/com/consol/citrus/validation/json/JsonMessageValidationContext.java",
-            "https://github.com/christophd/citrus/raw/5f25d8a/#\tmodules/citrus-core/src/main/java/com/consol/citrus/validation/json/JsonMessageValidationContext.java",
-            "https://github.com/christophd/citrus/raw/8d68953/#\tmodules/citrus-core/src/main/java/com/consol/citrus/validation/json/JsonPathMessageValidationContext.java",
-            "https://github.com/christophd/citrus/raw/5f25d8a/#\tmodules/citrus-core/src/main/java/com/consol/citrus/validation/json/JsonPathMessageValidationContext.java"
-        ],
         "commit_22d891821ce94ed7868c8ff157bc7d0deef31a87": [
+            "https://github.com/christophd/citrus/raw/22d891821ce94ed7868c8ff157bc7d0deef31a87/modules/citrus-java-dsl/src/main/java/com/consol/citrus/dsl/handler/TestExecutingMessageHandler.java",
             "https://github.com/christophd/citrus/raw/24b5118/modules/citrus-java-dsl/src/main/java/com/consol/citrus/dsl/handler/TestExecutingMessageHandler.java",
             "https://github.com/christophd/citrus/raw/93136fd/modules/citrus-java-dsl/src/main/java/com/consol/citrus/dsl/handler/TestExecutingMessageHandler.java"
         ],
         "commit_4bc877d82451f60531e3ef00a321679233963a65": [
+            "https://github.com/christophd/citrus/raw/4bc877d82451f60531e3ef00a321679233963a65/modules/citrus-admin/src/main/java/com/consol/citrus/admin/launcher/ProcessLauncherImpl.java",
             "https://github.com/christophd/citrus/raw/ca435ec/modules/citrus-admin/src/main/java/com/consol/citrus/admin/launcher/ProcessLauncherImpl.java",
             "https://github.com/christophd/citrus/raw/eacd689/modules/citrus-admin/src/main/java/com/consol/citrus/admin/launcher/ProcessLauncherImpl.java"
         ],
         "commit_a5d8caf335c089a6097c318c986a61b979ed0b19": [
+            "https://github.com/christophd/citrus/raw/a5d8caf335c089a6097c318c986a61b979ed0b19/modules/citrus-admin/src/main/java/com/consol/citrus/admin/service/TestCaseService.java",
             "https://github.com/christophd/citrus/raw/7d5d145/modules/citrus-admin/src/main/java/com/consol/citrus/admin/service/TestCaseService.java",
             "https://github.com/christophd/citrus/raw/2637a5d/modules/citrus-admin/src/main/java/com/consol/citrus/admin/service/TestCaseService.java"
         ],
         "commit_edc0172918b650eec4973ab4017f3ea01e599add": [
+            "https://github.com/christophd/citrus/raw/edc0172918b650eec4973ab4017f3ea01e599add/modules/citrus-core/src/main/java/com/consol/citrus/TestAction.java",
             "https://github.com/christophd/citrus/raw/c201d8a/modules/citrus-core/src/main/java/com/consol/citrus/TestAction.java",
             "https://github.com/christophd/citrus/raw/2c7e78a/modules/citrus-core/src/main/java/com/consol/citrus/TestAction.java"
-        ]
-    },
-    "ecommons-uimisc": {
-        "commit_9a4a5ac6b3422889204961338d8685281a5898c0": [
-            "https://github.com/walware/ecommons-uimisc/raw/4d126e4/org.eclipse.nebula.widgets.nattable.core/src/org/eclipse/nebula/widgets/nattable/viewport/ViewportLayer.java",
-            "https://github.com/walware/ecommons-uimisc/raw/10ba449/org.eclipse.nebula.widgets.nattable.core/src/org/eclipse/nebula/widgets/nattable/viewport/ViewportLayer.java"
-        ],
-        "commit_fad14eae3b2a8af191ef308c64ef454a2e32fc33": [
-            "https://github.com/walware/ecommons-uimisc/raw/df80c2d/org.eclipse.nebula.widgets.nattable.core.test/src/org/eclipse/nebula/widgets/nattable/freeze/command/FreezeHandlerTest.java",
-            "https://github.com/walware/ecommons-uimisc/raw/6c0d39a/org.eclipse.nebula.widgets.nattable.core.test/src/org/eclipse/nebula/widgets/nattable/freeze/command/FreezeHandlerTest.java"
-        ],
-        "commit_472b4782c5bd95a47073f950b66f069e9b6f352f": [
-            "https://github.com/walware/ecommons-uimisc/raw/674849d/org.eclipse.nebula.widgets.nattable.core/src/org/eclipse/nebula/widgets/nattable/painter/cell/ImagePainter.java",
-            "https://github.com/walware/ecommons-uimisc/raw/6188146/org.eclipse.nebula.widgets.nattable.core/src/org/eclipse/nebula/widgets/nattable/painter/cell/ImagePainter.java"
-        ]
-    },
-    "jodt": {
-        "commit_b864b0d7212eaddf421cf8a2bfec0c17b9c575b8": [
-            "https://github.com/OliverStuch/jodt/raw/6b8c0de/jodt-core/src/main/java/org/jodt/property/AbstractTest_CompositeProperty.java",
-            "https://github.com/OliverStuch/jodt/raw/61dabe9/jodt-core/src/main/java/org/jodt/property/AbstractTest_CompositeProperty.java"
-        ]
-    },
-    "aws-sdk-java": {
-        "commit_7ab10af25bc8a019651a33f6d19579558350c761": [
-            "https://github.com/aws/aws-sdk-java/raw/c76e56a/src/main/java/com/amazonaws/services/s3/AmazonS3Client.java",
-            "https://github.com/aws/aws-sdk-java/raw/f9d6352/src/main/java/com/amazonaws/services/s3/AmazonS3Client.java"
-        ],
-        "commit_2dd166f640dc18e124b848431d96e669881ba859": [
-            "https://github.com/aws/aws-sdk-java/raw/68aa870/src/main/java/com/amazonaws/services/s3/transfer/TransferManager.java",
-            "https://github.com/aws/aws-sdk-java/raw/c8f9fca/src/main/java/com/amazonaws/services/s3/transfer/TransferManager.java"
-        ]
-    },
-    "beam": {
-        "commit_7790a8e942f4cbc093b07b0aa19712c88393efed": [
-            "https://github.com/bcdev/beam/raw/7c4159a/beam-geotiff/src/main/java/org/esa/beam/dataio/geotiff/GeoTiffProductReader.java",
-            "https://github.com/bcdev/beam/raw/ec49cb3/beam-geotiff/src/main/java/org/esa/beam/dataio/geotiff/GeoTiffProductReader.java"
-        ],
-        "commit_70f10d0d779c176266fcdf855f26f868e31a5801": [
-            "https://github.com/bcdev/beam/raw/25df952/beam-binning/src/test/java/org/esa/beam/binning/support/ReducedGaussianGridTest.java",
-            "https://github.com/bcdev/beam/raw/ff24f93/beam-binning/src/test/java/org/esa/beam/binning/support/ReducedGaussianGridTest.java"
-        ],
-        "commit_850455556cad0832d8eff0929ac31dd85397283a": [
-            "https://github.com/bcdev/beam/raw/dcd651c/beam-core/src/main/java/org/esa/beam/jai/ImageManager.java",
-            "https://github.com/bcdev/beam/raw/35155c8/beam-core/src/main/java/org/esa/beam/jai/ImageManager.java"
-        ],
-        "commit_b1032abf6d44d4db51a93b4fa8052fd2e4272e96": [
-            "https://github.com/bcdev/beam/raw/b996b11/beam-envisat-reader/src/main/java/org/esa/beam/dataio/envisat/EnvisatOrbitReader.java",
-            "https://github.com/bcdev/beam/raw/750745e/beam-envisat-reader/src/main/java/org/esa/beam/dataio/envisat/EnvisatOrbitReader.java"
-        ],
-        "commit_3fced5b4d5f27fcd02927be71742570275feb9d5": [
-            "https://github.com/bcdev/beam/raw/d32e45e/beam-flhmci/src/main/java/org/esa/beam/processor/flh_mci/BaselineAlgorithm.java",
-            "https://github.com/bcdev/beam/raw/91d513b/beam-flhmci/src/main/java/org/esa/beam/processor/flh_mci/BaselineAlgorithm.java"
-        ],
-        "commit_c886615b03801e1abc629e89f765bf4e5dc2d819": [
-            "https://github.com/bcdev/beam/raw/b127422/beam-core/src/main/java/org/esa/beam/framework/datamodel/PixelGeoCoding.java",
-            "https://github.com/bcdev/beam/raw/6d84125/beam-core/src/main/java/org/esa/beam/framework/datamodel/PixelGeoCoding.java"
-        ],
-        "commit_00f5afaed433c48ceb647377a47f126f4acd73f9": [
-            "https://github.com/bcdev/beam/raw/eff742e/beam-core/src/main/java/org/esa/beam/framework/datamodel/Product.java",
-            "https://github.com/bcdev/beam/raw/7160db0/beam-core/src/main/java/org/esa/beam/framework/datamodel/Product.java"
-        ],
-        "commit_91fefb2c7f97aa333b41fae746fbe087333c07ac": [
-            "https://github.com/bcdev/beam/raw/3b0f5eb/beam-visat-rcp/src/main/java/org/esa/beam/visat/toolviews/stat/DensityPlotPanel.java",
-            "https://github.com/bcdev/beam/raw/9fc2c52/beam-visat-rcp/src/main/java/org/esa/beam/visat/toolviews/stat/DensityPlotPanel.java"
-        ],
-        "commit_89d9f5d184598c5d0bb8b9c08c9f2f3ebf085dfd": [
-            "https://github.com/bcdev/beam/raw/df920a5/beam-ui/src/main/java/org/esa/beam/framework/ui/ImageInfoEditor.java",
-            "https://github.com/bcdev/beam/raw/b67e5b4/beam-ui/src/main/java/org/esa/beam/framework/ui/ImageInfoEditor.java"
-        ],
-        "commit_659b3e0e0bd4fa0a3ccadf4f50101ecac5405e0c": [
-            "https://github.com/bcdev/beam/raw/678b2e1/beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/OperatorDesc.java",
-            "https://github.com/bcdev/beam/raw/5638fbe/beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/OperatorDesc.java",
-            "https://github.com/bcdev/beam/raw/678b2e1/beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/OperatorDoclet.java",
-            "https://github.com/bcdev/beam/raw/5638fbe/beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/OperatorDoclet.java",
-            "https://github.com/bcdev/beam/raw/678b2e1/beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/OperatorHandlerHtml.java",
-            "https://github.com/bcdev/beam/raw/5638fbe/beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/OperatorHandlerHtml.java",
-            "https://github.com/bcdev/beam/raw/678b2e1/beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/ParameterDesc.java",
-            "https://github.com/bcdev/beam/raw/5638fbe/beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/ParameterDesc.java",
-            "https://github.com/bcdev/beam/raw/678b2e1/beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/SourceProductDesc.java",
-            "https://github.com/bcdev/beam/raw/5638fbe/beam-gpf/src/main/java/org/esa/beam/framework/gpf/doclet/SourceProductDesc.java",
-            "https://github.com/bcdev/beam/raw/678b2e1/beam-gpf/src/main/java/org/esa/beam/framework/gpf/graph/SourceList.java",
-            "https://github.com/bcdev/beam/raw/5638fbe/beam-gpf/src/main/java/org/esa/beam/framework/gpf/graph/SourceList.java",
-            "https://github.com/bcdev/beam/raw/678b2e1/beam-gpf/src/main/java/org/esa/beam/framework/gpf/main/CommandLineTool.java",
-            "https://github.com/bcdev/beam/raw/5638fbe/beam-gpf/src/main/java/org/esa/beam/framework/gpf/main/CommandLineTool.java",
-            "https://github.com/bcdev/beam/raw/678b2e1/beam-gpf/src/main/java/org/esa/beam/framework/gpf/main/CommandLineUsage.java",
-            "https://github.com/bcdev/beam/raw/5638fbe/beam-gpf/src/main/java/org/esa/beam/framework/gpf/main/CommandLineUsage.java",
-            "https://github.com/bcdev/beam/raw/678b2e1/beam-gpf/src/main/java/org/esa/beam/framework/gpf/operators/common/BandMathOp.java",
-            "https://github.com/bcdev/beam/raw/5638fbe/beam-gpf/src/main/java/org/esa/beam/framework/gpf/operators/common/BandMathOp.java",
-            "https://github.com/bcdev/beam/raw/678b2e1/beam-gpf/src/main/java/org/esa/beam/framework/gpf/operators/common/PassThroughOp.java",
-            "https://github.com/bcdev/beam/raw/5638fbe/beam-gpf/src/main/java/org/esa/beam/framework/gpf/operators/common/PassThroughOp.java",
-            "https://github.com/bcdev/beam/raw/678b2e1/beam-gpf/src/main/java/org/esa/beam/framework/gpf/operators/common/SubsetOp.java",
-            "https://github.com/bcdev/beam/raw/5638fbe/beam-gpf/src/main/java/org/esa/beam/framework/gpf/operators/common/SubsetOp.java",
-            "https://github.com/bcdev/beam/raw/678b2e1/beam-gpf/src/main/java/org/esa/beam/framework/gpf/operators/common/WriteOp.java",
-            "https://github.com/bcdev/beam/raw/5638fbe/beam-gpf/src/main/java/org/esa/beam/framework/gpf/operators/common/WriteOp.java",
-            "https://github.com/bcdev/beam/raw/678b2e1/beam-gpf/src/test/java/org/esa/beam/framework/gpf/main/CommandLineToolMultiSourceGraphTest.java",
-            "https://github.com/bcdev/beam/raw/5638fbe/beam-gpf/src/test/java/org/esa/beam/framework/gpf/main/CommandLineToolMultiSourceGraphTest.java",
-            "https://github.com/bcdev/beam/raw/678b2e1/beam-gpf/src/test/java/org/esa/beam/framework/gpf/main/CommandLineToolOperatorTest.java",
-            "https://github.com/bcdev/beam/raw/5638fbe/beam-gpf/src/test/java/org/esa/beam/framework/gpf/main/CommandLineToolOperatorTest.java",
-            "https://github.com/bcdev/beam/raw/678b2e1/beam-ui/src/main/java/org/esa/beam/framework/ui/product/ProductTree.java",
-            "https://github.com/bcdev/beam/raw/5638fbe/beam-ui/src/main/java/org/esa/beam/framework/ui/product/ProductTree.java",
-            "https://github.com/bcdev/beam/raw/678b2e1/beam-visat-rcp/src/main/java/org/esa/beam/visat/ProductsToolView.java",
-            "https://github.com/bcdev/beam/raw/5638fbe/beam-visat-rcp/src/main/java/org/esa/beam/visat/ProductsToolView.java",
-            "https://github.com/bcdev/beam/raw/678b2e1/beam-visat-rcp/src/main/java/org/esa/beam/visat/toolviews/stat/PagePanel.java",
-            "https://github.com/bcdev/beam/raw/5638fbe/beam-visat-rcp/src/main/java/org/esa/beam/visat/toolviews/stat/PagePanel.java",
-            "https://github.com/bcdev/beam/raw/678b2e1/beam-visat-rcp/src/main/java/org/esa/beam/visat/toolviews/stat/StatisticsToolView.java",
-            "https://github.com/bcdev/beam/raw/5638fbe/beam-visat-rcp/src/main/java/org/esa/beam/visat/toolviews/stat/StatisticsToolView.java"
-        ]
-    },
-    "ccw": {
-        "commit_6d97ca4bb5e34b3aa65902b39afaf500a8a83c43": [
-            "https://github.com/laurentpetit/ccw/raw/83f0fd8/ccw.core/src/java/ccw/repl/ConnectDialog.java",
-            "https://github.com/laurentpetit/ccw/raw/4a0c6f9/ccw.core/src/java/ccw/repl/ConnectDialog.java"
-        ],
-        "commit_3d29b2dcb5621617354b9c36495109aa6e74bb41": [
-            "https://github.com/laurentpetit/ccw/raw/89f588c/ccw.core/src/ccw/repl/REPLView.java",
-            "https://github.com/laurentpetit/ccw/raw/ecb62f5/ccw.core/src/ccw/repl/REPLView.java"
-        ],
-        "commit_d83823e367b0c9462c1cfdf9e8fe33aec81f1756": [
-            "https://github.com/laurentpetit/ccw/raw/17620a7/ccw.core/src/ccw/editors/antlrbased/AntlrBasedClojureEditor.java",
-            "https://github.com/laurentpetit/ccw/raw/d615b75/ccw.core/src/ccw/editors/antlrbased/AntlrBasedClojureEditor.java"
-        ],
-        "commit_a42db3b76cdc7b13b9c2e76fe24eb9b49a395e2c": [
-            "https://github.com/laurentpetit/ccw/raw/0ffc000/ccw.core/src/ccw/editors/antlrbased/AntlrBasedClojureEditor.java",
-            "https://github.com/laurentpetit/ccw/raw/d0ee917/ccw.core/src/ccw/editors/antlrbased/AntlrBasedClojureEditor.java"
-        ],
-        "commit_39bae4f1b503f8bfbfeecb5ca045854426d6c645": [
-            "https://github.com/laurentpetit/ccw/raw/15ff3ab/files : src/clojuredev/ClojuredevPlugin.java",
-            "https://github.com/laurentpetit/ccw/raw/bf1e25d/files : src/clojuredev/ClojuredevPlugin.java",
-            "https://github.com/laurentpetit/ccw/raw/15ff3ab/files : src/clojuredev/editors/antlrbased/ClojureSourceViewerConfiguration.java",
-            "https://github.com/laurentpetit/ccw/raw/bf1e25d/files : src/clojuredev/editors/antlrbased/ClojureSourceViewerConfiguration.java"
-        ],
-        "commit_511dfe10e19edb15b2378e90a5b96822f408952e": [
-            "https://github.com/laurentpetit/ccw/raw/3fd0a5f/files : src/clojuredev/ClojuredevPlugin.java",
-            "https://github.com/laurentpetit/ccw/raw/8d2b31d/files : src/clojuredev/ClojuredevPlugin.java"
-        ]
-    },
-    "hudson": {
-        "commit_3624f70169557da4263fdaae96834791ef73c61f": [
-            "https://github.com/kohsuke/hudson/raw/27e1615/test/src/test/java/hudson/cli/CreateNodeCommandTest.java",
-            "https://github.com/kohsuke/hudson/raw/55dbee9/test/src/test/java/hudson/cli/CreateNodeCommandTest.java",
-            "https://github.com/kohsuke/hudson/raw/27e1615/test/src/test/java/hudson/cli/DeleteNodeCommandTest.java",
-            "https://github.com/kohsuke/hudson/raw/55dbee9/test/src/test/java/hudson/cli/DeleteNodeCommandTest.java",
-            "https://github.com/kohsuke/hudson/raw/27e1615/test/src/test/java/hudson/cli/GetNodeCommandTest.java",
-            "https://github.com/kohsuke/hudson/raw/55dbee9/test/src/test/java/hudson/cli/GetNodeCommandTest.java",
-            "https://github.com/kohsuke/hudson/raw/27e1615/test/src/test/java/hudson/cli/OnlineNodeCommandTest.java",
-            "https://github.com/kohsuke/hudson/raw/55dbee9/test/src/test/java/hudson/cli/OnlineNodeCommandTest.java",
-            "https://github.com/kohsuke/hudson/raw/27e1615/test/src/test/java/hudson/cli/UpdateNodeCommandTest.java",
-            "https://github.com/kohsuke/hudson/raw/55dbee9/test/src/test/java/hudson/cli/UpdateNodeCommandTest.java"
-        ],
-        "commit_ac0a4076bfad052a6ca177b1c2421a31cfd1ca03": [
-            "https://github.com/kohsuke/hudson/raw/f7a9d26/core/src/main/java/hudson/model/AbstractProject.java",
-            "https://github.com/kohsuke/hudson/raw/59540fa/core/src/main/java/hudson/model/AbstractProject.java"
-        ],
-        "commit_4c0d5ea6437000b3dd2bf66a6568271712b612fc": [
-            "https://github.com/kohsuke/hudson/raw/1d32134/cli/src/test/java/hudson/cli/ConnectionTest.java",
-            "https://github.com/kohsuke/hudson/raw/6653b51/cli/src/test/java/hudson/cli/ConnectionTest.java"
-        ],
-        "commit_a1b0c3a484f8dbd74c52e79678a27214735ae1bf": [
-            "https://github.com/kohsuke/hudson/raw/b2139cc/test/src/test/java/jenkins/security/ApiTokenPropertyTest.java",
-            "https://github.com/kohsuke/hudson/raw/0cc7d3f/test/src/test/java/jenkins/security/ApiTokenPropertyTest.java"
-        ],
-        "commit_0cc7d3f580199a721bc74136580680745948d79f": [
-            "https://github.com/kohsuke/hudson/raw/b70520f/test/src/test/java/jenkins/security/ApiTokenPropertyTest.java",
-            "https://github.com/kohsuke/hudson/raw/b66128c/test/src/test/java/jenkins/security/ApiTokenPropertyTest.java"
-        ],
-        "commit_b70520f17c6cf5379245b3e2bb6a7958dc9945e3": [
-            "https://github.com/kohsuke/hudson/raw/5d047e4/core/src/main/java/hudson/model/Fingerprint.java",
-            "https://github.com/kohsuke/hudson/raw/45c8ec1/core/src/main/java/hudson/model/Fingerprint.java"
-        ],
-        "commit_4c37ee59e7a251c5617d4952f5b09edab8e8c98c": [
-            "https://github.com/kohsuke/hudson/raw/c260301/test/src/test/java/jenkins/security/ApiTokenPropertyTest.java",
-            "https://github.com/kohsuke/hudson/raw/5d047e4/test/src/test/java/jenkins/security/ApiTokenPropertyTest.java"
-        ],
-        "commit_363cbc3671f51ff08fb533e6e115f82d4d8d7f10": [
-            "https://github.com/kohsuke/hudson/raw/0d3f578/test/src/test/java/jenkins/security/ApiTokenPropertyTest.java",
-            "https://github.com/kohsuke/hudson/raw/58c6f18/test/src/test/java/jenkins/security/ApiTokenPropertyTest.java"
-        ],
-        "commit_21d134811f61c70965d04a57bb6d5093850814de": [
-            "https://github.com/kohsuke/hudson/raw/3c816c4/core/src/main/java/hudson/model/ItemGroupMixIn.java",
-            "https://github.com/kohsuke/hudson/raw/ecf3b2d/core/src/main/java/hudson/model/ItemGroupMixIn.java"
-        ],
-        "commit_ecf3b2d7648d0d1708f611820babe24f45b1f640": [
-            "https://github.com/kohsuke/hudson/raw/a88f2d9/test/src/test/java/hudson/model/ItemGroupMixInTest.java",
-            "https://github.com/kohsuke/hudson/raw/d933964/test/src/test/java/hudson/model/ItemGroupMixInTest.java"
-        ],
-        "commit_2c4cc77d33e836d4b0f8bda7cc575bec8877d9e6": [
-            "https://github.com/kohsuke/hudson/raw/501b61f/core/src/test/java/hudson/util/FormValidationTest.java",
-            "https://github.com/kohsuke/hudson/raw/f58ba6e/core/src/test/java/hudson/util/FormValidationTest.java",
-            "https://github.com/kohsuke/hudson/raw/501b61f/test/src/test/java/hudson/model/UserTest.java",
-            "https://github.com/kohsuke/hudson/raw/f58ba6e/test/src/test/java/hudson/model/UserTest.java"
-        ],
-        "commit_9abf36612a7a92422e0d6c688796bc0fca590ee8": [
-            "https://github.com/kohsuke/hudson/raw/2f4d890/core/src/test/java/hudson/util/FormValidationTest.java",
-            "https://github.com/kohsuke/hudson/raw/f58ba6e/core/src/test/java/hudson/util/FormValidationTest.java",
-            "https://github.com/kohsuke/hudson/raw/2f4d890/test/src/test/java/hudson/model/UserTest.java",
-            "https://github.com/kohsuke/hudson/raw/f58ba6e/test/src/test/java/hudson/model/UserTest.java"
-        ],
-        "commit_1780041009ca637eafc2790bbeeb4112d2272f77": [
-            "https://github.com/kohsuke/hudson/raw/45c23d3/test/src/test/java/hudson/model/UserTest.java",
-            "https://github.com/kohsuke/hudson/raw/f58ba6e/test/src/test/java/hudson/model/UserTest.java"
-        ],
-        "commit_f83e9aef6d85f7bf8cc6f0055bc4e87f907a459a": [
-            "https://github.com/kohsuke/hudson/raw/d2d9174/test/src/test/java/hudson/model/UpdateCenter2Test.java",
-            "https://github.com/kohsuke/hudson/raw/25411a0/test/src/test/java/hudson/model/UpdateCenter2Test.java"
-        ],
-        "commit_f60bde00ab87712321284ec8ebad677b3d1dcf40": [
-            "https://github.com/kohsuke/hudson/raw/8f84890/core/src/main/java/hudson/PluginManager.java",
-            "https://github.com/kohsuke/hudson/raw/a1875a1/core/src/main/java/hudson/PluginManager.java",
-            "https://github.com/kohsuke/hudson/raw/8f84890/core/src/test/java/hudson/PluginManagerTest.java",
-            "https://github.com/kohsuke/hudson/raw/a1875a1/core/src/test/java/hudson/PluginManagerTest.java"
-        ],
-        "commit_3c2e8171f89d173d247123aaeaf10f60a9472977": [
-            "https://github.com/kohsuke/hudson/raw/9285ed8/core/src/main/java/hudson/PluginManager.java",
-            "https://github.com/kohsuke/hudson/raw/a1875a1/core/src/main/java/hudson/PluginManager.java",
-            "https://github.com/kohsuke/hudson/raw/9285ed8/core/src/test/java/hudson/PluginManagerTest.java",
-            "https://github.com/kohsuke/hudson/raw/a1875a1/core/src/test/java/hudson/PluginManagerTest.java"
-        ],
-        "commit_7f51765a596d69d54e5d6c41dd396e0bef351498": [
-            "https://github.com/kohsuke/hudson/raw/35b97d4/test/src/test/java/hudson/tasks/ArtifactArchiverTest.java",
-            "https://github.com/kohsuke/hudson/raw/be06d6c/test/src/test/java/hudson/tasks/ArtifactArchiverTest.java"
-        ],
-        "commit_9285ed86a2d59f2db50b0f273ee6c6ee365fec43": [
-            "https://github.com/kohsuke/hudson/raw/842e6d8/test/src/test/java/hudson/tasks/ArtifactArchiverTest.java",
-            "https://github.com/kohsuke/hudson/raw/be06d6c/test/src/test/java/hudson/tasks/ArtifactArchiverTest.java"
-        ],
-        "commit_d6d127d637c210f68acbef20c5d229a597bd9af1": [
-            "https://github.com/kohsuke/hudson/raw/ade1d43/test/src/test/java/hudson/tasks/ArtifactArchiverTest.java",
-            "https://github.com/kohsuke/hudson/raw/be06d6c/test/src/test/java/hudson/tasks/ArtifactArchiverTest.java"
-        ],
-        "commit_35b97d451c717d3f75b357b3caca347e1e65fe30": [
-            "https://github.com/kohsuke/hudson/raw/6fe334c/core/src/main/java/hudson/model/Api.java",
-            "https://github.com/kohsuke/hudson/raw/1887656/core/src/main/java/hudson/model/Api.java",
-            "https://github.com/kohsuke/hudson/raw/6fe334c/test/src/test/java/hudson/model/ApiTest.java",
-            "https://github.com/kohsuke/hudson/raw/1887656/test/src/test/java/hudson/model/ApiTest.java"
-        ],
-        "commit_842e6d8ecaec77344dd6762141a1c849eb5b9a73": [
-            "https://github.com/kohsuke/hudson/raw/7288fea/core/src/main/java/hudson/model/Api.java",
-            "https://github.com/kohsuke/hudson/raw/1887656/core/src/main/java/hudson/model/Api.java"
-        ],
-        "commit_ade1d43664739d94cd5daeadb3f3113a70b4c8ab": [
-            "https://github.com/kohsuke/hudson/raw/0af6f66/core/src/main/java/hudson/model/Api.java",
-            "https://github.com/kohsuke/hudson/raw/1887656/core/src/main/java/hudson/model/Api.java"
-        ],
-        "commit_6fe334cc31a7041fb0ab6e63935a4d9c99d513f2": [
-            "https://github.com/kohsuke/hudson/raw/0b96005/test/src/test/java/hudson/tasks/BuildTriggerTest.java",
-            "https://github.com/kohsuke/hudson/raw/57d2b53/test/src/test/java/hudson/tasks/BuildTriggerTest.java"
-        ],
-        "commit_7288fea48899e217b9e26c2377df66ff81f93d9a": [
-            "https://github.com/kohsuke/hudson/raw/ac0db08/test/src/test/java/hudson/tasks/BuildTriggerTest.java",
-            "https://github.com/kohsuke/hudson/raw/57d2b53/test/src/test/java/hudson/tasks/BuildTriggerTest.java"
-        ],
-        "commit_0af6f66c26ee98a23a34b1ffa5d4d58cc9f705a0": [
-            "https://github.com/kohsuke/hudson/raw/c9836e7/test/src/test/java/hudson/tasks/BuildTriggerTest.java",
-            "https://github.com/kohsuke/hudson/raw/57d2b53/test/src/test/java/hudson/tasks/BuildTriggerTest.java"
-        ],
-        "commit_6ad8cbfc3ab570eb5e4d659e44f03b0744c22b0f": [
-            "https://github.com/kohsuke/hudson/raw/10fbe7f/core/src/main/java/hudson/ClassicPluginStrategy.java",
-            "https://github.com/kohsuke/hudson/raw/a001f71/core/src/main/java/hudson/ClassicPluginStrategy.java",
-            "https://github.com/kohsuke/hudson/raw/10fbe7f/core/src/main/java/hudson/model/Run.java",
-            "https://github.com/kohsuke/hudson/raw/a001f71/core/src/main/java/hudson/model/Run.java",
-            "https://github.com/kohsuke/hudson/raw/10fbe7f/core/src/main/java/hudson/node_monitors/MonitorOfflineCause.java",
-            "https://github.com/kohsuke/hudson/raw/a001f71/core/src/main/java/hudson/node_monitors/MonitorOfflineCause.java",
-            "https://github.com/kohsuke/hudson/raw/10fbe7f/core/src/main/java/jenkins/model/IdStrategyDescriptor.java",
-            "https://github.com/kohsuke/hudson/raw/a001f71/core/src/main/java/jenkins/model/IdStrategyDescriptor.java",
-            "https://github.com/kohsuke/hudson/raw/10fbe7f/core/src/test/java/hudson/util/XStream2Test.java",
-            "https://github.com/kohsuke/hudson/raw/a001f71/core/src/test/java/hudson/util/XStream2Test.java",
-            "https://github.com/kohsuke/hudson/raw/10fbe7f/test/src/test/java/hudson/model/AbstractItemSecurityTest.java",
-            "https://github.com/kohsuke/hudson/raw/a001f71/test/src/test/java/hudson/model/AbstractItemSecurityTest.java"
-        ],
-        "commit_253762ac34eff93648a0e3eb1eb0b9cf3fe59ad1": [
-            "https://github.com/kohsuke/hudson/raw/1ec6abe/core/src/main/java/hudson/ClassicPluginStrategy.java",
-            "https://github.com/kohsuke/hudson/raw/a001f71/core/src/main/java/hudson/ClassicPluginStrategy.java",
-            "https://github.com/kohsuke/hudson/raw/1ec6abe/core/src/main/java/hudson/model/Run.java",
-            "https://github.com/kohsuke/hudson/raw/a001f71/core/src/main/java/hudson/model/Run.java",
-            "https://github.com/kohsuke/hudson/raw/1ec6abe/core/src/main/java/hudson/node_monitors/MonitorOfflineCause.java",
-            "https://github.com/kohsuke/hudson/raw/a001f71/core/src/main/java/hudson/node_monitors/MonitorOfflineCause.java",
-            "https://github.com/kohsuke/hudson/raw/1ec6abe/core/src/main/java/jenkins/model/IdStrategyDescriptor.java",
-            "https://github.com/kohsuke/hudson/raw/a001f71/core/src/main/java/jenkins/model/IdStrategyDescriptor.java"
-        ],
-        "commit_f3fe83803df055ad5eda68a295cc9f58865ded84": [
-            "https://github.com/kohsuke/hudson/raw/5195aff/core/src/main/java/hudson/ClassicPluginStrategy.java",
-            "https://github.com/kohsuke/hudson/raw/a001f71/core/src/main/java/hudson/ClassicPluginStrategy.java",
-            "https://github.com/kohsuke/hudson/raw/5195aff/core/src/main/java/hudson/model/Run.java",
-            "https://github.com/kohsuke/hudson/raw/a001f71/core/src/main/java/hudson/model/Run.java",
-            "https://github.com/kohsuke/hudson/raw/5195aff/core/src/main/java/jenkins/model/IdStrategyDescriptor.java",
-            "https://github.com/kohsuke/hudson/raw/a001f71/core/src/main/java/jenkins/model/IdStrategyDescriptor.java"
-        ],
-        "commit_5c2ac6f50eacab928eee68fbde9bdf4120fedd4d": [
-            "https://github.com/kohsuke/hudson/raw/1de59c9/core/src/main/java/hudson/model/AbstractItem.java",
-            "https://github.com/kohsuke/hudson/raw/065c3b4/core/src/main/java/hudson/model/AbstractItem.java"
-        ],
-        "commit_7515734b6dd453a8ed4ac2401df16f25d140ea26": [
-            "https://github.com/kohsuke/hudson/raw/1e884de/core/src/main/java/hudson/model/AbstractItem.java",
-            "https://github.com/kohsuke/hudson/raw/065c3b4/core/src/main/java/hudson/model/AbstractItem.java"
-        ],
-        "commit_228e3d90b63f1b59009706582912468dbb986f89": [
-            "https://github.com/kohsuke/hudson/raw/d76961a/core/src/main/java/hudson/model/AbstractItem.java",
-            "https://github.com/kohsuke/hudson/raw/065c3b4/core/src/main/java/hudson/model/AbstractItem.java"
-        ],
-        "commit_d671beffe68236bdcd82c2156ef2fbd4f7c03e69": [
-            "https://github.com/kohsuke/hudson/raw/e471b8b/core/src/main/java/hudson/model/DownloadService.java",
-            "https://github.com/kohsuke/hudson/raw/889b46c/core/src/main/java/hudson/model/DownloadService.java",
-            "https://github.com/kohsuke/hudson/raw/e471b8b/core/src/main/java/hudson/model/UpdateSite.java",
-            "https://github.com/kohsuke/hudson/raw/889b46c/core/src/main/java/hudson/model/UpdateSite.java",
-            "https://github.com/kohsuke/hudson/raw/e471b8b/core/src/main/java/jenkins/util/JSONSignatureValidator.java",
-            "https://github.com/kohsuke/hudson/raw/889b46c/core/src/main/java/jenkins/util/JSONSignatureValidator.java",
-            "https://github.com/kohsuke/hudson/raw/e471b8b/test/src/test/java/hudson/model/DownloadServiceTest.java",
-            "https://github.com/kohsuke/hudson/raw/889b46c/test/src/test/java/hudson/model/DownloadServiceTest.java"
-        ],
-        "commit_67f338507dc5b41c880066276367d9e4023e9f53": [
-            "https://github.com/kohsuke/hudson/raw/97ad2e0/core/src/main/java/hudson/model/DownloadService.java",
-            "https://github.com/kohsuke/hudson/raw/889b46c/core/src/main/java/hudson/model/DownloadService.java",
-            "https://github.com/kohsuke/hudson/raw/97ad2e0/core/src/main/java/hudson/model/UpdateSite.java",
-            "https://github.com/kohsuke/hudson/raw/889b46c/core/src/main/java/hudson/model/UpdateSite.java",
-            "https://github.com/kohsuke/hudson/raw/97ad2e0/core/src/main/java/jenkins/util/JSONSignatureValidator.java",
-            "https://github.com/kohsuke/hudson/raw/889b46c/core/src/main/java/jenkins/util/JSONSignatureValidator.java",
-            "https://github.com/kohsuke/hudson/raw/97ad2e0/test/src/test/java/hudson/model/DownloadServiceTest.java",
-            "https://github.com/kohsuke/hudson/raw/889b46c/test/src/test/java/hudson/model/DownloadServiceTest.java"
-        ],
-        "commit_9bf85ed7bd51f1d4412e99a897a03ea5ede409a5": [
-            "https://github.com/kohsuke/hudson/raw/d60f1ca/core/src/main/java/hudson/model/DownloadService.java",
-            "https://github.com/kohsuke/hudson/raw/889b46c/core/src/main/java/hudson/model/DownloadService.java",
-            "https://github.com/kohsuke/hudson/raw/d60f1ca/core/src/main/java/hudson/model/UpdateSite.java",
-            "https://github.com/kohsuke/hudson/raw/889b46c/core/src/main/java/hudson/model/UpdateSite.java",
-            "https://github.com/kohsuke/hudson/raw/d60f1ca/test/src/test/java/hudson/model/DownloadServiceTest.java",
-            "https://github.com/kohsuke/hudson/raw/889b46c/test/src/test/java/hudson/model/DownloadServiceTest.java"
-        ],
-        "commit_cd0752432ed718e30281eb4e2732646550996868": [
-            "https://github.com/kohsuke/hudson/raw/fa40c10/test/src/test/java/hudson/model/ItemGroupMixInTest.java",
-            "https://github.com/kohsuke/hudson/raw/8457554/test/src/test/java/hudson/model/ItemGroupMixInTest.java"
-        ],
-        "commit_f0658e233d2e7c6d44bf74beb242d9d5d2b8b03c": [
-            "https://github.com/kohsuke/hudson/raw/97b2f93/core/src/main/java/hudson/FilePath.java",
-            "https://github.com/kohsuke/hudson/raw/56b87d6/core/src/main/java/hudson/FilePath.java"
-        ],
-        "commit_c94c1716f336f6e857918b01746920517bd16176": [
-            "https://github.com/kohsuke/hudson/raw/ef2a90c/core/src/main/java/hudson/FilePath.java",
-            "https://github.com/kohsuke/hudson/raw/38cb00b/core/src/main/java/hudson/FilePath.java",
-            "https://github.com/kohsuke/hudson/raw/ef2a90c/core/src/main/java/hudson/PluginManager.java",
-            "https://github.com/kohsuke/hudson/raw/38cb00b/core/src/main/java/hudson/PluginManager.java",
-            "https://github.com/kohsuke/hudson/raw/ef2a90c/core/src/main/java/hudson/PluginWrapper.java",
-            "https://github.com/kohsuke/hudson/raw/38cb00b/core/src/main/java/hudson/PluginWrapper.java"
-        ],
-        "commit_84a92396de77f3f744db1287e44ff78f16a5fc1a": [
-            "https://github.com/kohsuke/hudson/raw/69c1492/core/src/main/java/hudson/FilePath.java",
-            "https://github.com/kohsuke/hudson/raw/19f9b63/core/src/main/java/hudson/FilePath.java",
-            "https://github.com/kohsuke/hudson/raw/69c1492/core/src/main/java/hudson/PluginManager.java",
-            "https://github.com/kohsuke/hudson/raw/19f9b63/core/src/main/java/hudson/PluginManager.java",
-            "https://github.com/kohsuke/hudson/raw/69c1492/core/src/main/java/hudson/PluginWrapper.java",
-            "https://github.com/kohsuke/hudson/raw/19f9b63/core/src/main/java/hudson/PluginWrapper.java"
-        ],
-        "commit_32376946b8e97468837f737054933612f21182d4": [
-            "https://github.com/kohsuke/hudson/raw/ccbe962/core/src/main/java/hudson/FilePath.java",
-            "https://github.com/kohsuke/hudson/raw/11b240c/core/src/main/java/hudson/FilePath.java"
-        ],
-        "commit_ccbe96227f934ae311714fb9d16f38534966538d": [
-            "https://github.com/kohsuke/hudson/raw/85f356b/core/src/main/java/hudson/FilePath.java",
-            "https://github.com/kohsuke/hudson/raw/7c2254f/core/src/main/java/hudson/FilePath.java"
-        ],
-        "commit_4ddafceec3363a7b73358890d76bb8c4947e32a8": [
-            "https://github.com/kohsuke/hudson/raw/1203b09/core/src/main/java/hudson/EnvVars.java",
-            "https://github.com/kohsuke/hudson/raw/11b240c/core/src/main/java/hudson/EnvVars.java",
-            "https://github.com/kohsuke/hudson/raw/1203b09/core/src/main/java/hudson/FilePath.java",
-            "https://github.com/kohsuke/hudson/raw/11b240c/core/src/main/java/hudson/FilePath.java",
-            "https://github.com/kohsuke/hudson/raw/1203b09/core/src/main/java/hudson/cli/ClientAuthenticationCache.java",
-            "https://github.com/kohsuke/hudson/raw/11b240c/core/src/main/java/hudson/cli/ClientAuthenticationCache.java",
-            "https://github.com/kohsuke/hudson/raw/1203b09/core/src/main/java/hudson/model/Computer.java",
-            "https://github.com/kohsuke/hudson/raw/11b240c/core/src/main/java/hudson/model/Computer.java",
-            "https://github.com/kohsuke/hudson/raw/1203b09/core/src/main/java/hudson/node_monitors/DiskSpaceMonitorDescriptor.java",
-            "https://github.com/kohsuke/hudson/raw/11b240c/core/src/main/java/hudson/node_monitors/DiskSpaceMonitorDescriptor.java",
-            "https://github.com/kohsuke/hudson/raw/1203b09/core/src/main/java/hudson/node_monitors/ResponseTimeMonitor.java",
-            "https://github.com/kohsuke/hudson/raw/11b240c/core/src/main/java/hudson/node_monitors/ResponseTimeMonitor.java",
-            "https://github.com/kohsuke/hudson/raw/1203b09/core/src/main/java/hudson/node_monitors/TemporarySpaceMonitor.java",
-            "https://github.com/kohsuke/hudson/raw/11b240c/core/src/main/java/hudson/node_monitors/TemporarySpaceMonitor.java",
-            "https://github.com/kohsuke/hudson/raw/1203b09/core/src/main/java/hudson/security/AbstractPasswordBasedSecurityRealm.java",
-            "https://github.com/kohsuke/hudson/raw/11b240c/core/src/main/java/hudson/security/AbstractPasswordBasedSecurityRealm.java",
-            "https://github.com/kohsuke/hudson/raw/1203b09/core/src/main/java/hudson/slaves/SlaveComputer.java",
-            "https://github.com/kohsuke/hudson/raw/11b240c/core/src/main/java/hudson/slaves/SlaveComputer.java",
-            "https://github.com/kohsuke/hudson/raw/1203b09/core/src/main/java/hudson/tasks/Fingerprinter.java",
-            "https://github.com/kohsuke/hudson/raw/11b240c/core/src/main/java/hudson/tasks/Fingerprinter.java",
-            "https://github.com/kohsuke/hudson/raw/1203b09/core/src/main/java/hudson/tasks/Shell.java",
-            "https://github.com/kohsuke/hudson/raw/11b240c/core/src/main/java/hudson/tasks/Shell.java",
-            "https://github.com/kohsuke/hudson/raw/1203b09/core/src/main/java/hudson/util/ProcessTree.java",
-            "https://github.com/kohsuke/hudson/raw/11b240c/core/src/main/java/hudson/util/ProcessTree.java",
-            "https://github.com/kohsuke/hudson/raw/1203b09/core/src/main/java/hudson/util/RemotingDiagnostics.java",
-            "https://github.com/kohsuke/hudson/raw/11b240c/core/src/main/java/hudson/util/RemotingDiagnostics.java",
-            "https://github.com/kohsuke/hudson/raw/1203b09/core/src/main/java/jenkins/model/Jenkins.java",
-            "https://github.com/kohsuke/hudson/raw/11b240c/core/src/main/java/jenkins/model/Jenkins.java",
-            "https://github.com/kohsuke/hudson/raw/1203b09/core/src/test/java/hudson/LauncherTest.java",
-            "https://github.com/kohsuke/hudson/raw/11b240c/core/src/test/java/hudson/LauncherTest.java"
-        ],
-        "commit_11b240c361c06463e7c72ff2be5f5d46154458a4": [
-            "https://github.com/kohsuke/hudson/raw/547cc24/core/src/main/java/hudson/slaves/Channels.java",
-            "https://github.com/kohsuke/hudson/raw/be195b0/core/src/main/java/hudson/slaves/Channels.java"
-        ],
-        "commit_1203b091902526620775a3e3603a245b81ed46b4": [
-            "https://github.com/kohsuke/hudson/raw/96b973c/core/src/main/java/hudson/Functions.java",
-            "https://github.com/kohsuke/hudson/raw/be195b0/core/src/main/java/hudson/Functions.java",
-            "https://github.com/kohsuke/hudson/raw/96b973c/core/src/main/java/hudson/model/AbstractItem.java",
-            "https://github.com/kohsuke/hudson/raw/be195b0/core/src/main/java/hudson/model/AbstractItem.java",
-            "https://github.com/kohsuke/hudson/raw/96b973c/core/src/main/java/hudson/security/ACL.java",
-            "https://github.com/kohsuke/hudson/raw/be195b0/core/src/main/java/hudson/security/ACL.java",
-            "https://github.com/kohsuke/hudson/raw/96b973c/core/src/main/java/hudson/util/RobustReflectionConverter.java",
-            "https://github.com/kohsuke/hudson/raw/be195b0/core/src/main/java/hudson/util/RobustReflectionConverter.java",
-            "https://github.com/kohsuke/hudson/raw/96b973c/test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
-            "https://github.com/kohsuke/hudson/raw/be195b0/test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
-            "https://github.com/kohsuke/hudson/raw/96b973c/test/src/main/java/org/jvnet/hudson/test/JenkinsRule.java",
-            "https://github.com/kohsuke/hudson/raw/be195b0/test/src/main/java/org/jvnet/hudson/test/JenkinsRule.java",
-            "https://github.com/kohsuke/hudson/raw/96b973c/test/src/test/java/hudson/model/UpdateSiteTest.java",
-            "https://github.com/kohsuke/hudson/raw/be195b0/test/src/test/java/hudson/model/UpdateSiteTest.java",
-            "https://github.com/kohsuke/hudson/raw/96b973c/test/src/test/java/hudson/tasks/FingerprinterTest.java",
-            "https://github.com/kohsuke/hudson/raw/be195b0/test/src/test/java/hudson/tasks/FingerprinterTest.java"
-        ],
-        "commit_d5d47edae4afd8491b1eac8b3bef6adb3ca0c5b6": [
-            "https://github.com/kohsuke/hudson/raw/190f0b6/test/src/test/java/hudson/model/ParametersTest.java",
-            "https://github.com/kohsuke/hudson/raw/d6f758a/test/src/test/java/hudson/model/ParametersTest.java"
-        ],
-        "commit_89cbfc4639b7c8c3312f7095ea126fc0ce873add": [
-            "https://github.com/kohsuke/hudson/raw/23f3e0b/core/src/main/java/hudson/EnvVars.java",
-            "https://github.com/kohsuke/hudson/raw/4f736a9/core/src/main/java/hudson/EnvVars.java",
-            "https://github.com/kohsuke/hudson/raw/23f3e0b/core/src/main/java/hudson/FilePath.java",
-            "https://github.com/kohsuke/hudson/raw/4f736a9/core/src/main/java/hudson/FilePath.java",
-            "https://github.com/kohsuke/hudson/raw/23f3e0b/core/src/main/java/hudson/cli/ClientAuthenticationCache.java",
-            "https://github.com/kohsuke/hudson/raw/4f736a9/core/src/main/java/hudson/cli/ClientAuthenticationCache.java",
-            "https://github.com/kohsuke/hudson/raw/23f3e0b/core/src/main/java/hudson/model/Computer.java",
-            "https://github.com/kohsuke/hudson/raw/4f736a9/core/src/main/java/hudson/model/Computer.java",
-            "https://github.com/kohsuke/hudson/raw/23f3e0b/core/src/main/java/hudson/node_monitors/DiskSpaceMonitorDescriptor.java",
-            "https://github.com/kohsuke/hudson/raw/4f736a9/core/src/main/java/hudson/node_monitors/DiskSpaceMonitorDescriptor.java",
-            "https://github.com/kohsuke/hudson/raw/23f3e0b/core/src/main/java/hudson/node_monitors/ResponseTimeMonitor.java",
-            "https://github.com/kohsuke/hudson/raw/4f736a9/core/src/main/java/hudson/node_monitors/ResponseTimeMonitor.java",
-            "https://github.com/kohsuke/hudson/raw/23f3e0b/core/src/main/java/hudson/node_monitors/TemporarySpaceMonitor.java",
-            "https://github.com/kohsuke/hudson/raw/4f736a9/core/src/main/java/hudson/node_monitors/TemporarySpaceMonitor.java",
-            "https://github.com/kohsuke/hudson/raw/23f3e0b/core/src/main/java/hudson/security/AbstractPasswordBasedSecurityRealm.java",
-            "https://github.com/kohsuke/hudson/raw/4f736a9/core/src/main/java/hudson/security/AbstractPasswordBasedSecurityRealm.java",
-            "https://github.com/kohsuke/hudson/raw/23f3e0b/core/src/main/java/hudson/slaves/Channels.java",
-            "https://github.com/kohsuke/hudson/raw/4f736a9/core/src/main/java/hudson/slaves/Channels.java",
-            "https://github.com/kohsuke/hudson/raw/23f3e0b/core/src/main/java/hudson/slaves/SlaveComputer.java",
-            "https://github.com/kohsuke/hudson/raw/4f736a9/core/src/main/java/hudson/slaves/SlaveComputer.java",
-            "https://github.com/kohsuke/hudson/raw/23f3e0b/core/src/main/java/hudson/tasks/Fingerprinter.java",
-            "https://github.com/kohsuke/hudson/raw/4f736a9/core/src/main/java/hudson/tasks/Fingerprinter.java",
-            "https://github.com/kohsuke/hudson/raw/23f3e0b/core/src/main/java/hudson/tasks/Shell.java",
-            "https://github.com/kohsuke/hudson/raw/4f736a9/core/src/main/java/hudson/tasks/Shell.java",
-            "https://github.com/kohsuke/hudson/raw/23f3e0b/core/src/main/java/hudson/util/ProcessTree.java",
-            "https://github.com/kohsuke/hudson/raw/4f736a9/core/src/main/java/hudson/util/ProcessTree.java",
-            "https://github.com/kohsuke/hudson/raw/23f3e0b/core/src/main/java/hudson/util/RemotingDiagnostics.java",
-            "https://github.com/kohsuke/hudson/raw/4f736a9/core/src/main/java/hudson/util/RemotingDiagnostics.java",
-            "https://github.com/kohsuke/hudson/raw/23f3e0b/core/src/main/java/jenkins/model/Jenkins.java",
-            "https://github.com/kohsuke/hudson/raw/4f736a9/core/src/main/java/jenkins/model/Jenkins.java",
-            "https://github.com/kohsuke/hudson/raw/23f3e0b/core/src/test/java/hudson/LauncherTest.java",
-            "https://github.com/kohsuke/hudson/raw/4f736a9/core/src/test/java/hudson/LauncherTest.java"
-        ],
-        "commit_23f3e0bbe645e548d9312f2f762dc665e12457cb": [
-            "https://github.com/kohsuke/hudson/raw/53958b8/test/src/test/java/hudson/model/UpdateSiteTest.java",
-            "https://github.com/kohsuke/hudson/raw/1d29041/test/src/test/java/hudson/model/UpdateSiteTest.java",
-            "https://github.com/kohsuke/hudson/raw/53958b8/test/src/test/java/hudson/tasks/FingerprinterTest.java",
-            "https://github.com/kohsuke/hudson/raw/1d29041/test/src/test/java/hudson/tasks/FingerprinterTest.java"
-        ],
-        "commit_041f9b9fecc8f591f77c0e66ba8f95a1ad0ff146": [
-            "https://github.com/kohsuke/hudson/raw/678e881/test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
-            "https://github.com/kohsuke/hudson/raw/6e1defe/test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
-            "https://github.com/kohsuke/hudson/raw/678e881/test/src/main/java/org/jvnet/hudson/test/JenkinsRule.java",
-            "https://github.com/kohsuke/hudson/raw/6e1defe/test/src/main/java/org/jvnet/hudson/test/JenkinsRule.java"
-        ],
-        "commit_8aafca039d5609314570e7e5b4dedf33727d84fb": [
-            "https://github.com/kohsuke/hudson/raw/747238d/core/src/main/java/hudson/model/AbstractItem.java",
-            "https://github.com/kohsuke/hudson/raw/c93635b/core/src/main/java/hudson/model/AbstractItem.java",
-            "https://github.com/kohsuke/hudson/raw/747238d/core/src/main/java/hudson/security/ACL.java",
-            "https://github.com/kohsuke/hudson/raw/c93635b/core/src/main/java/hudson/security/ACL.java"
-        ],
-        "commit_46ec7d8fa2d034439950b6f32cf334947cc999b3": [
-            "https://github.com/kohsuke/hudson/raw/de1b368/core/src/main/java/hudson/Functions.java",
-            "https://github.com/kohsuke/hudson/raw/71a2861/core/src/main/java/hudson/Functions.java"
-        ],
-        "commit_4d906d8976af4ace8902c220c5123ba4f2c95c44": [
-            "https://github.com/kohsuke/hudson/raw/7a43fdf/core/src/main/java/hudson/util/ChartUtil.java",
-            "https://github.com/kohsuke/hudson/raw/16e206d/core/src/main/java/hudson/util/ChartUtil.java"
-        ],
-        "commit_706676b4b0200ba79dd9c257ada22ba1ea3c26fa": [
-            "https://github.com/kohsuke/hudson/raw/a118847/core/src/main/java/hudson/tasks/test/AbstractTestResultAction.java",
-            "https://github.com/kohsuke/hudson/raw/0449883/core/src/main/java/hudson/tasks/test/AbstractTestResultAction.java"
-        ],
-        "commit_c57010ed14de48bf7d3276b3b0c6fae3b9404a1b": [
-            "https://github.com/kohsuke/hudson/raw/84c7625/core/src/main/java/hudson/tools/InstallerTranslator.java",
-            "https://github.com/kohsuke/hudson/raw/9ff96f9/core/src/main/java/hudson/tools/InstallerTranslator.java"
-        ],
-        "commit_8ec206fcd9e7cf222cc54aa4cc37295a4699ba35": [
-            "https://github.com/kohsuke/hudson/raw/e937b09/core/src/main/java/hudson/triggers/SCMTrigger.java",
-            "https://github.com/kohsuke/hudson/raw/0bfab57/core/src/main/java/hudson/triggers/SCMTrigger.java"
-        ],
-        "commit_6206be1a1178a4532f7c87110658be4e8f128cfa": [
-            "https://github.com/kohsuke/hudson/raw/7672f00/core/src/main/java/hudson/model/CauseAction.java",
-            "https://github.com/kohsuke/hudson/raw/c826a01/core/src/main/java/hudson/model/CauseAction.java",
-            "https://github.com/kohsuke/hudson/raw/7672f00/core/src/main/java/hudson/triggers/SCMTrigger.java",
-            "https://github.com/kohsuke/hudson/raw/c826a01/core/src/main/java/hudson/triggers/SCMTrigger.java"
-        ],
-        "commit_52b2571126afd33db51b3bb4876c27125714cd2a": [
-            "https://github.com/kohsuke/hudson/raw/1d5653a/core/src/main/java/hudson/model/UpdateCenter.java",
-            "https://github.com/kohsuke/hudson/raw/d1fb126/core/src/main/java/hudson/model/UpdateCenter.java"
-        ],
-        "commit_f234c7bd7515a76bef38a19370b2d288bdce2eed": [
-            "https://github.com/kohsuke/hudson/raw/c3837b6/core/src/main/java/hudson/slaves/SlaveComputer.java",
-            "https://github.com/kohsuke/hudson/raw/eb910e3/core/src/main/java/hudson/slaves/SlaveComputer.java"
-        ],
-        "commit_82472d7f2b1981c60c3a32cbd7e90d31d3eb748f": [
-            "https://github.com/kohsuke/hudson/raw/578f9c1/test/src/test/java/hudson/model/ProjectTest.java",
-            "https://github.com/kohsuke/hudson/raw/32aecc7/test/src/test/java/hudson/model/ProjectTest.java"
-        ],
-        "commit_e4faf6950b8fcc4bfc857f983a1e94eaab5aac67": [
-            "https://github.com/kohsuke/hudson/raw/d6b37a9/test/src/test/java/hudson/model/UpdateSiteTest.java",
-            "https://github.com/kohsuke/hudson/raw/334ce1b/test/src/test/java/hudson/model/UpdateSiteTest.java"
-        ],
-        "commit_d695789904d7fcd2d92c7c05eb95e6afa2c77667": [
-            "https://github.com/kohsuke/hudson/raw/54c8500/core/src/main/java/hudson/model/DownloadService.java",
-            "https://github.com/kohsuke/hudson/raw/a0d6e52/core/src/main/java/hudson/model/DownloadService.java",
-            "https://github.com/kohsuke/hudson/raw/54c8500/core/src/main/java/hudson/model/UpdateSite.java",
-            "https://github.com/kohsuke/hudson/raw/a0d6e52/core/src/main/java/hudson/model/UpdateSite.java"
-        ],
-        "commit_abc77438d2d36a9edd7f2aca91c182891ac88691": [
-            "https://github.com/kohsuke/hudson/raw/80063cc/core/src/main/java/hudson/Functions.java",
-            "https://github.com/kohsuke/hudson/raw/7541e83/core/src/main/java/hudson/Functions.java",
-            "https://github.com/kohsuke/hudson/raw/80063cc/core/src/main/java/hudson/markup/MyspacePolicy.java",
-            "https://github.com/kohsuke/hudson/raw/7541e83/core/src/main/java/hudson/markup/MyspacePolicy.java",
-            "https://github.com/kohsuke/hudson/raw/80063cc/core/src/main/java/hudson/util/RobustReflectionConverter.java",
-            "https://github.com/kohsuke/hudson/raw/7541e83/core/src/main/java/hudson/util/RobustReflectionConverter.java"
-        ],
-        "commit_1fda95b6aea55cb216074b18bbb34fd8708c64c0": [
-            "https://github.com/kohsuke/hudson/raw/0fd39c4/core/src/main/java/hudson/logging/LogRecorder.java",
-            "https://github.com/kohsuke/hudson/raw/bd6b999/core/src/main/java/hudson/logging/LogRecorder.java",
-            "https://github.com/kohsuke/hudson/raw/0fd39c4/core/src/test/java/hudson/logging/LogRecorderTest.java",
-            "https://github.com/kohsuke/hudson/raw/bd6b999/core/src/test/java/hudson/logging/LogRecorderTest.java"
-        ],
-        "commit_2756f08c13157023887de2f4e18dd5899a1cc1ae": [
-            "https://github.com/kohsuke/hudson/raw/eddd9d8/core/src/main/java/hudson/model/Items.java",
-            "https://github.com/kohsuke/hudson/raw/3634681/core/src/main/java/hudson/model/Items.java"
-        ],
-        "commit_a494868c47d103b7bb1457aaaeadf87a55bb48ba": [
-            "https://github.com/kohsuke/hudson/raw/d7b031a/core/src/main/java/hudson/cli/CLIAction.java",
-            "https://github.com/kohsuke/hudson/raw/a2ff610/core/src/main/java/hudson/cli/CLIAction.java"
-        ],
-        "commit_8db9ceaccb99b9dd2bddf9a825a3a65b27dab75c": [
-            "https://github.com/kohsuke/hudson/raw/eaeb45b/core/src/main/java/hudson/cli/BuildCommand.java",
-            "https://github.com/kohsuke/hudson/raw/b24aefb/core/src/main/java/hudson/cli/BuildCommand.java"
-        ],
-        "commit_b74750934c4656782e738d5d619fd43ea7245b91": [
-            "https://github.com/kohsuke/hudson/raw/9c99a8c/core/src/main/java/hudson/FilePath.java",
-            "https://github.com/kohsuke/hudson/raw/259f16b/core/src/main/java/hudson/FilePath.java",
-            "https://github.com/kohsuke/hudson/raw/9c99a8c/core/src/main/java/hudson/tasks/ArtifactArchiver.java",
-            "https://github.com/kohsuke/hudson/raw/259f16b/core/src/main/java/hudson/tasks/ArtifactArchiver.java"
-        ],
-        "commit_4ef0018101c9f28e26bc4d447cc7c0ca84fd2c1d": [
-            "https://github.com/kohsuke/hudson/raw/04c3729/core/src/main/java/hudson/model/Run.java",
-            "https://github.com/kohsuke/hudson/raw/a92e9da/core/src/main/java/hudson/model/Run.java",
-            "https://github.com/kohsuke/hudson/raw/04c3729/test/src/test/java/hudson/maven/MavenMultiModuleTest.java",
-            "https://github.com/kohsuke/hudson/raw/a92e9da/test/src/test/java/hudson/maven/MavenMultiModuleTest.java"
-        ],
-        "commit_7575a29d74a6622cec9ec2ecdde55c4cf2090bf6": [
-            "https://github.com/kohsuke/hudson/raw/47eec42/core/src/main/java/hudson/tasks/ArtifactArchiver.java",
-            "https://github.com/kohsuke/hudson/raw/3751e26/core/src/main/java/hudson/tasks/ArtifactArchiver.java"
-        ],
-        "commit_cd77e38c0881429cbe39d841621498ab0c12d8c7": [
-            "https://github.com/kohsuke/hudson/raw/d53022c/core/src/main/java/hudson/model/Run.java",
-            "https://github.com/kohsuke/hudson/raw/246d351/core/src/main/java/hudson/model/Run.java"
-        ],
-        "commit_397c63b2ffa6176f3834e8c3c60c3e26c21ed511": [
-            "https://github.com/kohsuke/hudson/raw/e8c663e/test/src/test/java/hudson/model/QueueTest.java",
-            "https://github.com/kohsuke/hudson/raw/728a805/test/src/test/java/hudson/model/QueueTest.java"
-        ],
-        "commit_6af9127409255332c64ad1dd503f1ed24297f37a": [
-            "https://github.com/kohsuke/hudson/raw/3376cf0/maven-plugin/src/main/java/hudson/maven/Maven3Builder.java",
-            "https://github.com/kohsuke/hudson/raw/d0d27ac/maven-plugin/src/main/java/hudson/maven/Maven3Builder.java"
-        ],
-        "commit_7e4996eb1e518705f7bef78dcdb1b3858cc04126": [
-            "https://github.com/kohsuke/hudson/raw/95ac644/core/src/main/java/hudson/model/AbstractProject.java",
-            "https://github.com/kohsuke/hudson/raw/03251e9/core/src/main/java/hudson/model/AbstractProject.java"
-        ],
-        "commit_1a3ed4632d3993230a0614a6306c70a366abd222": [
-            "https://github.com/kohsuke/hudson/raw/2ad427f/test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
-            "https://github.com/kohsuke/hudson/raw/baf884e/test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java"
-        ],
-        "commit_a4f16799e2117244e21fbf0b9edbcd58c5e4c736": [
-            "https://github.com/kohsuke/hudson/raw/fe099a1/core/src/main/java/hudson/tasks/ArtifactArchiver.java",
-            "https://github.com/kohsuke/hudson/raw/2454c06/core/src/main/java/hudson/tasks/ArtifactArchiver.java"
-        ],
-        "commit_9993468ce4bc6ade4302ee4744ac942cf4d80049": [
-            "https://github.com/kohsuke/hudson/raw/9eb05f1/core/src/test/java/hudson/UtilTest.java",
-            "https://github.com/kohsuke/hudson/raw/df00bae/core/src/test/java/hudson/UtilTest.java"
-        ],
-        "commit_9e68fed9fe7c493d8a22bf5583154e7c843c660f": [
-            "https://github.com/kohsuke/hudson/raw/f3a2ae3/core/src/main/java/jenkins/model/Jenkins.java",
-            "https://github.com/kohsuke/hudson/raw/17d1528/core/src/main/java/jenkins/model/Jenkins.java",
-            "https://github.com/kohsuke/hudson/raw/f3a2ae3/test/src/test/java/hudson/bugs/JnlpAccessWithSecuredHudsonTest.java",
-            "https://github.com/kohsuke/hudson/raw/17d1528/test/src/test/java/hudson/bugs/JnlpAccessWithSecuredHudsonTest.java"
-        ],
-        "commit_4fb20f9692b055ea9fbb804dac53700d1ec8dc84": [
-            "https://github.com/kohsuke/hudson/raw/04c87d8/core/src/main/java/jenkins/model/lazy/SortedList.java",
-            "https://github.com/kohsuke/hudson/raw/ac3b25b/core/src/main/java/jenkins/model/lazy/SortedList.java"
-        ],
-        "commit_f5d378f22915f00e34783043624ce7e8dc3ec793": [
-            "https://github.com/kohsuke/hudson/raw/d1d66fe/core/src/main/java/hudson/model/AbstractProject.java",
-            "https://github.com/kohsuke/hudson/raw/d46ba52/core/src/main/java/hudson/model/AbstractProject.java"
-        ],
-        "commit_211231d12b2d5e998421ab7a332f955800d5b601": [
-            "https://github.com/kohsuke/hudson/raw/244ff56/core/src/main/java/hudson/LocalPluginManager.java",
-            "https://github.com/kohsuke/hudson/raw/2dbe144/core/src/main/java/hudson/LocalPluginManager.java"
-        ],
-        "commit_039e43cf488dc5ce22f2da7f2aa6f088aa816e82": [
-            "https://github.com/kohsuke/hudson/raw/4f0ea9d/core/src/main/java/hudson/model/AbstractItem.java",
-            "https://github.com/kohsuke/hudson/raw/ce27914/core/src/main/java/hudson/model/AbstractItem.java",
-            "https://github.com/kohsuke/hudson/raw/4f0ea9d/core/src/main/java/hudson/model/AbstractProject.java",
-            "https://github.com/kohsuke/hudson/raw/ce27914/core/src/main/java/hudson/model/AbstractProject.java",
-            "https://github.com/kohsuke/hudson/raw/4f0ea9d/core/src/main/java/hudson/model/Descriptor.java",
-            "https://github.com/kohsuke/hudson/raw/ce27914/core/src/main/java/hudson/model/Descriptor.java",
-            "https://github.com/kohsuke/hudson/raw/4f0ea9d/core/src/main/java/hudson/model/Hudson.java",
-            "https://github.com/kohsuke/hudson/raw/ce27914/core/src/main/java/hudson/model/Hudson.java",
-            "https://github.com/kohsuke/hudson/raw/4f0ea9d/core/src/main/java/hudson/tasks/BuildTrigger.java",
-            "https://github.com/kohsuke/hudson/raw/ce27914/core/src/main/java/hudson/tasks/BuildTrigger.java",
-            "https://github.com/kohsuke/hudson/raw/4f0ea9d/maven-plugin/src/main/java/hudson/maven/MavenBuild.java",
-            "https://github.com/kohsuke/hudson/raw/ce27914/maven-plugin/src/main/java/hudson/maven/MavenBuild.java",
-            "https://github.com/kohsuke/hudson/raw/4f0ea9d/maven-plugin/src/main/java/hudson/maven/reporters/MavenArtifact.java",
-            "https://github.com/kohsuke/hudson/raw/ce27914/maven-plugin/src/main/java/hudson/maven/reporters/MavenArtifact.java",
-            "https://github.com/kohsuke/hudson/raw/4f0ea9d/maven-plugin/src/main/java/hudson/maven/reporters/MavenArtifactRecord.java",
-            "https://github.com/kohsuke/hudson/raw/ce27914/maven-plugin/src/main/java/hudson/maven/reporters/MavenArtifactRecord.java"
-        ],
-        "commit_d644c08f1c297a5ed47dc8d3f033e2e6b001ca55": [
-            "https://github.com/kohsuke/hudson/raw/8007d83/core/src/main/java/hudson/util/VersionNumber.java",
-            "https://github.com/kohsuke/hudson/raw/c61ffdd/core/src/main/java/hudson/util/VersionNumber.java"
-        ],
-        "commit_d5c24703706b5afc6f62664251d1bfb1b0e0668f": [
-            "https://github.com/kohsuke/hudson/raw/8cd638a/core/src/main/java/hudson/model/DependencyGraph.java",
-            "https://github.com/kohsuke/hudson/raw/dbe586c/core/src/main/java/hudson/model/DependencyGraph.java"
-        ],
-        "commit_dbe586ce9260b113caab7ac115a2f8382b88eaa8": [
-            "https://github.com/kohsuke/hudson/raw/79eb909/core/src/main/java/hudson/model/Hudson.java",
-            "https://github.com/kohsuke/hudson/raw/3fb0fb2/core/src/main/java/hudson/model/Hudson.java"
-        ],
-        "commit_2adef6719ab50a2b54c3fda8a5cadfd37174b22e": [
-            "https://github.com/kohsuke/hudson/raw/017e445/core/src/main/java/hudson/slaves/NodeProvisioner.java",
-            "https://github.com/kohsuke/hudson/raw/d9e6602/core/src/main/java/hudson/slaves/NodeProvisioner.java",
-            "https://github.com/kohsuke/hudson/raw/017e445/maven-plugin/src/main/java/hudson/maven/MavenModule.java",
-            "https://github.com/kohsuke/hudson/raw/d9e6602/maven-plugin/src/main/java/hudson/maven/MavenModule.java",
-            "https://github.com/kohsuke/hudson/raw/017e445/maven-plugin/src/main/java/hudson/maven/RedeployPublisher.java",
-            "https://github.com/kohsuke/hudson/raw/d9e6602/maven-plugin/src/main/java/hudson/maven/RedeployPublisher.java"
-        ],
-        "commit_5abc651ceeab92833791f7c0922aabe42eb78930": [
-            "https://github.com/kohsuke/hudson/raw/5ea48db/core/src/main/java/hudson/ExtensionComponent.java",
-            "https://github.com/kohsuke/hudson/raw/77290b9/core/src/main/java/hudson/ExtensionComponent.java"
-        ],
-        "commit_41ef51a2dba021b9c5628178b2300d6779c62603": [
-            "https://github.com/kohsuke/hudson/raw/23daeee/core/src/main/java/hudson/Functions.java",
-            "https://github.com/kohsuke/hudson/raw/2220b7f/core/src/main/java/hudson/Functions.java"
-        ],
-        "commit_36148686942ae0455a63973113df9bfdd73bf216": [
-            "https://github.com/kohsuke/hudson/raw/f28409e/core/src/main/java/hudson/Functions.java",
-            "https://github.com/kohsuke/hudson/raw/f5209cd/core/src/main/java/hudson/Functions.java",
-            "https://github.com/kohsuke/hudson/raw/f28409e/core/src/main/java/hudson/model/AutoCompletionCandidates.java",
-            "https://github.com/kohsuke/hudson/raw/f5209cd/core/src/main/java/hudson/model/AutoCompletionCandidates.java",
-            "https://github.com/kohsuke/hudson/raw/f28409e/core/src/main/java/hudson/model/ViewDescriptor.java",
-            "https://github.com/kohsuke/hudson/raw/f5209cd/core/src/main/java/hudson/model/ViewDescriptor.java",
-            "https://github.com/kohsuke/hudson/raw/f28409e/core/src/test/java/hudson/FilePathTest.java",
-            "https://github.com/kohsuke/hudson/raw/f5209cd/core/src/test/java/hudson/FilePathTest.java"
-        ],
-        "commit_6a2dad3134cecc50fa343ec184dfcdc9273fa06f": [
-            "https://github.com/kohsuke/hudson/raw/b8152f4/test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
-            "https://github.com/kohsuke/hudson/raw/ff1f609/test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java"
-        ],
-        "commit_3abc2d5b1ce50b15c3cac1bf821dbc1aeab88601": [
-            "https://github.com/kohsuke/hudson/raw/995f402/core/src/main/java/hudson/model/Node.java",
-            "https://github.com/kohsuke/hudson/raw/ad343a6/core/src/main/java/hudson/model/Node.java",
-            "https://github.com/kohsuke/hudson/raw/995f402/test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
-            "https://github.com/kohsuke/hudson/raw/ad343a6/test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java"
-        ],
-        "commit_edcde6d14aac4a6320519013826d96b991fa1977": [
-            "https://github.com/kohsuke/hudson/raw/427a8ab/test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
-            "https://github.com/kohsuke/hudson/raw/55d1f1f/test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java"
-        ],
-        "commit_5bbc78f6d8fc04fd6ffdb34f25ef942d71ef356c": [
-            "https://github.com/kohsuke/hudson/raw/6b3b555/test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
-            "https://github.com/kohsuke/hudson/raw/ff05abe/test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java"
-        ],
-        "commit_24eb579d0c7710d0360c13d032386475938135ec": [
-            "https://github.com/kohsuke/hudson/raw/028e7a8/test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java",
-            "https://github.com/kohsuke/hudson/raw/042a4cd/test/src/main/java/org/jvnet/hudson/test/HudsonTestCase.java"
-        ],
-        "commit_58166dfb2b7250414a8a257f95e055907c18a4de": [
-            "https://github.com/kohsuke/hudson/raw/9005eb6/core/src/main/java/hudson/widgets/HistoryWidget.java",
-            "https://github.com/kohsuke/hudson/raw/85a8dd0/core/src/main/java/hudson/widgets/HistoryWidget.java"
-        ],
-        "commit_296c06d85d71ee62a9a759d3ca5a9fa3f0c0d896": [
-            "https://github.com/kohsuke/hudson/raw/733954e/core/src/main/java/hudson/tasks/MailSender.java",
-            "https://github.com/kohsuke/hudson/raw/776008c/core/src/main/java/hudson/tasks/MailSender.java"
-        ],
-        "commit_d971be137c531f2d2e02e5afd2c2da6f4ab0744e": [
-            "https://github.com/kohsuke/hudson/raw/2f7f5c9/core/src/main/java/hudson/console/ConsoleNote.java",
-            "https://github.com/kohsuke/hudson/raw/607ea34/core/src/main/java/hudson/console/ConsoleNote.java"
-        ]
-    },
-    "jdbi": {
-        "commit_5d17e96117c197b215e15b6a7f2b78f1946bec0b": [
-            "https://github.com/jdbi/jdbi/raw/ed10315/sqlobject/src/main/java/org/jdbi/v3/sqlobject/BindBean.java",
-            "https://github.com/jdbi/jdbi/raw/90b539e/sqlobject/src/main/java/org/jdbi/v3/sqlobject/BindBean.java"
-        ],
-        "commit_ed103153e9c8c37e52cb953c9cba28c5d187e5ec": [
-            "https://github.com/jdbi/jdbi/raw/45390aa/core/src/main/java/org/jdbi/v3/BasicHandle.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/core/src/main/java/org/jdbi/v3/BasicHandle.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/core/src/main/java/org/jdbi/v3/DBI.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/core/src/main/java/org/jdbi/v3/DBI.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/core/src/main/java/org/jdbi/v3/EmptyResultIterator.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/core/src/main/java/org/jdbi/v3/EmptyResultIterator.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/core/src/main/java/org/jdbi/v3/Foreman.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/core/src/main/java/org/jdbi/v3/Foreman.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/core/src/main/java/org/jdbi/v3/InferredMapperFactory.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/core/src/main/java/org/jdbi/v3/InferredMapperFactory.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/core/src/main/java/org/jdbi/v3/PrimitivesMapperFactory.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/core/src/main/java/org/jdbi/v3/PrimitivesMapperFactory.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/core/src/main/java/org/jdbi/v3/RegisteredMapper.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/core/src/main/java/org/jdbi/v3/RegisteredMapper.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/core/src/main/java/org/jdbi/v3/ResultBearing.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/core/src/main/java/org/jdbi/v3/ResultBearing.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/core/src/main/java/org/jdbi/v3/tweak/BeanMapperFactory.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/core/src/main/java/org/jdbi/v3/tweak/BeanMapperFactory.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/core/src/main/java/org/jdbi/v3/tweak/transactions/LocalTransactionHandler.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/core/src/main/java/org/jdbi/v3/tweak/transactions/LocalTransactionHandler.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/core/src/test/java/org/jdbi/v3/TestQueries.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/core/src/test/java/org/jdbi/v3/TestQueries.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/core/src/test/java/org/jdbi/v3/TestScript.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/core/src/test/java/org/jdbi/v3/TestScript.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/core/src/test/java/org/jdbi/v3/spring/TestDBIFactoryBean.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/core/src/test/java/org/jdbi/v3/spring/TestDBIFactoryBean.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/main/java/org/jdbi/v3/sqlobject/BindBeanFactory.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/main/java/org/jdbi/v3/sqlobject/BindBeanFactory.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/main/java/org/jdbi/v3/sqlobject/BindFactory.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/main/java/org/jdbi/v3/sqlobject/BindFactory.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/main/java/org/jdbi/v3/sqlobject/FigureItOutResultSetMapper.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/main/java/org/jdbi/v3/sqlobject/FigureItOutResultSetMapper.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/main/java/org/jdbi/v3/sqlobject/GetGeneratedKeys.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/main/java/org/jdbi/v3/sqlobject/GetGeneratedKeys.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/main/java/org/jdbi/v3/sqlobject/ResultReturnThing.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/main/java/org/jdbi/v3/sqlobject/ResultReturnThing.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/Define.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/Define.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/FetchDirection.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/FetchDirection.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/FetchSize.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/FetchSize.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/MaxRows.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/MaxRows.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/OverrideStatementLocatorWith.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/OverrideStatementLocatorWith.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/OverrideStatementRewriterWith.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/OverrideStatementRewriterWith.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/QueryTimeOut.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/QueryTimeOut.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/RegisterArgumentFactory.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/RegisterArgumentFactory.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/RegisterMapper.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/RegisterMapper.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/RegisterMapperFactory.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/RegisterMapperFactory.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/TransactionIsolation.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/main/java/org/jdbi/v3/sqlobject/customizers/TransactionIsolation.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/main/java/org/jdbi/v3/sqlobject/stringtemplate/UseStringTemplate3StatementLocator.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/main/java/org/jdbi/v3/sqlobject/stringtemplate/UseStringTemplate3StatementLocator.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/main/java/org/jdbi/v3/unstable/BindIn.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/main/java/org/jdbi/v3/unstable/BindIn.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/test/java/org/jdbi/v3/docs/TestDocumentation.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/test/java/org/jdbi/v3/docs/TestDocumentation.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/test/java/org/jdbi/v3/sqlobject/BindSomething.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/test/java/org/jdbi/v3/sqlobject/BindSomething.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/test/java/org/jdbi/v3/sqlobject/SomethingBinderAgainstBind.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/test/java/org/jdbi/v3/sqlobject/SomethingBinderAgainstBind.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestOnDemandSqlObject.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestOnDemandSqlObject.java",
-            "https://github.com/jdbi/jdbi/raw/45390aa/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestRegisterMapperFactory.java",
-            "https://github.com/jdbi/jdbi/raw/1833a3c/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestRegisterMapperFactory.java"
-        ],
-        "commit_8257ba5d249c0c38e8efb12562173e2952e23ca7": [
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/main/java/org/jdbi/v3/BasicHandle.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/main/java/org/jdbi/v3/BasicHandle.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/main/java/org/jdbi/v3/Call.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/main/java/org/jdbi/v3/Call.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/main/java/org/jdbi/v3/ClasspathStatementLocator.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/main/java/org/jdbi/v3/ClasspathStatementLocator.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/main/java/org/jdbi/v3/ColonPrefixNamedParamStatementRewriter.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/main/java/org/jdbi/v3/ColonPrefixNamedParamStatementRewriter.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/main/java/org/jdbi/v3/Handle.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/main/java/org/jdbi/v3/Handle.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/main/java/org/jdbi/v3/HashPrefixStatementRewriter.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/main/java/org/jdbi/v3/HashPrefixStatementRewriter.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/main/java/org/jdbi/v3/InferredMapperFactory.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/main/java/org/jdbi/v3/InferredMapperFactory.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/main/java/org/jdbi/v3/ResultBearing.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/main/java/org/jdbi/v3/ResultBearing.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/main/java/org/jdbi/v3/ResultIterator.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/main/java/org/jdbi/v3/ResultIterator.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/main/java/org/jdbi/v3/ResultSetMapperFactory.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/main/java/org/jdbi/v3/ResultSetMapperFactory.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestArgumentFactory.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestArgumentFactory.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestBatch.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestBatch.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestCallable.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestCallable.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestClasspathStatementLocator.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestClasspathStatementLocator.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestClosingHandle.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestClosingHandle.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestColonStatementRewriter.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestColonStatementRewriter.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestDBI.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestDBI.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestEnums.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestEnums.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestEscapedCharacters.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestEscapedCharacters.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestForeman.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestForeman.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestHandle.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestHandle.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestHashPrefixStatementRewriter.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestHashPrefixStatementRewriter.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestIterator.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestIterator.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestMapArguments.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestMapArguments.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestNamedParams.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestNamedParams.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestNoOpStatementRewriter.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestNoOpStatementRewriter.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestPositionalParameterBinding.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestPositionalParameterBinding.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestPreparedBatch.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestPreparedBatch.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestQueries.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestQueries.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestRegisteredMappers.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestRegisteredMappers.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestScript.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestScript.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestSqlLogging.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestSqlLogging.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestStatementContext.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestStatementContext.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestStatementExceptionContext.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestStatementExceptionContext.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestStatements.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestStatements.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestTimingCollector.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestTimingCollector.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestTooManyCursors.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestTooManyCursors.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestTransactions.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestTransactions.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/TestUpdateGeneratedKeys.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/TestUpdateGeneratedKeys.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/spring/TestDBIFactoryBean.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/spring/TestDBIFactoryBean.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/tweak/transactions/TestSerializableTransactionRunner.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/tweak/transactions/TestSerializableTransactionRunner.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/unstable/grammar/GrammarTestCase.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/unstable/grammar/GrammarTestCase.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/unstable/grammar/TestColonGrammar.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/unstable/grammar/TestColonGrammar.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/core/src/test/java/org/jdbi/v3/unstable/grammar/TestPrintfGrammar.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/core/src/test/java/org/jdbi/v3/unstable/grammar/TestPrintfGrammar.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/main/java/org/jdbi/v3/sqlobject/Binder.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/main/java/org/jdbi/v3/sqlobject/Binder.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/main/java/org/jdbi/v3/sqlobject/SqlObjectBuilder.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/main/java/org/jdbi/v3/sqlobject/SqlObjectBuilder.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/main/java/org/jdbi/v3/sqlobject/SqlStatementCustomizerFactory.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/main/java/org/jdbi/v3/sqlobject/SqlStatementCustomizerFactory.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/main/java/org/jdbi/v3/sqlobject/stringtemplate/StringTemplate3StatementLocator.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/main/java/org/jdbi/v3/sqlobject/stringtemplate/StringTemplate3StatementLocator.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/docs/TestBindExpression.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/docs/TestBindExpression.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/docs/TestDocumentation.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/docs/TestDocumentation.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/docs/TestFoldToObjectGraph.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/docs/TestFoldToObjectGraph.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/docs/TestPaging.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/docs/TestPaging.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestBeanBinder.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestBeanBinder.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestBindBeanFactory.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestBindBeanFactory.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestCglibDispatchBuilder.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestCglibDispatchBuilder.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestCustomBinder.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestCustomBinder.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestDoublyTransactional.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestDoublyTransactional.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestFinalizeBehavior.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestFinalizeBehavior.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestMixinInterfaces.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestMixinInterfaces.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestModifiers.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestModifiers.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestNewApiOnDbiAndHandle.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestNewApiOnDbiAndHandle.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestOnDemandSqlObject.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestOnDemandSqlObject.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestReentrancy.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestReentrancy.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestRegisteredMappersWork.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestRegisteredMappersWork.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestReturningQuery.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestReturningQuery.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestReturningQueryResults.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestReturningQueryResults.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestStatements.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestStatements.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestVariousOddities.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/sqlobject/src/test/java/org/jdbi/v3/sqlobject/TestVariousOddities.java",
-            "https://github.com/jdbi/jdbi/raw/dfc3cfd/src/main/java/org/skife/jdbi/v2/IDBI.java",
-            "https://github.com/jdbi/jdbi/raw/8aa7b83/src/main/java/org/skife/jdbi/v2/IDBI.java"
-        ],
-        "commit_2937fbe252adf85ec784eb54f1b95f07dd1a0297": [
-            "https://github.com/jdbi/jdbi/raw/83ccb64/src/main/java/org/skife/jdbi/v2/BasicHandle.java",
-            "https://github.com/jdbi/jdbi/raw/3ed9dc1/src/main/java/org/skife/jdbi/v2/BasicHandle.java"
-        ],
-        "commit_fc8689724d443371bc2a28b8075d1e12201a6112": [
-            "https://github.com/jdbi/jdbi/raw/5640f55/src/main/java/org/skife/jdbi/v2/SQLStatement.java",
-            "https://github.com/jdbi/jdbi/raw/12bf95d/src/main/java/org/skife/jdbi/v2/SQLStatement.java",
-            "https://github.com/jdbi/jdbi/raw/5640f55/src/main/java/org/skife/jdbi/v2/sqlobject/customizers/FetchDirection.java",
-            "https://github.com/jdbi/jdbi/raw/12bf95d/src/main/java/org/skife/jdbi/v2/sqlobject/customizers/FetchDirection.java",
-            "https://github.com/jdbi/jdbi/raw/5640f55/src/main/java/org/skife/jdbi/v2/sqlobject/customizers/TransactionIsolation.java",
-            "https://github.com/jdbi/jdbi/raw/12bf95d/src/main/java/org/skife/jdbi/v2/sqlobject/customizers/TransactionIsolation.java"
         ]
     }
 }

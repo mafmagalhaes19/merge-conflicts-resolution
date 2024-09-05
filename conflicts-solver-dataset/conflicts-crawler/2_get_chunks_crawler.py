@@ -27,19 +27,26 @@ file_metrics = {}
 
 for project in data['data']:
     project_name = project['name']
+    print("Getting urls for project " + project_name + "...")
     for commit_key, commit_data in project.items():
         if commit_key.startswith('commit_'):
             commit_sha = commit_data['sha']
             for conflict in commit_data['conflicts']:
                 file_path = conflict.strip()
                 if file_path.endswith('.java'):
-                    for parent in ['parent_one', 'parent_two']:
-                        url = f"{project['url']}/raw/{commit_data[parent]}/{file_path}"
-                        if project_name not in conflict_urls:
-                            conflict_urls[project_name] = {}
-                        if commit_key not in conflict_urls[project_name]:
-                            conflict_urls[project_name][commit_key] = []
+                    if project_name not in conflict_urls:
+                        conflict_urls[project_name] = {}
+                    if commit_key not in conflict_urls[project_name]:
+                        conflict_urls[project_name][commit_key] = []
+                    
+                    # Add the main commit URL
+                    main_commit_url = f"{project['url']}/raw/{commit_sha}/{file_path}"
+                    conflict_urls[project_name][commit_key].append(main_commit_url)
 
+                    for parent in ['parent_one', 'parent_two']:
+                        parent_sha = commit_data[parent]
+                        url = f"{project['url']}/raw/{parent_sha}/{file_path}"
+                        
                         # Download the Java file
                         response = requests.get(url)
                         if response.status_code == 200:
@@ -67,4 +74,3 @@ with open('conflicts-solver-dataset/conflicts-crawler/outputs/2_file_metrics.jso
     json.dump(file_metrics, file, indent=4)
 
 print("Conflict URLs and file metrics extracted and stored.")
-

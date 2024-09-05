@@ -11,12 +11,13 @@ tr_elements = soup.find_all('tr')
 data_list = []
 
 # Change the number of projects you want to analyze
-n = 20
+n = 10
 
 for tr in tr_elements[1:(n+1)]: 
     td_elements = tr.find_all('td')
     if len(td_elements) >= 3:  
         name = td_elements[0].text.strip()
+        print( "Getting data for project " + name + "...")
         url = td_elements[2].text.strip()
         developers = td_elements[3].text.strip()
         commits = td_elements[4].text.strip()
