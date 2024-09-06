@@ -1,0 +1,83 @@
+Result for Example:
+public class Example {
+    public static void main(String[] args) {
+        int value = 20;
+        System.out.println(value);
+    }
+}
+
+
+role: user
+content: I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+
+role: user
+content: File 1:
+public class Example {
+    public static void main(String[] args) {
+        int value = 10;
+        System.out.println(value);
+    }
+}
+
+
+role: user
+content: File 2:
+public class Example {
+    public static void main(String[] args) {
+        int value = 20;
+        System.out.println(value);
+    }
+}
+
+
+
+role: assistant
+content: Resolution:
+public class Example {
+    public static void main(String[] args) {
+        int value = 20;
+        System.out.println(value);
+    }
+}
+
+
+role: user
+content: I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+
+role: user
+content: File 1:
+public class Example {
+    public static void main(String[] args) {
+        int value = 10;
+        System.out.println(value);
+    }
+}
+
+
+role: user
+content: File 2:
+public class Example {
+    public static void main(String[] args) {
+        int value = 20;
+        System.out.println(value);
+    }
+}
+
+
+
+role: assistant
+content: Resolution:
+public class Example {
+    public static void main(String[] args) {
+        int value = 20;
+        System.out.println(value);
+    }
+}
+
+
+role: user
+content: I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+
+role: user
+content: File 1:
+

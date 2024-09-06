@@ -1,0 +1,70 @@
+Result for Numbers:
+public class Numbers {
+    // Print numbers from 0 to 10
+    public void printNumbers() {
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+        }
+    }
+}
+
+
+I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File 1:
+public class Numbers {
+    // Print numbers from 0 to 10
+    public void printNumbers() {
+        for (int i = 0; i < 5; i++) {
+            System.out.println(i);
+        }
+    }
+}
+
+
+role: user
+content: File 2:
+public class Numbers {
+    // Print numbers from 0 to 10
+    public void printNumbers() {
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+        }
+    }
+}
+
+
+role: assistant
+content: Resolution:
+public class Numbers {
+    // Print numbers from 0 to 10
+    public void printNumbers() {
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+        }
+    }
+}
+
+
+I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File 1:
+public class Numbers {
+    // Print numbers from 0 to 10
+    public void printNumbers() {
+        for (int i = 0; i < 5; i++) {
+            System.out.println(i);
+        }
+    }
+}
+
+
+role: user
+content: File 2:
+public class Numbers {
+    // Print numbers from 0 to 10
+    public void printNumbers() {
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+
+

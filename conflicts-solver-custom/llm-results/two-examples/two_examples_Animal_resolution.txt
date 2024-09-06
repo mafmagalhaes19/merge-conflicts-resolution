@@ -1,0 +1,94 @@
+Result for Animal:
+public class Animal {
+    public void sound() {
+        System.out.println("Some generic animal sound");
+    }
+}
+
+public class Dog extends Animal {
+    @Override
+    public void sound() {
+        System.out.println("Woof");
+    }
+}
+
+
+
+role: user
+content: I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+
+role: user
+content: File 1:
+public class Animal {
+    public void sound() {
+        System.out.println("Some generic animal sound");
+    }
+}
+
+public class Dog extends Animal {
+    @Override
+    public void sound() {
+        System.out.println("Bark");
+    }
+}
+
+
+role: user
+content: File 2:
+public class Animal {
+    public void sound() {
+        System.out.println("Some generic animal sound");
+    }
+}
+
+public class Dog extends Animal {
+    @Override
+    public void sound() {
+        System.out.println("Woof");
+    }
+}
+
+
+
+role: assistant
+content: Resolution:
+public class Animal {
+    public void sound() {
+        System.out.println("Some generic animal sound");
+    }
+}
+
+public class Dog extends Animal {
+    @Override
+    public void sound() {
+        System.out.println("Woof");
+    }
+}
+
+
+
+role: user
+content: I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+
+role: user
+content: File 1:
+public class Animal {
+    public void sound() {
+        System.out.println("Some generic animal sound");
+    }
+}
+
+public class Dog extends Animal {
+    @Override
+    public void sound() {
+        System.out.println("Bark");
+    }
+}
+
+
+role: user
+content: File 2:
+public class Animal {
+    public void sound() {
+        System.out.println("Some generic animal sound
+

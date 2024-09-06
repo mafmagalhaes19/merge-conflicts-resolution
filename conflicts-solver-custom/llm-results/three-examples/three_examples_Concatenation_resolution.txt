@@ -1,0 +1,88 @@
+Result for Concatenation:
+public class Concatenation {
+    public void greet() {
+        String greeting = "Hello" + " Jane";
+        System.out.println(greeting);
+    }
+}
+
+
+role: user
+content: I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+
+role: user
+content: File 1:
+public class Calculator {
+    public int add(int a, int b) {
+        return a + b;
+    }
+}
+
+
+role: user
+content: File 2:
+public class Calculator {
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public int subtract(int a, int b) {
+        return a - b;
+    }
+}
+
+
+role: assistant
+content: Resolution:
+public class Calculator {
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public int subtract(int a, int b) {
+        return a - b;
+    }
+}
+
+
+role: user
+content: I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+
+role: user
+content: File 1:
+public class Calculator {
+    public int add(int a, int b) {
+        return a + b;
+    }
+}
+
+
+role: user
+content: File 2:
+public class Calculator {
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public int subtract(int a, int b) {
+        return a - b;
+    }
+}
+
+
+role: assistant
+content: Resolution:
+public class Calculator {
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public int subtract(int a, int b) {
+        return a - b;
+    }
+}
+
+
+role: user
+content: I will give you two Java files
+

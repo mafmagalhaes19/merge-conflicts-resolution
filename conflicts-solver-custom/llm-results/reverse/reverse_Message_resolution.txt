@@ -1,0 +1,96 @@
+Result for Message:
+public class Message {
+    public String getMessage() {
+        return "Hello";
+    }
+}
+
+
+I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File 1:
+public class Message {
+    public int getMessage() {
+        return 1;
+    }
+}
+
+
+role: user
+content: File 2:
+public class Message {
+    public String getMessage() {
+        return "Hello";
+    }
+}
+
+
+role: assistant
+content: Resolution:
+public class Message {
+    public String getMessage() {
+        return "Hello";
+    }
+}
+
+
+I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File 1:
+public class Message {
+    public int getMessage() {
+        return 1;
+    }
+}
+
+
+role: user
+content: File 2:
+public class Message {
+    public String getMessage() {
+        return "Hello";
+    }
+}
+
+
+role: assistant
+content: Resolution:
+public class Message {
+    public String getMessage() {
+        return "Hello";
+    }
+}
+
+
+I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File 1:
+public class Message {
+    public int getMessage() {
+        return 1;
+    }
+}
+
+
+role: user
+content: File 2:
+public class Message {
+    public String getMessage() {
+        return "Hello";
+    }
+}
+
+
+role: assistant
+content: Resolution:
+public class Message {
+    public String getMessage() {
+        return "Hello";
+    }
+}
+
+
+I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File 
+

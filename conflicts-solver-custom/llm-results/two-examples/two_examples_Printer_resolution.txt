@@ -1,0 +1,89 @@
+Result for Printer:
+public class Printer {
+    public void displayMessage() {
+        System.out.println("Hello World");
+    }
+
+    public void displayMessage(String message) {
+        displayMessage();
+    }
+}
+
+
+role: user
+content: I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+
+role: user
+content: File 1:
+public class Calculator {
+    public int add(int a, int b) {
+        return a + b;
+    }
+}
+
+
+
+role: user
+content: File 2:
+public class Calculator {
+    public int add(int a, int b, int c) {
+        return a + b + c;
+    }
+}
+
+
+
+role: assistant
+content: Resolution:
+public class Calculator {
+    public int add(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    public int add(int a, int b) {
+        return add(a, b, 0);
+    }
+}
+
+
+role: user
+content: I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+
+role: user
+content: File 1:
+public class Employee {
+    private String name;
+    private int age;
+    private int salary;
+
+    public Employee(String name, int age, int salary) {
+        this.name = name;
+        this.age = age;
+        this.salary = salary;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+}
+
+
+
+role: user
+content: File 2:
+public class Employee {
+    private String name;
+    private int age;
+    private int salary;
+
+    public Employee(String name, int age, int salary) {
+        this.
+

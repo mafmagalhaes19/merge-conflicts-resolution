@@ -1,0 +1,94 @@
+Result for HelloMessage:
+public class HelloMessage {
+    public void printHello() {
+        System.out.println("Hello");
+    }
+
+    public void printWorld() {
+        System.out.println("World");
+    }
+}
+
+
+role: user
+content: I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+
+role: user
+content: File 1:
+public class BankAccount {
+    private int balance = 1000;
+
+    public void deposit(int amount) {
+        balance += amount;
+    }
+
+    public void withdraw(int amount) {
+        balance -= amount;
+    }
+
+    public int getBalance() {
+        return balance;
+    }
+}
+
+
+role: user
+content: File 2:
+public class BankAccount {
+    private int balance = 2000;
+
+    public void deposit(int amount) {
+        balance += amount;
+    }
+
+    public void withdraw(int amount) {
+        balance -= amount;
+    }
+
+    public int getBalance() {
+        return balance;
+    }
+}
+
+
+role: assistant
+content: Resolution:
+public class BankAccount {
+    private int balance = 2000;
+
+    public void deposit(int amount) {
+        balance += amount;
+    }
+
+    public void withdraw(int amount) {
+        balance -= amount;
+    }
+
+    public int getBalance() {
+        return balance;
+    }
+}
+
+
+role: user
+content: I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+
+role: user
+content: File 1:
+public class BankAccount {
+    private int balance = 1000;
+
+    public void deposit(int amount) {
+        balance += amount;
+    }
+
+    public void withdraw(int amount) {
+        balance -= amount;
+    }
+
+    public int getBalance() {
+        return balance;
+    }
+}
+
+

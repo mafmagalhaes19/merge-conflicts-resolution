@@ -1,0 +1,96 @@
+Result for Incrementer:
+public class Incrementer {
+    private int count = 0;
+
+    public void increment() {
+        count += 2;
+    }
+
+    public int getCount() {
+        return count;
+    }
+}
+
+
+role: user
+content: I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+
+role: user
+content: File 1:
+public class BankAccount {
+    private int balance = 0;
+
+    public void deposit(int amount) {
+        balance += amount;
+    }
+
+    public int getBalance() {
+        return balance;
+    }
+}
+
+
+role: user
+content: File 2:
+public class BankAccount {
+    private int balance = 0;
+
+    public void deposit(int amount) {
+        balance += amount;
+    }
+
+    public int getBalance() {
+        return balance;
+    }
+
+    public void withdraw(int amount) {
+        balance -= amount;
+    }
+}
+
+
+role: assistant
+content: Resolution:
+public class BankAccount {
+    private int balance = 0;
+
+    public void deposit(int amount) {
+        balance += amount;
+    }
+
+    public int getBalance() {
+        return balance;
+    }
+
+    public void withdraw(int amount) {
+        balance -= amount;
+    }
+}
+
+
+role: user
+content: I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+
+role: user
+content: File 1:
+public class Employee {
+    private String name;
+    private int age;
+    private double salary;
+
+    public Employee(String name, int age, double salary) {
+        this.name = name;
+        this.age = age;
+        this.salary = salary;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+   
+

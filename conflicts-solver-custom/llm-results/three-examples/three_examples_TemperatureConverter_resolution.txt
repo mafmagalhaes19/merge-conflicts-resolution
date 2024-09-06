@@ -1,0 +1,72 @@
+Result for TemperatureConverter:
+public class TemperatureConverter {
+    public double toCelsius(double fahrenheit) {
+        return (fahrenheit - 32) * 5 / 9;
+    }
+}
+
+
+role: user
+content: I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+
+role: user
+content: File 1:
+public class TemperatureConverter {
+    public int toCelsius(double fahrenheit) {
+        return (int) ((fahrenheit - 32) * 5 / 9);
+    }
+}
+
+
+
+role: user
+content: File 2:
+public class TemperatureConverter {
+    public double toCelsius(double fahrenheit) {
+        return (fahrenheit - 32) * 5 / 9;
+    }
+}
+
+
+role: assistant
+content: Resolution:
+public class TemperatureConverter {
+    public double toCelsius(double fahrenheit) {
+        return (fahrenheit - 32) * 5 / 9;
+    }
+}
+
+
+role: user
+content: I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+
+role: user
+content: File 1:
+public class TemperatureConverter {
+    public int toCelsius(double fahrenheit) {
+        return (int) ((fahrenheit - 32) * 5 / 9);
+    }
+}
+
+
+
+role: user
+content: File 2:
+public class TemperatureConverter {
+    public double toCelsius(double fahrenheit) {
+        return (fahrenheit - 32) * 5 / 9;
+    }
+}
+
+
+role: assistant
+content: Resolution:
+public class TemperatureConverter {
+    public double toCelsius(double fahrenheit) {
+        return (fahrenheit - 32) * 5 / 9;
+    }
+}
+
+
+role: user
+

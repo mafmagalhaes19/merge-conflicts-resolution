@@ -1,0 +1,84 @@
+Result for Book:
+public class Book {
+    // A Book is defined by its title, author and year of publishing
+    private String title;
+    private String author;
+    private int yearPublished;
+
+    public Book(String title, String author, int yearPublished) {
+        this.title = title;
+        this.author = author;
+        this.yearPublished = yearPublished;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public int getYearPublished() {
+        return yearPublished;
+    }
+}
+
+
+
+role: user
+content: I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File 1:
+public class Book {
+    // A Book is defined by its title, author and year of publishing
+    private String title;
+    private String author;
+    private int yearPublished;
+
+    public Book(String title, String author, int yearPublished) {
+        this.title = title;
+        this.author = author;
+        this.yearPublished = yearPublished;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public int getYearPublished() {
+        return yearPublished;
+    }
+}
+
+
+
+role: user
+content: File 2:
+public class Book {
+    // A Book is defined by its title, author and year of publishing
+    private String title;
+    private String author;
+    private int yearPublished;
+
+    public Book(String title, String author, int yearPublished) {
+        this.title = title;
+        this.author = author;
+        this.yearPublished = yearPublished;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public int getYearPublished() {
+        return year
+

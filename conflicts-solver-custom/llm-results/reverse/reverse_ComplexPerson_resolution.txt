@@ -1,0 +1,93 @@
+Result for ComplexPerson:
+public class ComplexPerson {
+    private String name;
+    private int age;
+
+    public ComplexPerson(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void haveBirthday() {
+        age += 1;
+        System.out.println("Happy birthday " + name + "!");
+    }
+}
+
+
+I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File 1:
+public class ComplexPerson {
+    private String name;
+    private int age;
+
+    public ComplexPerson(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void haveBirthday() {
+        age += 1;
+        System.out.println("Happy birthday " + name + "!");
+    }
+}
+
+
+
+role: user
+content: File 2:
+public class ComplexPerson {
+    private String name;
+    private int age;
+
+    public ComplexPerson(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void haveBirthday() {
+        age += 1;
+    }
+}
+
+
+role: assistant
+content: Resolution:
+public class ComplexPerson {
+    private String name;
+    private int age;
+
+    public ComplexPerson(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+

@@ -1,0 +1,94 @@
+Result for ShoppingCart:
+import java.util.HashSet;
+import java.util.Set;
+
+public class ShoppingCart {
+    private Set<String> items = new HashSet<>();
+
+    public void addItem(String item) {
+        items.add(item);
+    }
+
+    public void removeItem(String item) {
+        items.remove(item);
+    }
+
+    public Set<String> getItems() {
+        return items;
+    }
+}
+
+
+role: user
+content: I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+
+role: user
+content: File 1:
+public class Employee {
+    private String name;
+    private int age;
+    private String department;
+
+    public Employee(String name, int age, String department) {
+        this.name = name;
+        this.age = age;
+        this.department = department;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+}
+
+
+role: user
+content: File 2:
+public class Employee {
+    private String name;
+    private int age;
+    private String department;
+    private String designation;
+
+    public Employee(String name, int age, String department, String designation) {
+        this.name = name;
+        this.age = age;
+        this.department = department;
+        this.designation = designation;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public String getDesignation() {
+        return designation;
+    }
+}
+
+
+role: assistant
+content: Resolution:
+public class Employee {
+    private String name;
+    private int age;
+    private String department;
+    private String designation;
+
+
+

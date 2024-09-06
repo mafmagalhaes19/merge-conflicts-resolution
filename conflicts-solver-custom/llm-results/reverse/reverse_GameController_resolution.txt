@@ -1,0 +1,93 @@
+Result for GameController:
+public class GameController {
+    public static void startGame() {
+        System.out.println("Game started!");
+    }
+}
+
+
+I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File 1:
+public class GameController {
+    public void startGame() {
+        System.out.println("Game started!");
+    }
+}
+
+
+
+role: user
+content: File 2:
+public class GameController {
+    public static void startGame() {
+        System.out.println("Game started!");
+    }
+}
+
+
+
+role: assistant
+content: Resolution:
+public class GameController {
+    public static void startGame() {
+        System.out.println("Game started!");
+    }
+}
+
+
+I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File 1:
+public class GameController {
+    public void startGame() {
+        System.out.println("Game started!");
+    }
+}
+
+
+
+role: user
+content: File 2:
+public class GameController {
+    public static void startGame() {
+        System.out.println("Game started!");
+    }
+}
+
+
+
+role: assistant
+content: Resolution:
+public class GameController {
+    public static void startGame() {
+        System.out.println("Game started!");
+    }
+}
+
+
+I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File 1:
+public class GameController {
+    public void startGame() {
+        System.out.println("Game started!");
+    }
+}
+
+
+
+role: user
+content: File 2:
+public class GameController {
+    public static void startGame() {
+        System.out.println("Game started!");
+    }
+}
+
+
+
+role: assistant
+content: Resolution:
+public class
+

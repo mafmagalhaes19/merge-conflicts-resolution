@@ -1,0 +1,72 @@
+Result for NotificationSender:
+public class NotificationSender {
+    public void send(String message, String recipient) {
+        System.out.println("Sending message to " + recipient + ": " + message);
+    }
+}
+
+
+I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File 1:
+public class NotificationSender {
+    public void send(String message, String recipient) {
+        System.out.println("Sending message to " + recipient + ": " + message);
+    }
+}
+
+
+
+role: user
+content: File 2:
+public class NotificationSender {
+    public void send(String message) {
+        System.out.println("Sending message: " + message);
+    }
+}
+
+
+
+role: assistant
+content: Resolution:
+public class NotificationSender {
+    public void send(String message, String recipient) {
+        System.out.println("Sending message to " + recipient + ": " + message);
+    }
+}
+
+
+I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File 1:
+public class NotificationSender {
+    public void send(String message, String recipient) {
+        System.out.println("Sending message to " + recipient + ": " + message);
+    }
+}
+
+
+
+role: user
+content: File 2:
+public class NotificationSender {
+    public void send(String message) {
+        System.out.println("Sending message: " + message);
+    }
+}
+
+
+
+role: assistant
+content: Resolution:
+public class NotificationSender {
+    public void send(String message, String recipient) {
+        System.out.println("Sending message to " + recipient + ": " + message);
+    }
+}
+
+
+I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File
+
