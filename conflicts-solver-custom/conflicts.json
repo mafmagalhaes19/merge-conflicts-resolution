@@ -1,5 +1,4 @@
 {
-    
     "textual_conflicts":
     [
         "Account",
@@ -35,5 +34,18 @@
         "Inventory",
         "FileHandler",
         "OrderManager"
+    ],
+    "test_conflicts":
+    [
+        "Incrementer",
+        "DiscountCalculator",
+        "ArrayPrinter",
+        "LoginValidator",
+        "PasswordChecker",
+        "TransactionManager",
+        "SumCalculator",
+        "FactorialCalculator",
+        "CircleAreaCalculator",
+        "Countdown"
     ]
 }
