@@ -1,0 +1,93 @@
+Result for FileHandler:
+import java.io.IOException;
+
+public class FileHandler {
+    public void readFile(String filePath) throws IOException {
+        throw new IOException("File not found");
+    }
+}
+
+
+
+role: user
+content: I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File 1:
+public class LibraryManager {
+    private int totalBooks = 100;
+
+    public void addBooks(int books) {
+        totalBooks += books;
+    }
+
+    public int getTotalBooks() {
+        return totalBooks;
+    }
+}
+
+
+
+
+role: user
+content: File 2:
+public class LibraryManager {
+    private int totalBooks = 200;
+
+    public void addBooks(int books) {
+        totalBooks += books;
+    }
+
+    public int getTotalBooks() {
+        return totalBooks;
+    }
+}
+
+
+
+role: assistant
+content: Resolution:
+public class LibraryManager {
+    private int totalBooks = 200;
+
+    public void addBooks(int books) {
+        totalBooks += books;
+    }
+
+    public int getTotalBooks() {
+        return totalBooks;
+    }
+}
+
+
+
+role: user
+content: I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File 1:
+import java.io.IOException;
+
+public class FileHandler {
+    public void readFile(String filePath) throws IOException {
+        throw new IOException("File not found");
+    }
+}
+
+
+
+role: user
+content: File 2:
+public class FileHandler {
+    public void readFile(String filePath) {
+        System.out.println("File read successfully");
+    }
+}
+
+
+
+role: assistant
+content: Resolution:
+import java.io.IOException;
+
+public class FileHandler {
+   
+

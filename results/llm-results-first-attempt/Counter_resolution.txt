@@ -1,0 +1,71 @@
+Result for Counter:
+public class Counter {
+    private int count = 10;
+
+    public int getCount() {
+        return count;
+    }
+}
+
+
+I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File 1:
+public class BankAccount1 {
+    private int accountNumber;
+    private String accountHolderName;
+    private double balance;
+
+    public BankAccount1(int accountNumber, String accountHolderName, double balance) {
+        this.accountNumber = accountNumber;
+        this.accountHolderName = accountHolderName;
+        this.balance = balance;
+    }
+
+    public int getAccountNumber() {
+        return accountNumber;
+    }
+
+    public String getAccountHolderName() {
+        return accountHolderName;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void deposit(double amount) {
+        if (amount > 0) {
+            balance += amount;
+        }
+    }
+
+    public void withdraw(double amount) {
+        if (amount > 0 && balance >= amount) {
+            balance -= amount;
+        }
+    }
+
+    public static void main(String[] args) {
+        BankAccount1 account = new BankAccount1(12345, "Alice", 1000);
+        account.deposit(500);
+        account.withdraw(300);
+        System.out.println("Account Holder: " + account.getAccountHolderName());
+        System.out.println("Balance: " + account.getBalance());
+    }
+}
+
+
+role: user
+content: File 2:
+public class BankAccount2 {
+    private int accNumber;
+    private String holderName;
+    private double currentBalance;
+
+    public BankAccount2(int accNumber, String holderName, double currentBalance) {
+        this.accNumber = accNumber;
+        this.holderName = holderName;
+        this.currentBalance = currentBalance;
+   
+

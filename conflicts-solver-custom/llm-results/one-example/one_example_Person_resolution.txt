@@ -1,0 +1,93 @@
+Result for Person:
+public class Person {
+    public void createPerson() {
+        Person person = new Person("John");
+    }
+}
+
+
+I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File 1:
+public class Person {
+    public void createPerson() {
+        Person person = new Person("John");
+    }
+}
+
+
+role: user
+content: File 2:
+public class Person {
+    public void createPerson() {
+        Person person = new Person("Jane");
+    }
+}
+
+
+role: assistant
+content: Resolution:
+public class Person {
+    public void createPerson() {
+        Person person = new Person("John");
+    }
+}
+
+
+I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File 1:
+public class Person {
+    public void createPerson() {
+        Person person = new Person("John");
+    }
+}
+
+
+role: user
+content: File 2:
+public class Person {
+    public void createPerson() {
+        Person person = new Person("Jane");
+    }
+}
+
+
+role: assistant
+content: Resolution:
+public class Person {
+    public void createPerson() {
+        Person person = new Person("John");
+    }
+}
+
+
+I will give you two Java files that have a merge conflict and I want you to give me a resolution file with the solution of the conflict between them using Java.
+role: user
+content: File 1:
+public class Person {
+    public void createPerson() {
+        Person person = new Person("John");
+    }
+}
+
+
+role: user
+content: File 2:
+public class Person {
+    public void createPerson() {
+        Person person = new Person("Jane");
+    }
+}
+
+
+role: assistant
+content: Resolution:
+public class Person {
+    public void createPerson() {
+        Person person = new Person("John");
+    }
+}
+
+
+
