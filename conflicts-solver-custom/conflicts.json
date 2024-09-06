@@ -1,0 +1,30 @@
+{
+    
+    "textual_conflicts":
+    [
+        "Account",
+        "Animal",
+        "ArrayChange",
+        "BankAccount",
+        "Book",
+        "Calculator",
+        "Car",
+        "ComplexPerson",
+        "Concatenation",
+        "Condition",
+        "Counter",
+        "Example",
+        "HelloMessage",
+        "MathOperations",
+        "Message",
+        "Numbers",
+        "Order",
+        "Person",
+        "Printer",
+        "ShoppingCart"
+    ],
+    "build_conflicts":
+    [
+        
+    ]
+}
