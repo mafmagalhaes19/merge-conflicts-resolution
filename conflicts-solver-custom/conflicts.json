@@ -25,6 +25,15 @@
     ],
     "build_conflicts":
     [
-        
+        "PaymentProcessor",
+        "UserAccount",
+        "TemperatureConverter",
+        "Movie",
+        "GameController",
+        "NotificationSender",
+        "Product",
+        "Inventory",
+        "FileHandler",
+        "OrderManager"
     ]
 }
