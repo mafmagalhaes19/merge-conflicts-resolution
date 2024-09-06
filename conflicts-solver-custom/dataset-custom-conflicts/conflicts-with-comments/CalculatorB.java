@@ -12,6 +12,7 @@ public class Calculator {
     }
 
     public double divide(int a, int b) {
-        return (double) a / b; // Always returning a double from division
+        // It is not possible to divide by 0
+        return (double) a / b;
     }
 }

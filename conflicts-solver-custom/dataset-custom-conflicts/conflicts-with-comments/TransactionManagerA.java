@@ -1,4 +1,5 @@
 public class TransactionManager {
+    // We should process a transaction before logging it
     public void executeTransaction() {
         logTransaction();
         processTransaction();

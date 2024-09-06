@@ -1,4 +1,5 @@
 public class Book {
+    // A Book is defined by its title, author and year of publishing
     private String title;
     private String author;
     private int yearPublished;

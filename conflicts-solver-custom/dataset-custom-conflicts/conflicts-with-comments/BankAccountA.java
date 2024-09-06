@@ -5,10 +5,12 @@ public class BankAccount {
         balance = initialBalance;
     }
 
+    // This method should print a message to inform the user of the action
     public void deposit(double amount) {
         balance += amount;
     }
 
+    // This method should print a message to inform the user of the action
     public void withdraw(double amount) {
         balance -= amount;
     }

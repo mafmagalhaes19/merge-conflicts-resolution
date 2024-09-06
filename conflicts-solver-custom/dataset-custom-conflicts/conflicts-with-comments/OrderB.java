@@ -15,6 +15,7 @@ public class Order {
         return totalAmount;
     }
 
+    // The discount should be a percentage
     public void applyDiscount(double discountPercentage) {
         totalAmount = totalAmount * (1 - discountPercentage / 100);
     }

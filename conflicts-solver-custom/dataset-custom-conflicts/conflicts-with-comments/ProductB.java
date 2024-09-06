@@ -7,6 +7,7 @@ public class Product {
         this.price = price;
     }
 
+    // The price should be a double
     public double getPrice() {
         return price;
     }

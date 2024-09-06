@@ -15,6 +15,7 @@ public class ComplexPerson {
         return age;
     }
 
+    // Print an happy birthday message
     public void haveBirthday() {
         age += 1;
     }

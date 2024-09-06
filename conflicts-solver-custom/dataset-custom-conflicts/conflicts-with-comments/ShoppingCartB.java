@@ -2,6 +2,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class ShoppingCart {
+    // We can't have repeated elements
     private Set<String> items = new HashSet<>();
 
     public void addItem(String item) {

@@ -12,6 +12,7 @@ public class Calculator {
     }
 
     public int divide(int a, int b) {
+        // It is not possible to divide by 0
         if (b != 0) {
             return a / b;
         } else {
